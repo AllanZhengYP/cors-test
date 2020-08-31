@@ -10,6 +10,15 @@
     "@aws-sdk/types" "1.0.0-gamma.5"
     tslib "^1.8.0"
 
+"@aws-sdk/querystring-builder@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/querystring-builder/-/querystring-builder-1.0.0-gamma.6.tgz#198bee723732f950546e31cdd6d08332404bb67e"
+  integrity sha512-1f+ElDLXlJBbWiMsK4ERAssg8amd0BJwDmWWfHLoOIm387KV05DI5Wd3ysHvYUmkw7PEhRRDo1b9JZrIk9Ij0g==
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.5"
+    "@aws-sdk/util-uri-escape" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
 "@aws-sdk/smithy-client@1.0.0-gamma.6":
   version "1.0.0-gamma.6"
   resolved "https://registry.yarnpkg.com/@aws-sdk/smithy-client/-/smithy-client-1.0.0-gamma.6.tgz#2c409bceb9939dd149f8b3fb03294791ccbe8bcf"
@@ -32,6 +41,22 @@
     "@aws-sdk/middleware-stack" "1.0.0-gamma.6"
     "@aws-sdk/smithy-client" "1.0.0-gamma.6"
     "@aws-sdk/types" "1.0.0-gamma.5"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-format-url@^1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/util-format-url/-/util-format-url-1.0.0-gamma.6.tgz#39d0b4e1b388c8e3456bb6bd0fdf2727aa99a173"
+  integrity sha512-HWSSfFXd9LvDIYoYkC5qH3amN2/TUsJ7vBVc/F+ILZWSbBBRCqR1OowmkVUtMcYYp8Bcglys1AcXlkejsI+/kg==
+  dependencies:
+    "@aws-sdk/querystring-builder" "1.0.0-gamma.6"
+    "@aws-sdk/types" "1.0.0-gamma.5"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-uri-escape@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/util-uri-escape/-/util-uri-escape-1.0.0-gamma.6.tgz#27e5576a087a96482880527621a0dc5065d26af9"
+  integrity sha512-U11YFhWSwyobmWF03Q5QRxLjG6sN/mfss58ue0KTKFhuTJxdrQ/Y+Aj/7TNSnVBNfHZqz7aETGz5HHD4ccgSAA==
+  dependencies:
     tslib "^1.8.0"
 
 "@types/color-name@^1.1.1":
@@ -245,6 +270,11 @@ path-exists@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
   integrity sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==
 
+promise-polyfill@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-1.1.6.tgz#cd04eff46f5c95c3a7d045591d79b5e3e01f12d7"
+  integrity sha1-zQTv9G9clcOn0EVZHXm14+AfEtc=
+
 punycode@1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
@@ -292,6 +322,13 @@ source-map@^0.6.0:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+
+stream-to-string@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/stream-to-string/-/stream-to-string-1.2.0.tgz#3ca506a097ecbf78b0e0aee0b6fa5c4565412a15"
+  integrity sha512-8drZlFIKBHSMdX9GCWv8V9AAWnQcTqw0iAI6/GC7UJ0H0SwKeFKjOoZfGY1tOU00GGU7FYZQoJ/ZCUEoXhD7yQ==
+  dependencies:
+    promise-polyfill "^1.1.6"
 
 string-width@^4.1.0, string-width@^4.2.0:
   version "4.2.0"

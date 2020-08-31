@@ -4,8 +4,14 @@ const yargs = require("yargs");
 const { createRequest } = require("@aws-sdk/util-create-request");
 const C2J = path.join("node_modules/aws-sdk/apis");
 const partitions = require("./all_regions");
+const fetch = require("node-fetch");
+const { formatUrl } = require("@aws-sdk/util-format-url");
+const toString = require("stream-to-string");
+const chile_process = require("child_process");
 const clientsDir = "clients";
 const defaultRegion = "us-east-1";
+
+process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 
 const { v3dir } = yargs
   .string("v3dir")
@@ -87,12 +93,60 @@ const getFakeParams = (inputShape, shapes) => {
   return "stringValue";
 };
 
-const makeOptionsRequest = async (httpRequest) => {};
+const makeOptionsRequest = async (httpRequest) => {
+  const url = formatUrl({
+    ...httpRequest,
+    query: {},
+    body: undefined,
+    path: "/",
+  });
+  const headers = {
+    "User-Agent":
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "cross-site",
+    Origin: "https://foo.example",
+    "Access-Control-Request-Method": httpRequest.method,
+    "Access-Control-Request-Header": [
+      ...Object.keys(httpRequest.headers),
+      "Authorization",
+      "amz-sdk-invocation-id",
+      "amz-sdk-request",
+      "x-amz-security-token",
+    ].join(","),
+    host: httpRequest.headers.host,
+  };
+  console.log(url);
+  try {
+    const resp = await fetch(url, {
+      methods: "OPTIONS",
+      headers,
+    });
+    const { status, statusText } = resp;
+    // console.log(resp.headers);
+    console.log(`${status} ${statusText}`);
+    console.log(
+      `${
+        resp.headers.has("access-control-allow-origin")
+          ? `✅[CORS Supported] allowed headers: ${resp.headers.get(
+              "access-control-allow-headers"
+            )}`
+          : `❌[no CORS] ${(await toString(resp.body)).substr(0, 100)}`
+      }`
+    );
+  } catch (e) {
+    console.log("🚨ERROR");
+    if (e.message.search("getaddrinfo")) console.log("getaddrinfo ENOTFOUND");
+  }
+};
 
 const run = async () => {
   const C2JModels = await loadC2JModels();
   const dir = await fs.promises.opendir(path.join(v3dir, clientsDir));
+  // let i = 0;
   for await (const clientDir of dir) {
+    // if (i++ === 50) break;
     if (!clientDir.isDirectory()) continue;
     if (clientDir.name === "client-transcribe-streaming") continue; // transcribe streaming is not supported in v2
     const servicePath = path.join(dir.path, clientDir.name, "dist", "cjs");
@@ -101,7 +155,9 @@ const run = async () => {
       .filter((name) => /(.+)Client.js$/.test)[0];
     const client = new (require(path.join(servicePath, clientFileName))[
       clientFileName.replace(".js", "")
-    ])({});
+    ])({
+      region: defaultRegion,
+    });
     const commandFileName = fs.readdirSync(
       path.join(servicePath, "commands")
     )[0];
@@ -124,7 +180,9 @@ const run = async () => {
     const command = new (require(commandPath)[commandName])(fakeParames);
 
     const request = await createRequest(client, command);
-    console.log(request);
+    console.log(`👉${request.hostname}:`);
+    await makeOptionsRequest(request);
+    // break;
   }
   console.log("execution complete");
 };
