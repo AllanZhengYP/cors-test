@@ -3,10 +3,7 @@ const path = require("path");
 const yargs = require("yargs");
 const { createRequest } = require("@aws-sdk/util-create-request");
 const C2J = path.join("node_modules/aws-sdk/apis");
-const partitions = require("./all_regions");
-const fetch = require("node-fetch");
 const { formatUrl } = require("@aws-sdk/util-format-url");
-const toString = require("stream-to-string");
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 const clientsDir = "clients";
@@ -120,12 +117,9 @@ const makeOptionsRequest = async (httpRequest) => {
   const headers = {
     "User-Agent":
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
-    "Sec-Fetch-Dest": "empty",
-    "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Site": "cross-site",
     Origin: "https://foo.example",
     "Access-Control-Request-Method": httpRequest.method,
-    "Access-Control-Request-Header": [
+    "Access-Control-Request-Headers": [
       ...Object.keys(httpRequest.headers),
       "Authorization",
       "amz-sdk-invocation-id",
