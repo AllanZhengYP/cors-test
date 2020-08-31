@@ -7,7 +7,8 @@ const partitions = require("./all_regions");
 const fetch = require("node-fetch");
 const { formatUrl } = require("@aws-sdk/util-format-url");
 const toString = require("stream-to-string");
-const chile_process = require("child_process");
+const util = require("util");
+const exec = util.promisify(require("child_process").exec);
 const clientsDir = "clients";
 const defaultRegion = "us-east-1";
 
@@ -93,6 +94,22 @@ const getFakeParams = (inputShape, shapes) => {
   return "stringValue";
 };
 
+const parseCurlResponse = (stdout) => {
+  const [summary, ...headerLines] = stdout.split("\r\n");
+  const [_, status, statusMessage] = summary.split(" ");
+  return {
+    status,
+    statusMessage,
+    headers: headerLines.reduce((previous, line) => {
+      if (line.indexOf(": ") > 0) {
+        const [name, value] = line.split(": ");
+        previous[name.toLowerCase()] = value.toLowerCase();
+      }
+      return previous;
+    }, {}),
+  };
+};
+
 const makeOptionsRequest = async (httpRequest) => {
   const url = formatUrl({
     ...httpRequest,
@@ -117,36 +134,64 @@ const makeOptionsRequest = async (httpRequest) => {
     ].join(","),
     host: httpRequest.headers.host,
   };
-  console.log(url);
   try {
-    const resp = await fetch(url, {
-      methods: "OPTIONS",
-      headers,
-    });
-    const { status, statusText } = resp;
-    // console.log(resp.headers);
-    console.log(`${status} ${statusText}`);
-    console.log(
-      `${
-        resp.headers.has("access-control-allow-origin")
-          ? `✅[CORS Supported] allowed headers: ${resp.headers.get(
-              "access-control-allow-headers"
-            )}`
-          : `❌[no CORS] ${(await toString(resp.body)).substr(0, 100)}`
-      }`
+    const cmd = `curl --insecure -i -X OPTIONS ${url} ${Object.entries(
+      headers
+    ).reduce((previous, entry) => {
+      return previous + `-H "${entry[0]}: ${entry[1]}" `;
+    }, "")}`;
+    const { stdout, stderr } = await exec(cmd);
+    const { status, statusMessage, headers: respHeaders } = parseCurlResponse(
+      stdout
     );
+    // console.log(respHeaders);
+    console.log(`  ${status} ${statusMessage}\n`);
+    console.log(
+      `  ${
+        respHeaders["access-control-allow-origin"]
+          ? `✅ **CORS**`
+          : `❌ **CORS**`
+      }\n`
+    );
+    const allowHeaders = respHeaders["access-control-allow-headers"]?.split(
+      ","
+    );
+    console.log(
+      `  ${
+        allowHeaders?.includes("*") ||
+        allowHeaders?.includes("amz-sdk-invocation-id")
+          ? "✅ **Retry Headers**"
+          : "❌ **Retry Headers**"
+      }\n`
+    );
+    console.log(
+      `  <details><summary>expand stdout</summary><p>${stdout
+        .trim()
+        .split("\r\n")
+        .filter((line) => line !== "")
+        .join("\n")}</p></details>\n`
+    );
+    if (stderr) {
+      console.log(
+        `  <details><summary>expand stderr</summary><p>${stderr
+          .trim()
+          .split("\r\n")
+          .filter((line) => line !== "")
+          .join("\n")}</p></details>\n`
+      );
+    }
   } catch (e) {
-    console.log("🚨ERROR");
-    if (e.message.search("getaddrinfo")) console.log("getaddrinfo ENOTFOUND");
+    console.log("\n  🚨ERROR");
+    console.log(
+      `  <details><summary>expand error</summary><p>${e.message.trim()}</p></details>\n`
+    );
   }
 };
 
 const run = async () => {
   const C2JModels = await loadC2JModels();
   const dir = await fs.promises.opendir(path.join(v3dir, clientsDir));
-  // let i = 0;
   for await (const clientDir of dir) {
-    // if (i++ === 50) break;
     if (!clientDir.isDirectory()) continue;
     if (clientDir.name === "client-transcribe-streaming") continue; // transcribe streaming is not supported in v2
     const servicePath = path.join(dir.path, clientDir.name, "dist", "cjs");
@@ -180,9 +225,8 @@ const run = async () => {
     const command = new (require(commandPath)[commandName])(fakeParames);
 
     const request = await createRequest(client, command);
-    console.log(`👉${request.hostname}:`);
+    console.log(`* **${request.hostname}**:`);
     await makeOptionsRequest(request);
-    // break;
   }
   console.log("execution complete");
 };
