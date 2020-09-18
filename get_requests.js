@@ -112,7 +112,6 @@ const makeOptionsRequest = async (httpRequest) => {
     ...httpRequest,
     query: {},
     body: undefined,
-    path: "/",
   });
   const headers = {
     "User-Agent":
@@ -160,16 +159,16 @@ const makeOptionsRequest = async (httpRequest) => {
     );
     console.log(
       `  <details><summary>expand stdout</summary><p>${stdout
-        .trim()
-        .split("\r\n")
+        .split("\n")
+        .map((line) => `  ${line.trim()}`)
         .filter((line) => line !== "")
         .join("\n")}</p></details>\n`
     );
     if (stderr) {
       console.log(
         `  <details><summary>expand stderr</summary><p>${stderr
-          .trim()
-          .split("\r\n")
+          .split("\n")
+          .map((line) => `  ${line.trim()}`)
           .filter((line) => line !== "")
           .join("\n")}</p></details>\n`
       );
