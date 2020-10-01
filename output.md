@@ -1,3 +1,146 @@
+* **codebuild.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 6eea1733-11a6-43db-9612-80774cc475c5
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:10 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **wafv2.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: e8dc2f4b-f762-4b55-baa0-724adcd82a0c
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:46:10 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    371      0 --:--:-- --:--:-- --:--:--   371
+  </p></details>
+
+* **dms.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: ef97741f-be7d-4d4a-87ca-9e766c2fa0ff
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:10 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **compute-optimizer.us-east-1.amazonaws.com**:
+  404 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 404
+  date: Thu, 01 Oct 2020 21:46:12 GMT
+  content-length: 272
+  x-amzn-requestid: 865655c8-7d78-466b-82eb-d4ba9ffd3731
+  
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+  <title>Page Not Found</title>
+  </head>
+  <body>Page Not Found</body>
+  </html></p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   272  100   272    0     0    764      0 --:--:-- --:--:-- --:--:--   766
+  </p></details>
+
+* **imagebuilder.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:12 GMT
+  content-type: application/json
+  content-length: 0
+  x-amzn-requestid: efadbca2-3165-441e-a0e1-0069f64b1dcf
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
+  x-amz-apigw-id: TwEluEnqoAMFrdQ=
+  access-control-allow-methods: PUT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **data.iotevents.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:12 GMT
+  content-length: 0
+  x-amzn-requestid: 91e0efcc-90eb-4a54-adaf-62a860572e9e
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
 * **codeartifact.us-east-1.amazonaws.com**:
   200 
 
@@ -6,9 +149,9 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:04:47 GMT
+  date: Thu, 01 Oct 2020 21:46:13 GMT
   content-length: 0
-  x-amzn-requestid: c2618c6e-c2b3-4ef4-92b6-bfa37852fc15
+  x-amzn-requestid: da329891-2126-4636-b3e1-262e3c572a28
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -19,27 +162,49 @@
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **access-analyzer.us-east-1.amazonaws.com**:
-  200 
+* **rds.us-east-1.amazonaws.com**:
+  200 OK
 
   ✅ **CORS**
 
-  ❌ **Retry Headers**
+  ✅ **Retry Headers**
 
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:04:48 GMT
-  content-type: application/json
-  content-length: 0
-  x-amzn-requestid: 5738ffb7-ae9e-4e8f-858e-ad9106be2c7d
-  access-control-allow-origin: *
-  access-control-allow-headers: Authorization,Date,X-Amz-Date,X-Amz-Security-Token,X-Amz-Target
-  x-amz-apigw-id: TEt-DE_ooAMF0Rw=
-  access-control-allow-methods: GET,PUT
-  x-amzn-trace-id: Root=1-5f64f6c0-a48f5cd8824a22274dc6af5d
-  access-control-max-age: 600
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 9120f095-53e1-47fe-be07-fba9777f322b
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:13 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **tagging.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: cf90b069-29c1-4af5-b4e1-bcca2432e2eb
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:13 GMT
   
   </p></details>
 
@@ -48,29 +213,7 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **acm-pca.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:04:48 GMT
-  content-length: 127
-  x-amzn-requestid: f0ecdf65-0473-4c00-9ee5-efdef7825f78
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    383      0 --:--:-- --:--:-- --:--:--   383
-  </p></details>
-
-* **acm.us-east-1.amazonaws.com**:
+* **workmail.us-east-1.amazonaws.com**:
   200 
 
   ✅ **CORS**
@@ -78,33 +221,14 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200
-  x-amzn-RequestId: 2c96b8c7-a606-4710-9430-3d61ebfad88a
+  x-amzn-RequestId: a22690b3-fdb3-42b3-9167-8e55cd455399
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:48 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **a4b.us-east-1.amazonaws.com**:
-  200 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  allow: OPTIONS, POST
-  content-length: 0
-  date: Fri, 18 Sep 2020 18:04:49 GMT
+  Date: Thu, 01 Oct 2020 21:46:13 GMT
   
   </p></details>
 
@@ -113,89 +237,7 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **amplify.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  content-type: application/json
-  content-length: 73
-  date: Fri, 18 Sep 2020 18:04:49 GMT
-  x-amzn-requestid: 8af642dd-8896-486c-b9f7-23c02740b7b8
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEt-PEBYIAMF5SQ=
-  x-cache: Error from cloudfront
-  via: 1.1 5565a51537c689d1d16f6b4d41f40082.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C2
-  x-amz-cf-id: PGJulUccT0S6BO8ns56wRhlpxPM436iQa8ssCFc_jQ8RxIJ39EvhCw==
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    640      0 --:--:-- --:--:-- --:--:--   640
-  </p></details>
-
-* **apigateway.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:04:49 GMT
-  content-length: 0
-  x-amzn-requestid: 242193a3-a0b3-4b86-be7a-6ac45a0f9a79
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,user-agent,content-length,accept,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  x-amz-apigw-id: TEt-TLEjoAMEdVw=
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **execute-api.us-east-1.amazonaws.com**:
-
-  🚨ERROR
-  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://execute-api.us-east-1.amazonaws.com/@connections/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: execute-api.us-east-1.amazonaws.com" 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: execute-api.us-east-1.amazonaws.com</p></details>
-
-* **apigateway.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:04:50 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: ababc6cf-726a-4c1c-a37a-609c60b13896
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEt-YEnNoAMFZ9A=
-  x-amzn-trace-id: Root=1-5f64f6c2-e0480abee490640fb34b9283
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    214      0 --:--:-- --:--:-- --:--:--   214
-  </p></details>
-
-* **appmesh.us-east-1.amazonaws.com**:
+* **gamelift.us-east-1.amazonaws.com**:
   200 OK
 
   ✅ **CORS**
@@ -203,543 +245,14 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-requestid: 5b287e86-9468-4936-b773-fa13fb2696ed
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: PUT
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  content-length: 0
-  date: Fri, 18 Sep 2020 18:04:50 GMT
-  x-envoy-upstream-service-time: 0
-  server: envoy
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **appconfig.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:04:51 GMT
-  content-length: 127
-  x-amzn-requestid: 6c3bfed0-a34a-4f02-a043-d6bed4613607
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    401      0 --:--:-- --:--:-- --:--:--   401
-  </p></details>
-
-* **application-autoscaling.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 39130c97-e8ed-4680-bdc7-b3651f48d6f3
+  x-amzn-RequestId: 21f0e745-929c-4d74-bdde-15006f57aa31
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:50 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **discovery.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  Date: Fri, 18 Sep 2020 18:04:50 GMT
-  x-amzn-RequestId: d94d5e8e-4653-47c0-a1f9-cf946d9f896a
-  Content-Length: 127
-  Connection: keep-alive
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    453      0 --:--:-- --:--:-- --:--:--   453
-  </p></details>
-
-* **applicationinsights.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:04:52 GMT
-  content-length: 0
-  x-amzn-requestid: 5ad1a4b9-91ad-4ee4-97d6-0af4d201e2d0
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **appstream2.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 5dce6303-157d-48fe-8c54-1fbab5b0b52b
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:52 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **appsync.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  content-type: application/json
-  content-length: 23
-  date: Fri, 18 Sep 2020 18:04:52 GMT
-  x-amzn-requestid: 557f858d-47c7-4e7f-8f8e-eba599f22a4c
-  x-amzn-errortype: ForbiddenException
-  x-amz-apigw-id: TEt-uHi_oAMF9Tw=
-  x-cache: Error from cloudfront
-  via: 1.1 eab8a154a09e69260fbfe4df90182b2f.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C2
-  x-amz-cf-id: M2PFoWNSF2RHZgiAGV9gQqF9G0am5WoUZ2oJBubl2m2NmNBD7vRjTw==
-  
-  {"message":"Forbidden"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    23  100    23    0     0    160      0 --:--:-- --:--:-- --:--:--   160
-  </p></details>
-
-* **athena.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:04:51 GMT
-  x-amzn-RequestId: 1727f50a-bf3e-453f-8b48-1a0be7819ad8
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **autoscaling-plans.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 521b5836-0533-4eac-af95-42fa784f8685
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:53 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **autoscaling.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: d600ee63-e4df-4f46-b14b-4984b7059705
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:52 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **backup.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  Date: Fri, 18 Sep 2020 18:04:54 GMT
-  x-amzn-RequestId: 9721fe9f-6768-444b-946d-fc142037ebd4
-  Content-Length: 127
-  Connection: keep-alive
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    372      0 --:--:-- --:--:-- --:--:--   371
-  </p></details>
-
-* **batch.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:04:54 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: 8f89a3da-f483-41bc-887b-c588c8516f7b
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEt_AHiPIAMF5NQ=
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    250      0 --:--:-- --:--:-- --:--:--   250
-  </p></details>
-
-* **budgets.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:04:54 GMT
-  content-length: 0
-  x-amzn-requestid: 14fe7a40-2936-4dc7-a594-9c17715cbcdb
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **service.chime.aws.amazon.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 600edd59-dec7-4378-b467-5deff8fbf784
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:04:55 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    420      0 --:--:-- --:--:-- --:--:--   419
-  </p></details>
-
-* **cloud9.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:04:55 GMT
-  content-length: 0
-  x-amzn-requestid: 1ef56fdd-856e-46f0-9f1e-6b82ed3059db
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **clouddirectory.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: e6ea8e57-6842-4409-896b-17701109d92c
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,x-amz-data-partition,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Date: Fri, 18 Sep 2020 18:04:55 GMT
-  x-amzn-RequestId: e6ea8e57-6842-4409-896b-17701109d92c
-  Access-Control-Allow-Methods: PUT
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **cloudformation.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 202a5982-7c29-46e0-b810-5d5beb859675
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:55 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **cloudfront.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: b3bf4631-d877-453b-a857-7e118415b88c
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:55 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **cloudhsmv2.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  Date: Fri, 18 Sep 2020 18:04:56 GMT
-  x-amzn-RequestId: 86fe8017-acab-4213-a8a4-12a0b33b791d
-  Content-Length: 127
-  Connection: keep-alive
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    358      0 --:--:-- --:--:-- --:--:--   358100   127  100   127    0     0    358      0 --:--:-- --:--:-- --:--:--   357
-  </p></details>
-
-* **cloudhsm.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 5a28df04-f301-44bd-baae-e377c06d75ee
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:57 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **cloudsearchdomain.us-east-1.amazonaws.com**:
-
-  🚨ERROR
-  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://cloudsearchdomain.us-east-1.amazonaws.com/2013-01-01/search -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: GET" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: cloudsearchdomain.us-east-1.amazonaws.com" 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: cloudsearchdomain.us-east-1.amazonaws.com</p></details>
-
-* **cloudsearch.us-east-1.amazonaws.com**:
-  404 Not
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 404 Not Found
-  x-amzn-RequestId: 86167467-ac79-47b6-beb6-8c868d128e06
-  Content-Length: 29
-  Date: Fri, 18 Sep 2020 18:04:56 GMT
-  
-  <UnknownOperationException/>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     95      0 --:--:-- --:--:-- --:--:--    95
-  </p></details>
-
-* **cloudtrail.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: c0a8747d-40e7-44ac-9406-ce46b3f462a9
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:57 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **events.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 7fa5ff22-dfa2-4323-b057-8921f0b92d6c
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:57 GMT
+  Date: Thu, 01 Oct 2020 21:46:14 GMT
   
   </p></details>
 
@@ -756,14 +269,14 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: ca72290b-66ff-451c-8fac-3536ff6aaa56
+  x-amzn-RequestId: c2c5e33e-70e9-4f11-b248-333b9c0009bf
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:57 GMT
+  Date: Thu, 01 Oct 2020 21:46:15 GMT
   
   </p></details>
 
@@ -772,7 +285,31 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **monitoring.us-east-1.amazonaws.com**:
+* **model.iotsitewise.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:15 GMT
+  content-length: 0
+  x-amzn-requestid: 1ddd6037-e0c8-4ee6-87e5-f5f5d0a4176f
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **api.sagemaker.us-east-1.amazonaws.com**:
   200 OK
 
   ✅ **CORS**
@@ -780,1588 +317,39 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: fd933dc5-4493-4ae2-8f16-ea5182a54504
+  x-amzn-RequestId: 5a8b3d48-9558-48c3-9745-067d62798748
   Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:16 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **personalize-events.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:58 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **codebuild.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: a51ed65e-7839-4a59-b2b9-c810fe9f05da
   Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:58 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **codecommit.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
-  x-amzn-RequestId: 1fa65791-49f9-490e-8b96-9e5f4389c053
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:04:59 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **codedeploy.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 1e7e0725-cee1-4439-ad42-bef6d669e4d5
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:00 GMT
-  Content-Length: 0
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **codeguru-reviewer.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:00 GMT
-  content-type: application/json
-  content-length: 0
-  x-amzn-requestid: 58c3b25c-94af-497b-a388-afbe0bf5c2db
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEt_9E1GIAMF6dA=
-  access-control-allow-methods: POST,GET
-  x-amzn-trace-id: Root=1-5f64f6cc-40768ec8cf728abeddd6ec2c
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **codeguru-profiler.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  content-type: application/json
-  content-length: 0
-  date: Fri, 18 Sep 2020 18:05:00 GMT
-  x-amzn-requestid: 2515769f-73d9-42cb-89d0-62cd234153bb
-  access-control-allow-origin: *
-  access-control-allow-headers: Authorization,Content-Type,Date,X-Amz-Content-Sha256,X-Amz-Date,X-Amz-Security-Token,X-Amz-Target,X-Amz-User-Agent
-  x-amz-apigw-id: TEt__HyTIAMFq8w=
-  access-control-allow-methods: POST
-  x-amzn-trace-id: Root=1-5f64f6cc-749841a0a3f17900c98efaa0
-  access-control-max-age: 600
-  x-cache: Miss from cloudfront
-  via: 1.1 e66162aafd55b64ba1478ff7105150fb.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C2
-  x-amz-cf-id: sh95qYwS2lnehV40s14nPYGURDllIo4TPCccaoLdNHMzqD6Xa-ompw==
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **codepipeline.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 177ef937-fef0-45fb-9234-03ab7c516474
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Type: null
-  Content-Length: 0
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **codestar-connections.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:01 GMT
-  content-length: 0
-  x-amzn-requestid: 876a69f0-f0a1-4f5f-8825-44a71282ad7b
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **codestar-notifications.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:01 GMT
-  content-type: application/json
-  content-length: 0
-  x-amzn-requestid: 6aa27a32-c2d9-4d28-a92b-13a5e3fcfc7a
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuAJFpaIAMF10Q=
-  access-control-allow-methods: POST
-  x-amzn-trace-id: Root=1-5f64f6cd-1367c6ef55f4cc3719fdac4c
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **codestar.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 674d26ae-aeef-4ab1-abdb-347488e67184
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:01 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **cognito-idp.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:02 GMT
-  content-length: 0
-  x-amzn-requestid: 50764e01-68a3-498c-9378-fde37ed09f3d
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **cognito-identity.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:02 GMT
-  content-length: 0
-  x-amzn-requestid: 0c804f2c-f529-4095-9b7d-ae83499e01d9
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **cognito-sync.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:02 GMT
-  content-length: 0
-  x-amzn-requestid: 2d85ee94-0dee-4e7b-948b-6ec5ce5e5aa5
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **comprehend.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: d586c61f-25d2-4480-9efc-c2e54d4634dc
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:02 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **comprehendmedical.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: b9e5115a-3b93-4922-959a-2e02b40ca3a8
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:03 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **compute-optimizer.us-east-1.amazonaws.com**:
-  404 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 404
-  date: Fri, 18 Sep 2020 18:05:03 GMT
-  content-length: 272
-  x-amzn-requestid: c41036be-2d50-4b52-9256-4b946e57e8e2
-  
-  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-  <title>Page Not Found</title>
-  </head>
-  <body>Page Not Found</body>
-  </html></p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   272  100   272    0     0    954      0 --:--:-- --:--:-- --:--:--   951
-  </p></details>
-
-* **config.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 517faa86-5025-4097-bf90-73db0fae227c
-  Access-Control-Allow-Origin: *
-  Strict-Transport-Security: max-age=86400
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:03 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **connect.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:04 GMT
-  content-type: application/json
-  content-length: 0
-  x-amzn-requestid: fb91bc6b-3c43-4a8a-b52b-2077bf4d78eb
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuAoF1pIAMFeYw=
-  access-control-allow-methods: PUT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **participant.connect.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:05 GMT
-  content-type: application/json
-  content-length: 0
-  x-amzn-requestid: 5d39f733-7a6f-47e0-be7a-2bbcabadde68
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,X-Amz-Bearer
-  x-amz-apigw-id: TEuArFkmIAMFe6g=
-  access-control-allow-methods: POST
-  x-amzn-trace-id: Root=1-5f64f6d1-59bcc3c666de834050022bb5
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **cur.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 9e09fefb-c56d-420d-82b6-ff5e61f93e39
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:05 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **ce.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:05 GMT
-  content-length: 0
-  x-amzn-requestid: 1356690f-2908-4a23-8f32-86dfc9296494
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **datapipeline.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: eddf9e24-0137-47fa-9839-00edb14ea905
-  Access-Control-Allow-Origin: https://foo.example
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Vary: Origin
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:05 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **dms.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 2e6fdc49-afdd-4187-b1da-b4099775c377
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:06 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **dataexchange.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  content-type: application/json
-  content-length: 73
-  date: Fri, 18 Sep 2020 18:05:06 GMT
-  x-amzn-requestid: 4b07b56e-adbc-4cfa-8453-b91807a138e7
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuA9F9QIAMFbFw=
-  x-amzn-trace-id: Root=1-5f64f6d2-48dbd78d3eef72680790bf7c
-  x-cache: Error from cloudfront
-  via: 1.1 0bb842bd5868b86440983b936bb0adef.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C1
-  x-amz-cf-id: pdLr7kWztXFioln8KhAsGIzAHZRMfustWU-aqjsewG2ytOUIE-1nGg==
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    261      0 --:--:-- --:--:-- --:--:--   261
-  </p></details>
-
-* **datasync.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:07 GMT
-  content-length: 127
-  x-amzn-requestid: 4d657b6e-c4ad-4c8b-a089-190fcd35a8aa
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    365      0 --:--:-- --:--:-- --:--:--   365
-  </p></details>
-
-* **dax.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 32d26080-529c-42eb-a7a5-e3bdb2dad61c
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:07 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **api.detective.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  Content-Type: application/json
-  Content-Length: 73
-  Connection: keep-alive
-  Date: Fri, 18 Sep 2020 18:05:08 GMT
-  x-amzn-RequestId: 0088a8cc-7842-47ee-b27a-a9155e7f73cd
-  x-amzn-ErrorType: AccessDeniedException
-  x-amz-apigw-id: TEuBJGEmoAMFbFw=
-  X-Amzn-Trace-Id: Root=1-5f64f6d4-7f57949c4b1f5ae9ce82328c
-  X-Cache: Error from cloudfront
-  Via: 1.1 ef6538ee7be7b17c84d06edb0f4c0a1a.cloudfront.net (CloudFront)
-  X-Amz-Cf-Pop: SEA19-C1
-  X-Amz-Cf-Id: u-yjot60zc7_sqMJIRlN303ovCxCsjxQ4UQuxcp80vc0hIduAQwHog==
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    164      0 --:--:-- --:--:-- --:--:--   164100    73  100    73    0     0    164      0 --:--:-- --:--:-- --:--:--   164
-  </p></details>
-
-* **devicefarm.us-east-1.amazonaws.com**:
-
-  🚨ERROR
-  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://devicefarm.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: devicefarm.us-east-1.amazonaws.com" 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: devicefarm.us-east-1.amazonaws.com</p></details>
-
-* **directconnect.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 7666a7c4-43ec-423d-9629-a2d45a4f60ca
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:08 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **ds.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: a47ca63f-72ab-41f7-a999-c19b99dd4113
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:08 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **dlm.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:09 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: 496461f0-b116-49e5-929a-4cc68dfdb6ea
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuBVHmsIAMFn3g=
-  x-amzn-trace-id: Root=1-5f64f6d5-ef9d3a10ce721c81854a50b0
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    200      0 --:--:-- --:--:-- --:--:--   200
-  </p></details>
-
-* **rds.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 4c9e25f9-e245-4827-bb22-4eaf4806a5f1
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:09 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **streams.dynamodb.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 2N9UCQMTENF378JTUHM088BF63VV4KQNSO5AEMVJF66Q9ASUAAJG
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:09 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **dynamodb.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Server: Server
-  Date: Fri, 18 Sep 2020 18:05:10 GMT
+  Date: Thu, 01 Oct 2020 21:46:16 GMT
+  x-amzn-RequestId: 75253cd3-c075-4268-ad91-bb42b7308877
   Content-Length: 0
   Connection: keep-alive
-  x-amzn-RequestId: MGJC2JM4A2GGEIJ6ADFE01PLURVV4KQNSO5AEMVJF66Q9ASUAAJG
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **ebs.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 61913a82-001b-467f-bac1-2c97091783cc
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:10 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    391      0 --:--:-- --:--:-- --:--:--   391
-  </p></details>
-
-* **ec2-instance-connect.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 57a669ec-37ef-4f10-b939-70c3a1022d22
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:10 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    439      0 --:--:-- --:--:-- --:--:--   437
-  </p></details>
-
-* **ec2.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Origin: *
-  Access-Control-Max-Age: 1800
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Headers: content-type,user-agent,content-length,host,authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:11 GMT
-  Server: AmazonEC2
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **api.ecr.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 8edd81b0-5395-4b08-87b7-6fe57f43f597
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:11 GMT
-  Content-Length: 0
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **ecs.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
-  x-amzn-RequestId: a6b2c291-d8e5-429e-a1e5-b7ad42d915df
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:11 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **elasticfilesystem.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: ccca8ae6-af4e-4049-bd69-34206478aa2c
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:12 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **eks.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:13 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: 02a48c06-684e-4e59-929a-8d7abc063bfb
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuB7FEyIAMF-sg=
-  x-amzn-trace-id: Root=1-5f64f6d9-5fa9fa20e87a5c40e3325c68
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    235      0 --:--:-- --:--:-- --:--:--   234
-  </p></details>
-
-* **elasticbeanstalk.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:12 GMT
-  x-amzn-RequestId: 07a85976-3391-49ee-b18c-ca83da0bc553
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **api.elastic-inference.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:13 GMT
-  content-type: application/json
-  content-length: 0
-  x-amzn-requestid: c906fcc2-0c82-4a24-89fb-2cdedcf00dd5
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuCCGyrIAMFdGA=
-  access-control-allow-methods: POST
-  x-amzn-trace-id: Root=1-5f64f6d9-f70084399a77f24539c841d5
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **elasticloadbalancing.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: a42e2f93-1513-4eff-8f42-372b65a1a5cd
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:13 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **elasticloadbalancing.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 1da9b4e1-e951-4345-9b4d-d046900ccf8a
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:13 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **elastictranscoder.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
-  x-amzn-RequestId: 96e5cba2-f7b0-4797-afb2-8035b8d2fcc6
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: DELETE
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:14 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **elasticache.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 7946fc91-e4a9-4621-9c8a-ae69f750795b
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:14 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **es.us-east-1.amazonaws.com**:
-  404 Not
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 404 Not Found
-  x-amzn-RequestId: 1184a370-98da-48ac-9499-19e1550e7686
-  Content-Length: 29
-  Date: Fri, 18 Sep 2020 18:05:14 GMT
-  
-  <UnknownOperationException/>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     97      0 --:--:-- --:--:-- --:--:--    97
-  </p></details>
-
-* **elasticmapreduce.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: aeccac0c-5174-4415-bff6-070b30a79812
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:14 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **events.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: fac6bd3f-915f-46e6-9979-1deb0ee01e14
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:15 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **firehose.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: ed8592d5-d4e9-5ac0-ba5b-6bc9afe1ddfa
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amz-request-id,x-amz-id-2,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:16 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **fms.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403
-  x-amzn-RequestId: 885b040a-5158-49be-9e68-a36118b5e38c
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:16 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    450      0 --:--:-- --:--:-- --:--:--   450
-  </p></details>
-
-* **forecast.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:17 GMT
-  x-amzn-RequestId: 0af41b14-1da1-4f18-aedc-c17746fd104e
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **forecastquery.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:16 GMT
-  x-amzn-RequestId: 81f1f155-a8fe-4889-8a1b-719796ee6da6
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **frauddetector.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:17 GMT
-  x-amzn-RequestId: aa57e438-b327-446a-bfe0-f370264285c8
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **fsx.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:18 GMT
-  content-length: 0
-  x-amzn-requestid: 859107bc-ab3e-4df6-8804-6396b01b6874
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **gamelift.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 41c3d596-6a37-415f-a9e4-d4992459157d
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:17 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **glacier.us-east-1.amazonaws.com**:
-  400 Bad
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 400 Bad Request
-  x-amzn-RequestId: oxTUiCX9aYQcJc2FQiwcRgNaUEpRzswXWwkWJbqhDPT-Nvg
-  Content-Length: 109
-  Date: Fri, 18 Sep 2020 18:05:18 GMT
-  Connection: close
-  
-  {"code":"MissingParameterValueException","message":"Required parameter missing: API version","type":"Client"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   109  100   109    0     0    309      0 --:--:-- --:--:-- --:--:--   309
-  </p></details>
-
-* **globalaccelerator.us-east-1.amazonaws.com**:
-
-  🚨ERROR
-  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://globalaccelerator.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: globalaccelerator.us-east-1.amazonaws.com" 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: globalaccelerator.us-east-1.amazonaws.com</p></details>
-
-* **glue.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:19 GMT
-  content-length: 0
-  x-amzn-requestid: fa19c339-5c4c-4afa-9416-1b738cbc11ac
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **greengrass.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:19 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: e77011fb-b7a9-4b67-a411-021f66024a71
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuC-EcGIAMFQ2g=
-  x-amzn-trace-id: Root=1-5f64f6df-5f4baaef4d07c126588b452d
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    231      0 --:--:-- --:--:-- --:--:--   231
-  </p></details>
-
-* **groundstation.us-east-1.amazonaws.com**:
-
-  🚨ERROR
-  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://groundstation.us-east-1.amazonaws.com/contact/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: groundstation.us-east-1.amazonaws.com" 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: groundstation.us-east-1.amazonaws.com</p></details>
-
-* **guardduty.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:20 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: e6dc42e6-256f-4b3d-9752-246f65295fcd
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuDCEPEoAMF4vQ=
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    268      0 --:--:-- --:--:-- --:--:--   267
-  </p></details>
-
-* **health.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Origin: https://foo.example
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Vary: Origin
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Access-Control-Allow-Credentials: true
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:19 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **iam.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: d38f083c-e2f4-4317-86ba-27054ed06fda
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:20 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **imagebuilder.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:21 GMT
-  content-type: application/json
-  content-length: 0
-  x-amzn-requestid: ccd085c5-80ce-4ae4-b655-96099f0257e5
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuDOHzfIAMFQmA=
-  access-control-allow-methods: PUT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **inspector.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 10a34811-776d-4b0b-aa48-4649731893b3
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:21 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **devices.iot1click.us-east-1.amazonaws.com**:
-
-  🚨ERROR
-  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://devices.iot1click.us-east-1.amazonaws.com/claims/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: devices.iot1click.us-east-1.amazonaws.com" 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: devices.iot1click.us-east-1.amazonaws.com</p></details>
-
-* **projects.iot1click.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:22 GMT
-  content-type: application/json
-  content-length: 0
-  x-amzn-requestid: 06156deb-2e0f-45b3-b7b1-3773ef74fdef
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuDVGTNIAMFWXQ=
-  access-control-allow-methods: PUT,DELETE
   
   </p></details>
 
@@ -2383,7 +371,7 @@
   access-control-allow-headers: Authorization,X-amz-security-token,Accept,X-amz-date,X-amz-user-agent,X-amz-content-sha256,Accept-Language,X-requested-with,Content-Language,Content-Type
   access-control-max-age: 1800
   content-length: 0
-  date: "Fri, 18 Sep 2020 18:05:22 GMT"
+  date: "Thu, 1 Oct 2020 21:46:17 GMT"
   
   </p></details>
 
@@ -2392,130 +380,7 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **data.iotevents.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:22 GMT
-  content-length: 0
-  x-amzn-requestid: f50589e9-5318-4f4b-89b2-45f46d92033b
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **iotevents.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:23 GMT
-  content-length: 0
-  x-amzn-requestid: f31bf389-1d2b-4ad8-b545-03349d806425
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **data.jobs.iot.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 7e1907d9-a6ef-4e75-abd9-2c39ac50051b
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: GET
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:22 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **iot.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:23 GMT
-  content-type: application/json
-  content-length: 2
-  x-amzn-requestid: 5d7ff50c-d2f3-4c66-bc76-5cbde0d2bb92
-  access-control-allow-origin: *
-  access-control-allow-headers: Authorization, X-Amz-Date, X-Amz-Security-Token, x-amzn-iot-principal, X-Amz-Content-Sha256, X-Amz-User-Agent, Content-Type, x-amzn-principal
-  x-amz-apigw-id: TEuDoF8oIAMF4MQ=
-  access-control-allow-methods: OPTIONS, GET, HEAD, POST, PUT, PATCH, DELETE
-  
-  {}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      7      0 --:--:-- --:--:-- --:--:--     6
-  </p></details>
-
-* **iotanalytics.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:24 GMT
-  content-length: 0
-  x-amzn-requestid: 6195d703-70f5-4494-bc7e-103b2bb34143
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  cache-control: no-cache, no-store, must-revalidate, private
-  expires: 0
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  pragma: no-cache
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **api.tunneling.iot.us-east-1.amazonaws.com**:
+* **ram.us-east-1.amazonaws.com**:
   403 
 
   ❌ **CORS**
@@ -2523,68 +388,22 @@
   ❌ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:24 GMT
-  content-length: 25
-  x-amzn-requestid: a7304598-0b76-45eb-8f75-968c7243f410
-  
-  <AccessDeniedException/>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25  100    25    0     0     73      0 --:--:-- --:--:-- --:--:--    73
-  </p></details>
-
-* **iotthingsgraph.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:25 GMT
-  content-length: 130
-  x-amzn-requestid: 3c1ce75a-cafb-45ae-a831-80f242eb9b91
-  
-  <AccessDeniedException>
-  <Message>Unable to determine service/operation name to be authorized</Message>
-  </AccessDeniedException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   130  100   130    0     0    390      0 --:--:-- --:--:-- --:--:--   389
-  </p></details>
-
-* **kafka.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:17 GMT
   content-type: application/json
   content-length: 73
-  date: Fri, 18 Sep 2020 18:05:25 GMT
-  x-amzn-requestid: f0d089f5-1f0a-4068-90b4-716b19943608
+  x-amzn-requestid: 8b274ba9-9650-4d50-be43-5ab372e4eea8
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuD2E4JoAMF5TA=
-  x-amzn-trace-id: Root=1-5f64f6e5-105a29d32164f39fc2b1e2f9
-  x-cache: Error from cloudfront
-  via: 1.1 559326ad73233233a9e52cb9e8601ede.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C2
-  x-amz-cf-id: olzs4ekDGxzFfIvdW7gJKVYJVIdnyJ9O8bXcWUw3eoc4fJfHXSmTbA==
+  x-amz-apigw-id: TwEmfHQzIAMFrGg=
+  x-amzn-trace-id: Root=1-5f764e29-2789098a7332967a3fe43435
   
   {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    281      0 --:--:-- --:--:-- --:--:--   281
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    202      0 --:--:-- --:--:-- --:--:--   202
   </p></details>
 
-* **kendra.us-east-1.amazonaws.com**:
+* **elasticloadbalancing.us-east-1.amazonaws.com**:
   200 OK
 
   ✅ **CORS**
@@ -2592,38 +411,14 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 06e673c8-f479-44d8-a498-d03ba97094c0
+  x-amzn-RequestId: e08ec978-43ea-4b4c-98a0-22e6ba9406be
   Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:24 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **kinesisanalytics.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: d2ced27f-37d2-4366-968d-f9222d4ac9cb
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:25 GMT
+  Date: Thu, 01 Oct 2020 21:46:17 GMT
   
   </p></details>
 
@@ -2632,297 +427,7 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **kinesisanalytics.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: d288e7b7-b9bb-4555-8b70-8a96eb7ae41f
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:26 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **kinesisvideo.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: c7cdd7a8-08d7-4379-827d-be37d898a82d
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:25 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **kinesisvideo.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 7b2e2ad7-e8bf-4b4e-8a46-f6bda5f55a71
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:26 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **kinesisvideo.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: bd422158-5c9b-42b5-bc41-50f8d3270311
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:27 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **kinesisvideo.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: ebf3fe13-5c0b-4e03-bb49-321ee73bdc87
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:27 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **kinesis.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: f712132b-806a-0ca8-a0cc-ea0c96fe8d5f
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amz-request-id,x-amz-id-2,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:27 GMT
-  Content-Length: 0
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **kms.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: cbe0171a-7bda-4a79-b662-4c98208c1fc9
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Cache-Control: no-cache, no-store, must-revalidate, private
-  Expires: 0
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Pragma: no-cache
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:28 GMT
-  Content-Length: 0
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **lakeformation.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:28 GMT
-  content-length: 0
-  x-amzn-requestid: fabcca47-2c72-4967-be6b-924d4b26e7db
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **lambda.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:29 GMT
-  content-length: 0
-  x-amzn-requestid: 74ccc5e2-a412-44aa-96af-43382dc9731d
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date,x-amz-log-result,x-amz-function-error
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **models.lex.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:29 GMT
-  x-amzn-RequestId: 39761f67-a9fc-4090-9c59-bc5ff4b1d4f2
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **runtime.lex.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  x-amzn-requestid: 41ade2ad-874d-41d9-8f6d-54a823f5b060
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: DELETE
-  access-control-expose-headers: x-amz-lex-session-attributes,x-amz-lex-slots,x-amz-lex-dialog-state,Date,x-amz-lex-message,x-amz-lex-input-transcript,x-amzn-ErrorMessage,x-amz-lex-slot-to-elicit,x-amzn-RequestId,x-amzn-ErrorType,x-amz-lex-intent-name
-  access-control-max-age: 172800
-  date: Fri, 18 Sep 2020 18:05:29 GMT
-  content-length: 0
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **license-manager.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: e197ccf5-86be-4e3f-8816-5183748f3abd
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:29 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    456      0 --:--:-- --:--:-- --:--:--   455
-  </p></details>
-
-* **lightsail.us-east-1.amazonaws.com**:
+* **es.us-east-1.amazonaws.com**:
   404 Not
 
   ❌ **CORS**
@@ -2930,878 +435,16 @@
   ❌ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 404 Not Found
-  Server: Server
-  Date: Fri, 18 Sep 2020 18:05:30 GMT
-  Content-Length: 114
-  Connection: keep-alive
-  x-amzn-RequestId: 9aa2f32a-ef1f-4cee-9351-5f042118ec01
+  x-amzn-RequestId: 4c46b9b2-a27f-4ab3-804f-3a790a083eb5
+  Content-Length: 29
+  Date: Thu, 01 Oct 2020 21:46:17 GMT
   
-  <UnknownOperationException>
-  <Message>The request is not valid operation.</Message>
-  </UnknownOperationException>
+  <UnknownOperationException/>
   </p></details>
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   114  100   114    0     0    395      0 --:--:-- --:--:-- --:--:--   395
-  </p></details>
-
-* **machinelearning.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 91f1d0ec-4c0d-48de-bcea-deb2cdf87cd3
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:30 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **macie.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:31 GMT
-  content-length: 127
-  x-amzn-requestid: e7d3e605-7c20-4190-ae0f-4c4d7165fead
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    372      0 --:--:-- --:--:-- --:--:--   371
-  </p></details>
-
-* **managedblockchain.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:31 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: 101fd43a-12d0-4bb5-b255-b9a9ebd570dc
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuEzGLmIAMFoeQ=
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    215      0 --:--:-- --:--:-- --:--:--   215
-  </p></details>
-
-* **catalog.marketplace.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: PATCH
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:31 GMT
-  x-amzn-RequestId: 4365d627-a31d-4159-999e-84bc93a51dd7
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **marketplacecommerceanalytics.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
-  x-amzn-RequestId: c478be99-607c-49ab-8379-2b9c13915a80
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:32 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **entitlement.marketplace.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: da8cd249-4341-4166-9521-edd32e3cadd8
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:32 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    447      0 --:--:-- --:--:-- --:--:--   447
-  </p></details>
-
-* **metering.marketplace.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 42413a2b-518c-47d2-8849-9ae2e12182dc
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:32 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    396      0 --:--:-- --:--:-- --:--:--   396
-  </p></details>
-
-* **mediaconnect.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  content-type: application/json
-  content-length: 73
-  date: Fri, 18 Sep 2020 18:05:33 GMT
-  x-amzn-requestid: 53edb0d5-0b19-4c37-9a13-ec2788df5e33
-  x-amzn-errortype: APIGatewayFailedToParseRequestError
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuFDFTIoAMF4vQ=
-  x-amzn-trace-id: Root=1-5f64f6ed-89b8c6a207df926db19856e0
-  x-cache: Error from cloudfront
-  via: 1.1 ec2a2c75c16156e4d43504606c118b91.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C1
-  x-amz-cf-id: HGHZ8jOjHfBL9hwTAo6ii3nKwKjVpmjT9ijbWk_kStvKEs8ki4ANUQ==
-  
-  {"message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    271      0 --:--:-- --:--:-- --:--:--   270
-  </p></details>
-
-* **mediaconvert.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  content-type: application/json
-  content-length: 8
-  date: Fri, 18 Sep 2020 18:05:33 GMT
-  x-amzn-requestid: edde5c0e-5e58-4e5c-ae42-81d758b7b1c0
-  access-control-allow-origin: *
-  access-control-allow-headers: Authorization,Content-Type,X-Amz-Content-Sha256,X-Amz-Date,X-Amz-User-Agent
-  x-amz-apigw-id: TEuFFErtIAMFjgQ=
-  access-control-allow-methods: OPTIONS,POST
-  x-amzn-trace-id: Root=1-5f64f6ed-9d769ec2f9b9f86c674f8004
-  x-cache: Miss from cloudfront
-  via: 1.1 34f8ef0e4c880df0650a814412a26ea6.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C1
-  x-amz-cf-id: qdOkykzfA2DhZG1ntt3FRENNwDHO948WTmPu8oHBkPbsTqpoQTVGiQ==
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     8  100     8    0     0     68      0 --:--:-- --:--:-- --:--:--    68
-  </p></details>
-
-* **medialive.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  content-type: application/json
-  content-length: 73
-  date: Fri, 18 Sep 2020 18:05:33 GMT
-  x-amzn-requestid: b38474fe-716a-48ff-9ec9-8a2bc054ffb2
-  x-amzn-errortype: ForbiddenException
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuFHHRboAMF_gg=
-  x-cache: Error from cloudfront
-  via: 1.1 2e20768704c71ff3ce2e677251d27f3c.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C1
-  x-amz-cf-id: xFX0RxKFPMbUzvIDxIOp0q7bupyPiaAvg9e-sOQUAu2vLHGbFjiixA==
-  
-  {"message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    623      0 --:--:-- --:--:-- --:--:--   623
-  </p></details>
-
-* **mediapackage-vod.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  content-type: application/json
-  content-length: 3
-  date: Fri, 18 Sep 2020 18:05:33 GMT
-  x-amzn-requestid: 1c610cc6-e8f5-4f2f-989d-bf40b2ee2c5c
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key
-  x-amz-apigw-id: TEuFKHsqoAMFW4g=
-  access-control-allow-methods: *
-  x-cache: Miss from cloudfront
-  via: 1.1 e66162aafd55b64ba1478ff7105150fb.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C2
-  x-amz-cf-id: 0Yz_drNXqLqzOZKyaOIHBs1VUmwnm4nMgIpdDzmw9J7tIvMsD27GmA==
-  
-  {}
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     3  100     3    0     0     10      0 --:--:-- --:--:-- --:--:--    10
-  </p></details>
-
-* **mediapackage.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  content-type: application/json
-  content-length: 73
-  date: Fri, 18 Sep 2020 18:05:33 GMT
-  x-amzn-requestid: 80df6b15-b47d-4d7d-8265-100de2a12da9
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuFMFfhIAMFxZQ=
-  x-cache: Error from cloudfront
-  via: 1.1 b838ef1ff22a4a994af82d5178c30e1d.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C1
-  x-amz-cf-id: 9Sc1GliZRENgs6heMLD4LVxVgM9yqhJavrKOiZLMOuiFQVybARVoLg==
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    553      0 --:--:-- --:--:-- --:--:--   548
-  </p></details>
-
-* **data.mediastore.us-east-1.amazonaws.com**:
-
-  🚨ERROR
-  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://data.mediastore.us-east-1.amazonaws.com/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: data.mediastore.us-east-1.amazonaws.com" 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: data.mediastore.us-east-1.amazonaws.com</p></details>
-
-* **mediastore.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  Date: Fri, 18 Sep 2020 18:05:34 GMT
-  x-amzn-RequestId: CCKB5KEFNQ3QTJN23TDZVB2WWVQD7I7442SMICENFOM6L4BVTZATPUL244LFA5IY4CL7VICHMZNO4EURD34EFJY
-  Content-Length: 127
-  Connection: keep-alive
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    407      0 --:--:-- --:--:-- --:--:--   407
-  </p></details>
-
-* **api.mediatailor.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  content-type: application/json
-  content-length: 73
-  date: Fri, 18 Sep 2020 18:05:34 GMT
-  x-amzn-requestid: f7fa3cf4-6da3-433e-9b13-ba2a2c511673
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuFTFtEIAMFiGQ=
-  x-cache: Error from cloudfront
-  via: 1.1 559326ad73233233a9e52cb9e8601ede.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C2
-  x-amz-cf-id: VZQwSFVmPfDik06QbP-LTmSREWRQfsUX4Ii_N3h57ixVhl_0L86ItA==
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    286      0 --:--:-- --:--:-- --:--:--   287
-  </p></details>
-
-* **mgh.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:34 GMT
-  x-amzn-RequestId: dbb657e0-d178-4a1f-aed1-3995c1fbfc35
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **migrationhub-config.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:35 GMT
-  content-length: 127
-  x-amzn-requestid: f0859931-d9b7-46e2-a685-4833d597e336
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    447      0 --:--:-- --:--:-- --:--:--   447
-  </p></details>
-
-* **mobile.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:35 GMT
-  x-amzn-RequestId: e7f0f5a0-fabf-45f4-ba85-a0e06eef67e6
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **mq.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  content-type: application/json
-  content-length: 73
-  date: Fri, 18 Sep 2020 18:05:35 GMT
-  x-amzn-requestid: a94064cc-3269-49e0-8783-d5f4adb69e9a
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuFgGcgoAMFyjg=
-  x-amzn-trace-id: Root=1-5f64f6ef-fb43559ce2256d806442c800
-  x-cache: Error from cloudfront
-  via: 1.1 7eb3b782ab09047ce0d11ee03763894c.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C2
-  x-amz-cf-id: lqEGGXrUjEfgx_hGEy4cx5gq-8JqzUuv6x653pmumJD2RAeBzLxpzA==
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    300      0 --:--:-- --:--:-- --:--:--   299
-  </p></details>
-
-* **mturk-requester.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: d33e5c7a-c333-4d39-aa4d-35ad9097de42
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:36 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **rds.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 8e7077e8-959a-4e88-9c65-81d6032d59bd
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:36 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **networkmanager.us-east-1.amazonaws.com**:
-
-  🚨ERROR
-  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://networkmanager.us-east-1.amazonaws.com/global-networks/stringValue/customer-gateway-associations -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: networkmanager.us-east-1.amazonaws.com" 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: networkmanager.us-east-1.amazonaws.com</p></details>
-
-* **opsworks.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:36 GMT
-  x-amzn-RequestId: 5f7fcb31-40ac-4bf9-9662-6542ba7479ad
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **opsworks-cm.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: db857e14-01b1-407d-9bf2-00fdf047511f
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:37 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    440      0 --:--:-- --:--:-- --:--:--   440
-  </p></details>
-
-* **organizations.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 5c759f6f-dfbd-4bbd-b69e-e436da0427cf
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:37 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **outposts.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:38 GMT
-  content-type: application/json
-  content-length: 0
-  x-amzn-requestid: a58518af-2f11-4347-916f-0fbb90daffc1
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuF2F8DIAMFSww=
-  access-control-allow-methods: POST,GET
-  x-amzn-trace-id: Root=1-5f64f6f2-4e600890ae8508ee4f647ae4
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **personalize-events.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:37 GMT
-  x-amzn-RequestId: abdb7ec0-9324-4452-8a43-8cd1e654dbf4
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **personalize-runtime.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:38 GMT
-  x-amzn-RequestId: ae43f82d-8a29-4f81-9a5f-f7e34212f96d
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **personalize.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:38 GMT
-  x-amzn-RequestId: 6e5843f0-e8a4-4723-8a36-ae7240cd7af5
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **pi.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:39 GMT
-  x-amzn-RequestId: fbe3e1d9-7818-4158-8b43-628ab7b11da8
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **email.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 4be6ce1b-e451-4760-be42-1cc374ca3039
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:39 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **sms-voice.pinpoint.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  content-type: application/json
-  content-length: 3
-  date: Fri, 18 Sep 2020 18:05:40 GMT
-  x-amzn-requestid: 2bb7671b-4789-4ec1-92cc-b06eeb4f0c1b
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuGJGS3IAMF1oA=
-  access-control-allow-methods: GET,POST,PUT,DELETE,OPTIONS
-  x-cache: Miss from cloudfront
-  via: 1.1 6172bb1a5d00a3b06ae3700570ebe117.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C2
-  x-amz-cf-id: Xfhqc-a407P4ATP0-FBRrOuYm9xEpYvkGkL4iIjg0NEIwSWWsgFYzQ==
-  
-  {}
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     3  100     3    0     0     19      0 --:--:-- --:--:-- --:--:--    19
-  </p></details>
-
-* **pinpoint.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Content-Type: application/json
-  Content-Length: 0
-  Connection: keep-alive
-  Date: Fri, 18 Sep 2020 18:05:40 GMT
-  x-amzn-RequestId: 2a2e734c-41b0-4fef-9534-62f608ba1145
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: TEuGMEB1oAMF9MQ=
-  Access-Control-Allow-Methods: POST,GET,OPTIONS
-  X-Cache: Miss from cloudfront
-  Via: 1.1 324a68a6c25ee50d774953f3e15a611d.cloudfront.net (CloudFront)
-  X-Amz-Cf-Pop: SEA19-C2
-  X-Amz-Cf-Id: ANoCBZrnusvFZqLkXfOlm8sTLOuLM4sBP48vRav9n67j5DCtj99-cw==
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **polly.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: fdbd0b39-82ea-4839-8467-151472880519
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: DELETE
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:40 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **api.pricing.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: b7faa17a-37c9-4b1c-9aeb-dcaee577914a
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:40 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **session.qldb.us-east-1.amazonaws.com**:
-  500 Internal
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 500 Internal Server Error
-  x-amzn-RequestId: BFJKniEVchA6LSAfSbJrvE
-  Date: Fri, 18 Sep 2020 18:05:41 GMT
-  Content-Length: 19
-  
-  <InternalFailure/>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    19  100    19    0     0     64      0 --:--:-- --:--:-- --:--:--    64
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     83      0 --:--:-- --:--:-- --:--:--    83
   </p></details>
 
 * **qldb.us-east-1.amazonaws.com**:
@@ -3814,71 +457,26 @@
   <details><summary>expand stdout</summary><p>  HTTP/2 200
   content-type: application/json
   content-length: 0
-  date: Fri, 18 Sep 2020 18:05:41 GMT
-  x-amzn-requestid: 9da3c3aa-7084-4517-a343-add08beca066
+  date: Thu, 01 Oct 2020 21:46:18 GMT
+  x-amzn-requestid: dd79f882-7980-4c32-a6c2-6db1f91fe31b
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuGXG6VIAMFyjg=
+  x-amz-apigw-id: TwEmsH96IAMFncg=
   access-control-allow-methods: DELETE,GET
-  x-amzn-trace-id: Root=1-5f64f6f5-8c80541bca373a70ab3ecca3
+  x-amzn-trace-id: Root=1-5f764e2a-0713e630526b3a571d6346f5
   x-cache: Miss from cloudfront
-  via: 1.1 12a392bc3a7281f8d5d4591bfadc41fc.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C2
-  x-amz-cf-id: 7bxYE_Q31jju31kgolzsro-VP3zfhfkTWEU2yWoBIZ485lX_YDSXcA==
+  via: 1.1 0aebf3fe433ff96e68d785fad4ea4c0f.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C1
+  x-amz-cf-id: 7gMInMXgiBzfZ4jsB9LuE7_5_xjcZMhksPM8jPPcQ8AnBcd9ASYXBg==
   
   </p></details>
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **quicksight.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:41 GMT
-  content-length: 127
-  x-amzn-requestid: 48a23bf6-14f8-49bd-9f34-8cd371b5ee52
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    455      0 --:--:-- --:--:-- --:--:--   453
-  </p></details>
-
-* **ram.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:42 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: 37c8bf4c-56f6-4c00-8a2e-60aa5a3205c1
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuGfFwvIAMFQxw=
-  x-amzn-trace-id: Root=1-5f64f6f6-b8f1cda2c32b9080f96e81a6
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    219      0 --:--:-- --:--:-- --:--:--   219
-  </p></details>
-
-* **rds-data.us-east-1.amazonaws.com**:
+* **service.chime.aws.amazon.com**:
   403 Forbidden
 
   ❌ **CORS**
@@ -3886,9 +484,9 @@
   ❌ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 6ba21e40-1c95-4cb3-aa26-cb97f04f4353
+  x-amzn-RequestId: efa2ce75-46b2-44d5-81ca-418f087fe3b4
   Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:41 GMT
+  Date: Thu, 01 Oct 2020 21:46:19 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -3897,10 +495,10 @@
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    455      0 --:--:-- --:--:-- --:--:--   455
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    214      0 --:--:-- --:--:-- --:--:--   214
   </p></details>
 
-* **rds.us-east-1.amazonaws.com**:
+* **health.us-east-1.amazonaws.com**:
   200 OK
 
   ✅ **CORS**
@@ -3908,14 +506,15 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 40d25b28-4b19-4033-bf9c-88e6e982ff8c
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Origin: https://foo.example
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Vary: Origin
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
+  Access-Control-Allow-Credentials: true
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:42 GMT
+  Date: Thu, 01 Oct 2020 21:46:19 GMT
   
   </p></details>
 
@@ -3924,7 +523,15 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **redshift.us-east-1.amazonaws.com**:
+* **data.mediastore.us-east-1.amazonaws.com**:
+
+  🚨ERROR
+  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://data.mediastore.us-east-1.amazonaws.com/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: data.mediastore.us-east-1.amazonaws.com" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: data.mediastore.us-east-1.amazonaws.com</p></details>
+
+* **inspector.us-east-1.amazonaws.com**:
   200 OK
 
   ✅ **CORS**
@@ -3932,14 +539,14 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 56661535-3a2a-44f8-9ea2-e9f118060399
+  x-amzn-RequestId: 03e84904-0bc5-4513-a4c3-4a40c8121d23
   Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:42 GMT
+  Date: Thu, 01 Oct 2020 21:46:19 GMT
   
   </p></details>
 
@@ -3948,143 +555,22 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **rekognition.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:43 GMT
-  x-amzn-RequestId: 1bf6eb92-9eef-4753-b4ef-b0e5f6600fd0
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **tagging.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 7f778822-9069-4480-8f22-5ab76b1ee07a
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:43 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **resource-groups.us-east-1.amazonaws.com**:
+* **frauddetector.us-east-1.amazonaws.com**:
   200 
 
   ✅ **CORS**
 
-  ❌ **Retry Headers**
+  ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:44 GMT
-  content-type: application/json
+  date: Thu, 01 Oct 2020 21:46:20 GMT
   content-length: 0
-  x-amzn-requestid: c94df54b-93b0-4b7d-ad5a-8f306d7c5cb6
+  x-amzn-requestid: 7410834b-9b29-49f6-b2ac-d7067f21e3bd
   access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuG0FZFoAMFbNw=
-  access-control-allow-methods: POST,GET
-  x-amzn-trace-id: Root=1-5f64f6f8-a37cc4e0d4dc6b3a30177576
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **robomaker.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:44 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: 56a98e76-a8d8-4f97-ad1e-b19c195ddb01
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuG3G0zIAMFaCQ=
-  x-amzn-trace-id: Root=1-5f64f6f8-63f634c0f617abb665845af0
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    226      0 --:--:-- --:--:-- --:--:--   226
-  </p></details>
-
-* **route53domains.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: dc7eff84-1a3b-4134-bafd-4193fd354123
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:44 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **route53.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: a01b8f92-337e-4654-9af6-588e96e4015e
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:45 GMT
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
   
   </p></details>
 
@@ -4101,295 +587,9 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:45 GMT
+  date: Thu, 01 Oct 2020 21:46:21 GMT
   content-length: 0
-  x-amzn-requestid: c1248b0d-da92-4459-abdd-c3e6f6ca0ee7
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **stringValue.s3-control.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amz-request-id: AECF1E8C1CCEB957
-  x-amz-id-2: BeJwfrZWBvsgt8wVIF4jH3Qa7Nza5OG8R1f7LsTj/BIMFgNxGnVqwf2ldrInWrAeUNijlwlhxho=
-  Content-Type: application/xml
-  Transfer-Encoding: chunked
-  Date: Fri, 18 Sep 2020 18:05:45 GMT
-  Server: AmazonS3
-  
-  <?xml version="1.0" encoding="UTF-8"?>
-  <ErrorResponse><Error><Code>AccessDenied</Code><Message>Access Denied</Message><AccountId>stringvalue</AccountId></Error><RequestId>AECF1E8C1CCEB957</RequestId><HostId>BeJwfrZWBvsgt8wVIF4jH3Qa7Nza5OG8R1f7LsTj/BIMFgNxGnVqwf2ldrInWrAeUNijlwlhxho=</HostId></ErrorResponse></p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   308    0   308    0     0   1030      0 --:--:-- --:--:-- --:--:--  1026
-  </p></details>
-
-* **s3.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amz-request-id: 92BD00852455BEE1
-  x-amz-id-2: bLQuxLmuXsiZJAnjAFbrwT/uE1517ocNAf1mawwtoy/UpNNu/+KoE7l7AQNVdhaTRrVrzTdnu9o=
-  Content-Type: application/xml
-  Transfer-Encoding: chunked
-  Date: Fri, 18 Sep 2020 18:05:45 GMT
-  Server: AmazonS3
-  
-  <?xml version="1.0" encoding="UTF-8"?>
-  <Error><Code>AccessForbidden</Code><Message>CORSResponse: Bucket not found</Message><Method>DELETE</Method><ResourceType>BUCKET</ResourceType><RequestId>92BD00852455BEE1</RequestId><HostId>bLQuxLmuXsiZJAnjAFbrwT/uE1517ocNAf1mawwtoy/UpNNu/+KoE7l7AQNVdhaTRrVrzTdnu9o=</HostId></Error></p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   321    0   321    0     0   1106      0 --:--:-- --:--:-- --:--:--  1106
-  </p></details>
-
-* **a2i-runtime.sagemaker.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:46 GMT
-  content-type: application/json
-  content-length: 2
-  x-amzn-requestid: cec03d6c-9399-457c-a357-bfc125db2c1b
-  access-control-allow-origin: *
-  access-control-allow-headers: Authorization,Content-Type,X-Amz-Content-Sha256,X-Amz-Date,X-Amz-Security-Token,X-Amz-User-Agent
-  x-amz-apigw-id: TEuHMGEvIAMF8jQ=
-  access-control-allow-methods: GET,PUT,POST,DELETE,OPTIONS
-  x-amzn-trace-id: Root=1-5f64f6fa-1aa24c31522df9ce035ebbf6
-  
-  {}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      6      0 --:--:-- --:--:-- --:--:--     6
-  </p></details>
-
-* **runtime.sagemaker.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 90d96097-4eca-414f-9331-c42a9f646d69
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-Amzn-Invoked-Production-Variant,x-amzn-RequestId,x-amzn-ErrorType,X-Amzn-SageMaker-Custom-Attributes,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:47 GMT
-  Content-Length: 0
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **api.sagemaker.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 6f8709a4-e64c-42cd-bda1-dc6bc39bd219
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:47 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **savingsplans.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:47 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: f7beab1d-c597-46b4-a4db-7ae687fd6a85
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuHYG-YoAMFzsg=
-  x-amzn-trace-id: Root=1-5f64f6fb-fab550429b1b13a878e85486
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    199      0 --:--:-- --:--:-- --:--:--   198
-  </p></details>
-
-* **schemas.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:48 GMT
-  content-type: application/json
-  content-length: 113
-  x-amzn-requestid: ab613e5f-d9aa-4004-915f-55dd2e397436
-  x-amzn-errortype: ForbiddenException
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuHcGlzIAMFsBg=
-  x-amzn-trace-id: Root=1-5f64f6fc-d3144de45939f8ce91ed1462
-  
-  {
-  "Message":"Unable to determine service/operation name to be authorized",
-  "Code": "MethodNotAllowed"
-  }</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   113  100   113    0     0    353      0 --:--:-- --:--:-- --:--:--   353
-  </p></details>
-
-* **secretsmanager.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:48 GMT
-  content-length: 0
-  x-amzn-requestid: 8d11b7a7-237a-4d26-867b-cebb19e99868
-  access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  access-control-allow-methods: POST
-  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  access-control-max-age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **securityhub.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:49 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: 4f11a4a5-49e5-4a21-a175-88ad320b8bc0
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuHjEMYIAMFjnA=
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    232      0 --:--:-- --:--:-- --:--:--   231
-  </p></details>
-
-* **serverlessrepo.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:49 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: cad01c0f-37aa-4889-af08-66113e6bfd07
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuHmH3wIAMFS1Q=
-  x-amzn-trace-id: Root=1-5f64f6fd-39e95dce473c0f28acde6854
-  
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    254      0 --:--:-- --:--:-- --:--:--   254
-  </p></details>
-
-* **servicecatalog.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 7069529f-a99c-41d5-9e8b-1709b6bbbd85
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:49 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **servicequotas.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:50 GMT
-  content-length: 0
-  x-amzn-requestid: aff1b354-d55a-465a-9c2a-0d62df1b00b3
+  x-amzn-requestid: cea79232-5a3b-4535-ba37-f37203a73e87
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -4403,122 +603,7 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **servicediscovery.us-east-1.amazonaws.com**:
-  200 
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Allow-Origin: *
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:50 GMT
-  x-amzn-RequestId: c67af7e2-bd1b-47ab-b884-3bb69799f311
-  Content-Length: 0
-  Connection: keep-alive
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **email.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: e3403182-1fb4-4b24-bf1d-e2a63db0261f
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:50 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **email.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 39d3a185-7195-4c49-8c64-8d2972b1c2a0
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:50 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **states.us-east-1.amazonaws.com**:
-  404 Not
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 404 Not Found
-  x-amzn-RequestId: 1bb193ec-1628-4da3-8959-a36c052a14a1
-  Content-Type: null
-  Content-Length: 29
-  
-  <UnknownOperationException/>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     83      0 --:--:-- --:--:-- --:--:--    83
-  </p></details>
-
-* **shield.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 5df940f4-ecf3-4710-a4d5-682716af5378
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:51 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    431      0 --:--:-- --:--:-- --:--:--   431
-  </p></details>
-
-* **signer.us-east-1.amazonaws.com**:
+* **connect.us-east-1.amazonaws.com**:
   200 
 
   ✅ **CORS**
@@ -4526,15 +611,14 @@
   ❌ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:52 GMT
+  date: Thu, 01 Oct 2020 21:46:21 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: f191db4a-1429-43e9-9b69-658472f95c73
+  x-amzn-requestid: 933edf13-e888-425e-b2a9-e203e6063126
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuICFo3oAMF2QQ=
-  access-control-allow-methods: DELETE,GET,PUT
-  x-amzn-trace-id: Root=1-5f64f700-56061272ac1def5cac20627e
+  x-amz-apigw-id: TwEnGGv2oAMFv0Q=
+  access-control-allow-methods: PUT
   
   </p></details>
 
@@ -4543,51 +627,7 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **sms.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 2c5bd795-99bb-438a-9c5c-ec9cfa41320e
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:52 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    377      0 --:--:-- --:--:-- --:--:--   377
-  </p></details>
-
-* **snowball.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 471d3436-2128-4b8c-8823-cfb08a4d9eed
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:52 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   127    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    429      0 --:--:-- --:--:-- --:--:--   427
-  </p></details>
-
-* **sns.us-east-1.amazonaws.com**:
+* **waf.amazonaws.com**:
   200 OK
 
   ✅ **CORS**
@@ -4595,65 +635,14 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: e111f271-218f-5168-b100-a5afd8cee7c9
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:52 GMT
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **sqs.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: a6cd5a97-6968-5770-ae01-0d49902944c2
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Date: Fri, 18 Sep 2020 18:05:53 GMT
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Type: null
-  Content-Length: 0
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **ssm.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Server: Server
-  Date: Fri, 18 Sep 2020 18:05:54 GMT
-  Content-Length: 0
-  Connection: keep-alive
-  x-amzn-RequestId: df4eaca8-9773-4362-a693-009e7d775f31
+  x-amzn-RequestId: fca02926-d699-4890-8489-b7a131b66693
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:20 GMT
   
   </p></details>
 
@@ -4662,47 +651,7 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **oidc.us-east-1.amazonaws.com**:
-  403 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:54 GMT
-  content-length: 25
-  x-amzn-requestid: f9218386-2686-4822-a944-9ca3181f3eb3
-  
-  <AccessDeniedException/>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25  100    25    0     0     75      0 --:--:-- --:--:-- --:--:--    75
-  </p></details>
-
-* **portal.sso.us-east-1.amazonaws.com**:
-  400 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 400
-  date: Fri, 18 Sep 2020 18:05:54 GMT
-  content-type: application/json
-  content-length: 121
-  server: AWS SSO
-  
-  {"message":"Origin not allowed: https://foo.example","__type":"com.amazonaws.switchboard.portal#InvalidRequestException"}</p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   121  100   121    0     0    355      0 --:--:-- --:--:-- --:--:--   355
-  </p></details>
-
-* **storagegateway.us-east-1.amazonaws.com**:
+* **firehose.us-east-1.amazonaws.com**:
   200 OK
 
   ✅ **CORS**
@@ -4710,39 +659,14 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  Date: Fri, 18 Sep 2020 18:05:55 GMT
-  Content-Length: 0
-  Connection: keep-alive
-  x-amzn-RequestId: 601bea71-b2ee-402a-9b97-25a7ea77e55b
+  x-amzn-RequestId: ebbe3d11-6fd6-bae0-bc4e-6d7f1b652385
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  </p></details>
-
-* **sts.us-east-1.amazonaws.com**:
-  200 OK
-
-  ✅ **CORS**
-
-  ✅ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 744fdf1b-1d84-4088-8916-459731af13a4
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amz-request-id,x-amz-id-2,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:55 GMT
+  Date: Thu, 01 Oct 2020 21:46:21 GMT
   
   </p></details>
 
@@ -4751,49 +675,7 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **support.us-east-1.amazonaws.com**:
-  403 Forbidden
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 40af7422-b608-4835-b1de-079312114126
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:55 GMT
-  
-  <MissingAuthenticationTokenException>
-  <Message>Missing Authentication Token</Message>
-  </MissingAuthenticationTokenException>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    427      0 --:--:-- --:--:-- --:--:--   427
-  </p></details>
-
-* **swf.us-east-1.amazonaws.com**:
-  404 Not
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 404 Not Found
-  x-amzn-RequestId: fcc858cd-39e3-424a-978f-83e17dd0698f
-  Date: Fri, 18 Sep 2020 18:05:56 GMT
-  Content-Length: 29
-  
-  <UnknownOperationException/>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     92      0 --:--:-- --:--:-- --:--:--    92
-  </p></details>
-
-* **textract.us-east-1.amazonaws.com**:
+* **runtime.lex.us-east-1.amazonaws.com**:
   200 
 
   ✅ **CORS**
@@ -4801,9 +683,53 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:05:56 GMT
+  x-amzn-requestid: ad3c3941-29f1-44b2-b4dd-db177a426116
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: DELETE
+  access-control-expose-headers: x-amz-lex-session-attributes,x-amz-lex-slots,x-amz-lex-dialog-state,Date,x-amz-lex-message,x-amz-lex-input-transcript,x-amzn-ErrorMessage,x-amz-lex-slot-to-elicit,x-amzn-RequestId,x-amzn-ErrorType,x-amz-lex-intent-name
+  access-control-max-age: 172800
+  date: Thu, 1 Oct 2020 21:46:22 GMT
   content-length: 0
-  x-amzn-requestid: 383ae943-5b00-433a-9371-39cdf2319835
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **cloudsearch.us-east-1.amazonaws.com**:
+  404 Not
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 404 Not Found
+  x-amzn-RequestId: f49ec9b4-7b7a-4a33-aa1f-5991562bc118
+  Content-Length: 29
+  Date: Thu, 01 Oct 2020 21:46:22 GMT
+  
+  <UnknownOperationException/>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     84      0 --:--:-- --:--:-- --:--:--    84
+  </p></details>
+
+* **applicationinsights.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:23 GMT
+  content-length: 0
+  x-amzn-requestid: 8538ee5a-9902-4ab6-adec-9eb2bef848ad
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -4830,8 +756,8 @@
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Fri, 18 Sep 2020 18:05:56 GMT
-  x-amzn-RequestId: 06081409-ebc3-4c98-94a7-341cae5b8dc7
+  Date: Thu, 01 Oct 2020 21:46:23 GMT
+  x-amzn-RequestId: d8796e07-e432-4db5-aa02-e8238011e90f
   Content-Length: 0
   Connection: keep-alive
   
@@ -4842,27 +768,7 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **transfer.us-east-1.amazonaws.com**:
-  404 
-
-  ❌ **CORS**
-
-  ❌ **Retry Headers**
-
-  <details><summary>expand stdout</summary><p>  HTTP/2 404
-  date: Fri, 18 Sep 2020 18:05:57 GMT
-  content-length: 29
-  x-amzn-requestid: e15fef27-93ef-44c4-924c-fd35e324abe3
-  
-  <UnknownOperationException/>
-  </p></details>
-
-  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     90      0 --:--:-- --:--:-- --:--:--    90
-  </p></details>
-
-* **translate.us-east-1.amazonaws.com**:
+* **codepipeline.us-east-1.amazonaws.com**:
   200 OK
 
   ✅ **CORS**
@@ -4870,14 +776,14 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 7ebfebb8-beda-4bd5-9d8e-db274440d898
+  x-amzn-RequestId: bc1a133d-0e1e-4faa-a3f4-63a5a399c05b
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
+  Content-Type: null
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:57 GMT
   
   </p></details>
 
@@ -4886,22 +792,45 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **waf-regional.us-east-1.amazonaws.com**:
-  200 OK
+* **glacier.us-east-1.amazonaws.com**:
+  400 Bad
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 400 Bad Request
+  x-amzn-RequestId: ZvwWGRFM-ohoyW5RGBe1z9cS6OPd6LvowPVeC2N1jLeZrZU
+  Content-Length: 109
+  Date: Thu, 01 Oct 2020 21:46:24 GMT
+  Connection: close
+  
+  {"code":"MissingParameterValueException","message":"Required parameter missing: API version","type":"Client"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   109  100   109    0     0    301      0 --:--:-- --:--:-- --:--:--   301
+  </p></details>
+
+* **iotanalytics.us-east-1.amazonaws.com**:
+  200 
 
   ✅ **CORS**
 
   ✅ **Retry Headers**
 
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 93a54615-bc62-486d-bba6-56f4deb5a9c7
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:57 GMT
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:24 GMT
+  content-length: 0
+  x-amzn-requestid: ea6074b4-bffa-4453-9940-6f07f8a7fab5
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  cache-control: no-cache, no-store, must-revalidate, private
+  expires: 0
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  pragma: no-cache
+  access-control-max-age: 172800
   
   </p></details>
 
@@ -4910,7 +839,7 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **waf.amazonaws.com**:
+* **kinesisvideo.us-east-1.amazonaws.com**:
   200 OK
 
   ✅ **CORS**
@@ -4918,14 +847,14 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 3f854120-b653-48aa-bd78-f70c22b13982
+  x-amzn-RequestId: d24bf604-474d-4b92-b9df-0567b7f5930c
   Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:57 GMT
+  Date: Thu, 01 Oct 2020 21:46:24 GMT
   
   </p></details>
 
@@ -4934,17 +863,392 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **wafv2.us-east-1.amazonaws.com**:
-  403 Forbidden
+* **participant.connect.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:25 GMT
+  content-type: application/json
+  content-length: 0
+  x-amzn-requestid: 4223d637-c674-4d19-ad0d-7611ef3ef102
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,X-Amz-Bearer
+  x-amz-apigw-id: TwEnxH3foAMFzDg=
+  access-control-allow-methods: POST
+  x-amzn-trace-id: Root=1-5f764e31-7a6d6daf49f970922dcf3d70
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **comprehendmedical.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 24ab3051-6900-4adf-a88c-2e0046d105d6
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:25 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **rekognition.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:46:26 GMT
+  x-amzn-RequestId: 5957e568-cb41-474d-824b-5817cfd5e137
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **kinesisanalytics.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: d20f163d-ebc8-4b88-8219-a3c5dec5ca9b
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:26 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **runtime.sagemaker.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 96d473f7-7df2-497b-befc-cd7c7658b6d8
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-Amzn-Invoked-Production-Variant,x-amzn-RequestId,x-amzn-ErrorType,X-Amzn-SageMaker-Custom-Attributes,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 1 Oct 2020 21:46:27 GMT
+  Content-Length: 0
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **athena.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:46:27 GMT
+  x-amzn-RequestId: ca61077a-d547-4651-bef0-ab3a1eac76ea
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **events.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 93e6558d-4329-451a-8f9a-f25c8dd6b5ab
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:27 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **pi.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:46:28 GMT
+  x-amzn-RequestId: ef93b72c-2b04-4011-a651-a7eb80413485
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **pinpoint.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Content-Type: application/json
+  Content-Length: 0
+  Connection: keep-alive
+  Date: Thu, 01 Oct 2020 21:46:28 GMT
+  x-amzn-RequestId: 5859a406-4c90-4a88-b179-200e8f58f26d
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
+  x-amz-apigw-id: TwEoOEF3oAMFVFQ=
+  Access-Control-Allow-Methods: POST,GET,OPTIONS
+  X-Cache: Miss from cloudfront
+  Via: 1.1 446313511980eb02f28ff5a9a4147c0a.cloudfront.net (CloudFront)
+  X-Amz-Cf-Pop: HIO50-C1
+  X-Amz-Cf-Id: mwJWaAktr93xwdxdVcLvq4K--sE5O6XO1X4oZm2LqssIgTQx2Tvr6w==
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **mediaconvert.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  content-type: application/json
+  content-length: 8
+  date: Thu, 01 Oct 2020 21:46:28 GMT
+  x-amzn-requestid: 0084e112-3990-407a-85a9-e3b0d0f93891
+  access-control-allow-origin: *
+  access-control-allow-headers: Authorization,Content-Type,X-Amz-Content-Sha256,X-Amz-Date,X-Amz-User-Agent
+  x-amz-apigw-id: TwEoQFHpoAMFb3g=
+  access-control-allow-methods: OPTIONS,POST
+  x-amzn-trace-id: Root=1-5f764e34-3795aded70eca63a56b5f77f
+  x-cache: Miss from cloudfront
+  via: 1.1 bc24eca5e5d9f4acf2b3c88b0346cbb9.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C2
+  x-amz-cf-id: rgfQfbYHD6PCm7Sc1Xn7Rj3U7L4QmqpCMQyLXHDrpYpYqOL2mjhV-w==
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     8  100     8    0     0     42      0 --:--:-- --:--:-- --:--:--    42100     8  100     8    0     0     42      0 --:--:-- --:--:-- --:--:--    42
+  </p></details>
+
+* **dax.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 39b96630-a1e5-4abe-8867-8d62fa81d3c5
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:28 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **kendra.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: c677ac87-ebab-4040-af7c-d43e92df1767
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:29 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **organizations.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: cb55e797-286f-483a-b9a4-b4abb415704a
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:29 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **opsworks.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:46:30 GMT
+  x-amzn-RequestId: a730e698-5b7c-4fb9-9005-8537ba0183c9
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **iotevents.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:30 GMT
+  content-length: 0
+  x-amzn-requestid: c0e10523-4e9e-479d-8d11-7c3d929728ce
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **acm-pca.us-east-1.amazonaws.com**:
+  403 
 
   ❌ **CORS**
 
   ❌ **Retry Headers**
 
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: c9b63f90-7295-44f6-9a3b-c190e7b17648
-  Content-Length: 127
-  Date: Fri, 18 Sep 2020 18:05:57 GMT
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:31 GMT
+  content-length: 127
+  x-amzn-requestid: d6606b8e-702e-4327-981c-a7ac85f06b4e
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -4953,36 +1257,34 @@
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    403      0 --:--:-- --:--:-- --:--:--   403
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    328      0 --:--:-- --:--:-- --:--:--   328
   </p></details>
 
-* **workdocs.us-east-1.amazonaws.com**:
-  200 OK
+* **lightsail.us-east-1.amazonaws.com**:
+  404 Not
 
-  ✅ **CORS**
+  ❌ **CORS**
 
-  ✅ **Retry Headers**
+  ❌ **Retry Headers**
 
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: 1dc8c9aa-4712-41e8-b2a6-aa3ae632c99b
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Cache-Control: private, no-cache, no-store, max-age=0
-  Access-Control-Allow-Methods: DELETE
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Server-ResponseTime-Millis: 1
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:59 GMT
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 404 Not Found
+  Server: Server
+  Date: Thu, 01 Oct 2020 21:46:31 GMT
+  Content-Length: 114
+  Connection: keep-alive
+  x-amzn-RequestId: a406eb16-6c43-43ce-8ef9-0855fd6c15d6
   
+  <UnknownOperationException>
+  <Message>The request is not valid operation.</Message>
+  </UnknownOperationException>
   </p></details>
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   114  100   114    0     0    305      0 --:--:-- --:--:-- --:--:--   305
   </p></details>
 
-* **worklink.us-east-1.amazonaws.com**:
+* **macie2.us-east-1.amazonaws.com**:
   403 
 
   ❌ **CORS**
@@ -4990,37 +1292,61 @@
   ❌ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:05:59 GMT
+  date: Thu, 01 Oct 2020 21:46:32 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: d74e8289-3c7d-4411-8792-7c7b50265f0e
+  x-amzn-requestid: b878bad7-0925-4cdb-b863-1429559322db
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuJMFefIAMFtAg=
-  x-amzn-trace-id: Root=1-5f64f707-834ce686b7d4447c4f842fdc
+  x-amz-apigw-id: TwEoxE5OIAMFppw=
   
   {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    244      0 --:--:-- --:--:-- --:--:--   244
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    196      0 --:--:-- --:--:-- --:--:--   196
   </p></details>
 
-* **workmail.us-east-1.amazonaws.com**:
+* **iot.us-east-1.amazonaws.com**:
   200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:32 GMT
+  content-type: application/json
+  content-length: 2
+  x-amzn-requestid: 43c21abe-27e8-47d8-a7a9-9656fb3ab117
+  access-control-allow-origin: *
+  access-control-allow-headers: Authorization, X-Amz-Date, X-Amz-Security-Token, x-amzn-iot-principal, X-Amz-Content-Sha256, X-Amz-User-Agent, Content-Type, x-amzn-principal
+  x-amz-apigw-id: TwEo2F_RIAMFxkQ=
+  access-control-allow-methods: OPTIONS, GET, HEAD, POST, PUT, PATCH, DELETE
+  
+  {}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      5      0 --:--:-- --:--:-- --:--:--     5
+  </p></details>
+
+* **models.lex.us-east-1.amazonaws.com**:
+  200 OK
 
   ✅ **CORS**
 
   ✅ **Retry Headers**
 
-  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
-  x-amzn-RequestId: 202debf2-9954-44c0-b22d-b5aaf2cccdf8
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:46:32 GMT
+  x-amzn-RequestId: 1e24d2b6-9c8a-47e4-b295-a007cdee588f
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:05:59 GMT
+  Connection: keep-alive
   
   </p></details>
 
@@ -5037,8 +1363,8 @@
   ❌ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
-  Date: Fri, 18 Sep 2020 18:06:00 GMT
-  x-amzn-RequestId: 375f33f8-96c1-401c-b104-277d7c3ce6bd
+  Date: Thu, 01 Oct 2020 21:46:32 GMT
+  x-amzn-RequestId: ec01d895-d17b-49d9-87fe-aec667e7e0df
   Content-Length: 127
   Connection: keep-alive
   
@@ -5049,10 +1375,10 @@
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    373      0 --:--:-- --:--:-- --:--:--   373
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    357      0 --:--:-- --:--:-- --:--:--   357
   </p></details>
 
-* **workspaces.us-east-1.amazonaws.com**:
+* **email.us-east-1.amazonaws.com**:
   200 OK
 
   ✅ **CORS**
@@ -5060,14 +1386,38 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
-  x-amzn-RequestId: a036441f-36ee-4216-8987-480b829d2ca5
+  x-amzn-RequestId: 4ee80cb0-ec52-4061-a1cf-9363012fe9df
   Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Fri, 18 Sep 2020 18:06:00 GMT
+  Date: Thu, 01 Oct 2020 21:46:33 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **autoscaling.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 10d06240-43e7-43a1-9aad-fc19a78a8b61
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:33 GMT
   
   </p></details>
 
@@ -5076,7 +1426,82 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **xray.us-east-1.amazonaws.com**:
+* **kinesisvideo.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: ea5ef114-5e88-4048-acfc-3d60a842d625
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:34 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **amplify.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  content-type: application/json
+  content-length: 73
+  date: Thu, 01 Oct 2020 21:46:34 GMT
+  x-amzn-requestid: 902e549f-94a5-493b-9a5e-9dfb1c01f64f
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEpNGsHIAMFljw=
+  x-cache: Error from cloudfront
+  via: 1.1 925a9355525ad52853e1025fe231bef9.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C2
+  x-amz-cf-id: y7cbVjq-BxNpGGJlfLLYYMdYuqBdUm2ILT--kaJIcmYvr4PlqyFCgg==
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    261      0 --:--:-- --:--:-- --:--:--   260
+  </p></details>
+
+* **codestar-notifications.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:35 GMT
+  content-type: application/json
+  content-length: 0
+  x-amzn-requestid: 98cd7eca-8fd9-4e0c-b4ea-5bdbbf0ec47c
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
+  x-amz-apigw-id: TwEpQEN9oAMFzqg=
+  access-control-allow-methods: POST
+  x-amzn-trace-id: Root=1-5f764e3b-038ddb803d34c63f78293603
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **cloud9.us-east-1.amazonaws.com**:
   200 
 
   ✅ **CORS**
@@ -5084,11 +1509,80 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:06:00 GMT
+  date: Thu, 01 Oct 2020 21:46:35 GMT
   content-length: 0
-  x-amzn-requestid: 1900c2ea-75d8-4d04-8602-4b93c531a3b7
+  x-amzn-requestid: 78fad8d3-357d-4129-9b1c-37d1782d3e52
   access-control-allow-origin: *
-  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **transfer.us-east-1.amazonaws.com**:
+  404 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 404
+  date: Thu, 01 Oct 2020 21:46:35 GMT
+  content-length: 29
+  x-amzn-requestid: cd122a1a-13d2-4418-a022-c8a051f45933
+  
+  <UnknownOperationException/>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     83      0 --:--:-- --:--:-- --:--:--    82
+  </p></details>
+
+* **rds.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 7bbb1917-bb5c-4461-b9d5-edc5dd3f4b25
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:36 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **apigateway.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:36 GMT
+  content-length: 0
+  x-amzn-requestid: b47eb6db-b112-429d-bc7e-9a2833d4a7e6
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,user-agent,content-length,accept,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  x-amz-apigw-id: TwEpgIkWoAMEdxQ=
   access-control-allow-methods: POST
   access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   access-control-max-age: 172800
@@ -5100,6 +1594,30 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
+* **redshift.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: d0c6789e-9406-42cf-81a8-f521972d608c
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:36 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
 * **honeycode.us-east-1.amazonaws.com**:
 
   🚨ERROR
@@ -5108,7 +1626,58 @@
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: honeycode.us-east-1.amazonaws.com</p></details>
 
-* **model.iotsitewise.us-east-1.amazonaws.com**:
+* **mediaconnect.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  content-type: application/json
+  content-length: 73
+  date: Thu, 01 Oct 2020 21:46:37 GMT
+  x-amzn-requestid: 70e62e6b-6a65-4907-b535-321777113458
+  x-amzn-errortype: APIGatewayFailedToParseRequestError
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEpnGbPIAMFeOw=
+  x-amzn-trace-id: Root=1-5f764e3d-5dcc7703312052d25435b353
+  x-cache: Error from cloudfront
+  via: 1.1 38e44b0b4251fbfb70eb0f304e9558fb.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C2
+  x-amz-cf-id: MQlQvM4ckZA92Ycxu77ZN1dWSNj11VUIuxLhRdrf8yYgLhfEJpVa9Q==
+  
+  {"message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    437      0 --:--:-- --:--:-- --:--:--   437
+  </p></details>
+
+* **cloudhsmv2.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  Date: Thu, 01 Oct 2020 21:46:37 GMT
+  x-amzn-RequestId: cdba0561-c834-4e27-a61a-e855f828fb9d
+  Content-Length: 127
+  Connection: keep-alive
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    362      0 --:--:-- --:--:-- --:--:--   362
+  </p></details>
+
+* **braket.us-east-1.amazonaws.com**:
   200 
 
   ✅ **CORS**
@@ -5116,9 +1685,2759 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:06:01 GMT
+  date: Thu, 01 Oct 2020 21:46:38 GMT
+  content-type: application/json
   content-length: 0
-  x-amzn-requestid: dba683c8-c4b5-495e-8788-702c63464a73
+  x-amzn-requestid: 7805b9d2-ca56-4f67-a885-790a4698900e
+  access-control-allow-origin: *
+  access-control-allow-headers: *,Authorization,Date,X-Amz-Date,X-Amz-Security-Token,X-Amz-Target,content-type,x-amz-content-sha256,x-amz-user-agent,x-amzn-platform-id,x-amzn-trace-id
+  x-amz-apigw-id: TwEpvFu3IAMFyBw=
+  access-control-allow-methods: PUT
+  x-amzn-trace-id: Root=1-5f764e3e-110782a668f930d155ed9829
+  access-control-max-age: 600
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **devicefarm.us-east-1.amazonaws.com**:
+
+  🚨ERROR
+  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://devicefarm.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: devicefarm.us-east-1.amazonaws.com" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: devicefarm.us-east-1.amazonaws.com</p></details>
+
+* **cognito-identity.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:38 GMT
+  content-length: 0
+  x-amzn-requestid: f15f9aba-705f-4622-9336-36f9151f2e65
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **managedblockchain.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:39 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: 6bec4cd7-aaab-4f8f-b8bb-01d569796154
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEp3FfwIAMF8bw=
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    196      0 --:--:-- --:--:-- --:--:--   196
+  </p></details>
+
+* **servicediscovery.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:46:39 GMT
+  x-amzn-RequestId: beee05fd-abf5-4705-9e92-a0a2dda2640f
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **dataexchange.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  content-type: application/json
+  content-length: 73
+  date: Thu, 01 Oct 2020 21:46:39 GMT
+  x-amzn-requestid: 44d2be50-4a26-4b86-9ef4-373d21eef409
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEp-HSPIAMFy3w=
+  x-amzn-trace-id: Root=1-5f764e3f-0c18678709b91f8256aad981
+  x-cache: Error from cloudfront
+  via: 1.1 ee46fdde6e68c4ab6c791f98f3f42706.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C2
+  x-amz-cf-id: K8wno_lfktqinJVz9n7zwLUgvDHPUdzHulWnqXb4aTAE8mmkE8Ikdg==
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    259      0 --:--:-- --:--:-- --:--:--   258
+  </p></details>
+
+* **storagegateway.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Date: Thu, 01 Oct 2020 21:46:40 GMT
+  Content-Length: 0
+  Connection: keep-alive
+  x-amzn-RequestId: 688de7d2-1448-4fc7-85c7-32566692586a
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **stringValue.s3-control.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amz-request-id: 6092844A551D65D1
+  x-amz-id-2: YbFR1GuSgNk6pvykgfOs39iZch4p7jbsQxMGH+RlfJsaFs3x81y9HlXzfb7DcRKUBMdGtZIcvdY=
+  Content-Type: application/xml
+  Transfer-Encoding: chunked
+  Date: Thu, 01 Oct 2020 21:46:40 GMT
+  Server: AmazonS3
+  
+  <?xml version="1.0" encoding="UTF-8"?>
+  <ErrorResponse><Error><Code>AccessDenied</Code><Message>Access Denied</Message><AccountId>stringvalue</AccountId></Error><RequestId>6092844A551D65D1</RequestId><HostId>YbFR1GuSgNk6pvykgfOs39iZch4p7jbsQxMGH+RlfJsaFs3x81y9HlXzfb7DcRKUBMdGtZIcvdY=</HostId></ErrorResponse></p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   308    0   308    0     0    903      0 --:--:-- --:--:-- --:--:--   903
+  </p></details>
+
+* **kinesisanalytics.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: e26dce0b-a1ff-4a00-91b6-2e5c113f69cd
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:40 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **entitlement.marketplace.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: fb88afd5-1aff-40a4-a58b-1dbe89522b89
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:46:41 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    354      0 --:--:-- --:--:-- --:--:--   354
+  </p></details>
+
+* **snowball.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: fb7c29f3-24e9-4279-88ec-28d2a184c3b9
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:46:40 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    355      0 --:--:-- --:--:-- --:--:--   354
+  </p></details>
+
+* **groundstation.us-east-1.amazonaws.com**:
+
+  🚨ERROR
+  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://groundstation.us-east-1.amazonaws.com/contact/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: groundstation.us-east-1.amazonaws.com" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: groundstation.us-east-1.amazonaws.com</p></details>
+
+* **catalog.marketplace.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: PATCH
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:46:42 GMT
+  x-amzn-RequestId: 71cbc1a6-c165-43a4-8abf-d49c06ac2126
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **medialive.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  content-type: application/json
+  content-length: 73
+  date: Thu, 01 Oct 2020 21:46:42 GMT
+  x-amzn-requestid: c7e1a61e-7a73-4a84-b987-75b4b7277164
+  x-amzn-errortype: ForbiddenException
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEqYHGvoAMFhfg=
+  x-cache: Error from cloudfront
+  via: 1.1 1bfde73e7d02732154f58c7e03609d09.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C2
+  x-amz-cf-id: TX1pHql5GCols-Dy-3NGwMLM07HBmotCSm61sECBjWFHJ2hbtiZo0g==
+  
+  {"message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    603      0 --:--:-- --:--:-- --:--:--   603
+  </p></details>
+
+* **mturk-requester.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 2b5b3b20-8143-4c64-a68d-89197f9578a0
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:42 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **lambda.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:43 GMT
+  content-length: 0
+  x-amzn-requestid: 9b656d9c-d9c5-495d-9737-a29468f4d19d
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date,x-amz-log-result,x-amz-function-error
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **codestar.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 9dffeaf5-387e-4fe2-8c1e-4fbe7bf964bd
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:43 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **iam.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 83848db9-db44-45a6-aa6c-ada116132409
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:43 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **appconfig.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:44 GMT
+  content-length: 127
+  x-amzn-requestid: f0ebb94d-a1ab-4877-beea-61e4da51f99c
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    363      0 --:--:-- --:--:-- --:--:--   363
+  </p></details>
+
+* **route53domains.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 571edd4c-84ef-45a8-8b64-d75da3d533b7
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:44 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **appstream2.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 2f7959a5-848a-44f6-85d3-f57d9b53a801
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:44 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **codeguru-profiler.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  content-type: application/json
+  content-length: 0
+  date: Thu, 01 Oct 2020 21:46:45 GMT
+  x-amzn-requestid: 53761898-96f6-493d-aa5c-a916c8d2435d
+  access-control-allow-origin: *
+  access-control-allow-headers: Authorization,Content-Type,Date,X-Amz-Content-Sha256,X-Amz-Date,X-Amz-Security-Token,X-Amz-Target,X-Amz-User-Agent
+  x-amz-apigw-id: TwEq5GCKIAMF_CA=
+  access-control-allow-methods: POST
+  x-amzn-trace-id: Root=1-5f764e45-313db0cc12a5f69ccca0e760
+  access-control-max-age: 600
+  x-cache: Miss from cloudfront
+  via: 1.1 56c69262ecfa7873b40572ba8a323243.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C1
+  x-amz-cf-id: JCCbwK7c8u7YlDnppdV3e5KlDRZqWuj4GBKvp_MEwM0m-KzMUzzuhw==
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **events.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 6b88bbe7-6a9f-49e3-8728-000f16dd693f
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:45 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **personalize.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:46:46 GMT
+  x-amzn-RequestId: e65197de-4491-47ce-a105-15ef85cdcd58
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **iotthingsgraph.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:46 GMT
+  content-length: 130
+  x-amzn-requestid: 8b290f88-2d91-4d37-9f22-5578602a61d3
+  
+  <AccessDeniedException>
+  <Message>Unable to determine service/operation name to be authorized</Message>
+  </AccessDeniedException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   130  100   130    0     0    339      0 --:--:-- --:--:-- --:--:--   338
+  </p></details>
+
+* **discovery.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  Date: Thu, 01 Oct 2020 21:46:46 GMT
+  x-amzn-RequestId: 6cf37964-f4e3-4403-90df-fa22b4a4ff44
+  Content-Length: 127
+  Connection: keep-alive
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    353      0 --:--:-- --:--:-- --:--:--   353
+  </p></details>
+
+* **servicecatalog.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 62f4e43d-a342-4950-b6ca-283afe24f94d
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:46 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **codestar-connections.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:48 GMT
+  content-length: 0
+  x-amzn-requestid: 0865f758-b712-455d-9372-eb8d3a133879
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **config.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: cf34619d-39a4-4ade-9277-7892ec4ec74e
+  Access-Control-Allow-Origin: *
+  Strict-Transport-Security: max-age=86400
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:47 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **quicksight.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:48 GMT
+  content-length: 127
+  x-amzn-requestid: 0e9aea34-c61f-436c-89ce-07d541438944
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    376      0 --:--:-- --:--:-- --:--:--   375
+  </p></details>
+
+* **elasticfilesystem.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 5f8d8373-1c5b-4356-bf06-a5e9f7b5f173
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:48 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **eks.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:49 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: dc0f2683-9759-40de-967f-9c0381703607
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwErhGSRIAMF6eg=
+  x-amzn-trace-id: Root=1-5f764e49-38da0bcb548fc65703772c6a
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    203      0 --:--:-- --:--:-- --:--:--   203
+  </p></details>
+
+* **sns.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 86d34f42-00aa-55bc-acf9-18b2502015fa
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:49 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **ec2-instance-connect.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: 3a3c17d8-38c4-44ef-bb37-2d0b1d0c6554
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:46:50 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    355      0 --:--:-- --:--:-- --:--:--   356
+  </p></details>
+
+* **elasticbeanstalk.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:46:50 GMT
+  x-amzn-RequestId: 7d2f2410-8013-4110-8137-8e1fa28925c2
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **access-analyzer.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:51 GMT
+  content-type: application/json
+  content-length: 0
+  x-amzn-requestid: e37d149d-7df0-4022-bd0e-3e0c6f4461d7
+  access-control-allow-origin: *
+  access-control-allow-headers: Authorization,Date,X-Amz-Date,X-Amz-Security-Token,X-Amz-Target
+  x-amz-apigw-id: TwErxFh0IAMF5SQ=
+  access-control-allow-methods: GET,PUT
+  x-amzn-trace-id: Root=1-5f764e4b-7b8ccf7603995c0c2c490c9f
+  access-control-max-age: 600
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **outposts.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:51 GMT
+  content-type: application/json
+  content-length: 0
+  x-amzn-requestid: a1eb9fa2-1817-4bc1-85af-a3375116c4bb
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
+  x-amz-apigw-id: TwEr1Et8oAMF14w=
+  access-control-allow-methods: POST,GET
+  x-amzn-trace-id: Root=1-5f764e4b-026c004556bcb9923996a4e3
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **worklink.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:52 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: df4cec31-9347-4a3c-b343-9ef64ccfd9bb
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEr5FYkoAMF8sQ=
+  x-amzn-trace-id: Root=1-5f764e4c-7d071b8410a480f46f3f878c
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    201      0 --:--:-- --:--:-- --:--:--   201
+  </p></details>
+
+* **monitoring.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 922d6137-27d8-46d1-ae9c-da30404a7fc2
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:51 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **backup.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  Date: Thu, 1 Oct 2020 21:46:52 GMT
+  x-amzn-RequestId: 87494879-195c-486e-97e1-bb8796c6fc2f
+  Content-Length: 127
+  Connection: keep-alive
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    314      0 --:--:-- --:--:-- --:--:--   313
+  </p></details>
+
+* **cloudtrail.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 8de62646-e7ee-4d73-be0b-4ca05dd4186a
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:52 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **portal.sso.us-east-1.amazonaws.com**:
+  400 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 400
+  date: Thu, 01 Oct 2020 21:46:53 GMT
+  content-type: application/json
+  content-length: 121
+  server: AWS SSO
+  
+  {"message":"Origin not allowed: https://foo.example","__type":"com.amazonaws.switchboard.portal#InvalidRequestException"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   121  100   121    0     0    339      0 --:--:-- --:--:-- --:--:--   339
+  </p></details>
+
+* **cur.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 49cc9cad-485c-4bd4-bcca-15954bb5ead1
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:53 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **devices.iot1click.us-east-1.amazonaws.com**:
+
+  🚨ERROR
+  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://devices.iot1click.us-east-1.amazonaws.com/claims/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: devices.iot1click.us-east-1.amazonaws.com" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: devices.iot1click.us-east-1.amazonaws.com</p></details>
+
+* **workspaces.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: f91b0728-2612-4dfd-836f-9ac157902e44
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:54 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **mq.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  content-type: application/json
+  content-length: 73
+  date: Thu, 01 Oct 2020 21:46:54 GMT
+  x-amzn-requestid: 0640bee3-4fed-4f71-aec6-89d577d94141
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEsTFIOIAMFeDQ=
+  x-amzn-trace-id: Root=1-5f764e4e-5da89a3331e68cd2200c81d8
+  x-cache: Error from cloudfront
+  via: 1.1 030fe0607711293dda988e571617a9f3.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C1
+  x-amz-cf-id: CTNi5kTp91vcv59mL4AxwdW5nd31Tb64hzy7cVIiCWSlw1dGG-1CgA==
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    548      0 --:--:-- --:--:-- --:--:--   548
+  </p></details>
+
+* **serverlessrepo.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:54 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: acf2983a-e481-48f4-8604-a318f55ac5f0
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEsWEIzoAMF8Zg=
+  x-amzn-trace-id: Root=1-5f764e4e-4b9ea34e5cdfd0cd3daaba57
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    202      0 --:--:-- --:--:-- --:--:--   201
+  </p></details>
+
+* **synthetics.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:55 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: 0a4d75f2-262e-49b3-aa59-e1dee23f3d3d
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEsbGkjoAMFx1Q=
+  x-amzn-trace-id: Root=1-5f764e4f-3811e4d10baa68a465df50f7
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    194      0 --:--:-- --:--:-- --:--:--   194
+  </p></details>
+
+* **mobile.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:46:55 GMT
+  x-amzn-RequestId: e32159bb-4ff3-4402-bd0c-a8b1887a748a
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **mediapackage-vod.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  content-type: application/json
+  content-length: 3
+  date: Thu, 01 Oct 2020 21:46:56 GMT
+  x-amzn-requestid: 13570a0c-c80b-494f-b348-2b121e9c3f27
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key
+  x-amz-apigw-id: TwEsiEE6oAMFqPw=
+  access-control-allow-methods: *
+  x-cache: Miss from cloudfront
+  via: 1.1 eece508272520f70691e4eebdc5a6dea.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C1
+  x-amz-cf-id: 9dougtW74EG2XyLWGR-jGDM-zKna6X7XDLca1j268OKebp5eSgZ52g==
+  
+  {}
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     3  100     3    0     0     10      0 --:--:-- --:--:-- --:--:--    10
+  </p></details>
+
+* **ce.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:56 GMT
+  content-length: 0
+  x-amzn-requestid: 97d23d63-c1fa-4800-86b1-0b35095d2faa
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **autoscaling-plans.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: ec121e80-f2f6-46ec-8e6c-c21441b66ae5
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:56 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **savingsplans.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:57 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: 04dd85da-b899-4d83-9013-83c0ab7761a1
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEstEqKoAMFr_Q=
+  x-amzn-trace-id: Root=1-5f764e51-21573a5c4cd6386f3c0b3205
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    207      0 --:--:-- --:--:-- --:--:--   207
+  </p></details>
+
+* **oidc.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:57 GMT
+  content-length: 25
+  x-amzn-requestid: 0a6d2e00-4523-43a5-8560-48001419a81a
+  
+  <AccessDeniedException/>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25  100    25    0     0     63      0 --:--:-- --:--:-- --:--:--    63
+  </p></details>
+
+* **elasticache.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 2923b764-579b-4675-af4c-61ae48ae3a07
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:57 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **cloudformation.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: b37ee83d-1c60-4dbe-bcc4-9fcb3b04cc4d
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:57 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **application-autoscaling.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: c6532439-abb5-4201-91e1-f2521a296e02
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:46:58 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **datasync.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:46:59 GMT
+  content-length: 127
+  x-amzn-requestid: b6b14530-d622-45f2-86a2-b90d08242eae
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    356      0 --:--:-- --:--:-- --:--:--   356
+  </p></details>
+
+* **signer.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:46:59 GMT
+  content-type: application/json
+  content-length: 0
+  x-amzn-requestid: 8c5399eb-8b3d-40ac-94dc-269e4d83af07
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
+  x-amz-apigw-id: TwEtFEs3oAMFujQ=
+  access-control-allow-methods: DELETE,GET,PUT
+  x-amzn-trace-id: Root=1-5f764e53-7ef9fbee36e3c79c74cce259
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **greengrass.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:47:00 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: c5eb26e3-90d4-4c6b-b0b6-602d56dcd4c0
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEtJEVdIAMFtAg=
+  x-amzn-trace-id: Root=1-5f764e54-1412492a13083d9418bb233d
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    207      0 --:--:-- --:--:-- --:--:--   207
+  </p></details>
+
+* **a2i-runtime.sagemaker.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:00 GMT
+  content-type: application/json
+  content-length: 2
+  x-amzn-requestid: ac843a10-e5ca-4f28-983f-df9cd954e8cb
+  access-control-allow-origin: *
+  access-control-allow-headers: Authorization,Content-Type,X-Amz-Content-Sha256,X-Amz-Date,X-Amz-Security-Token,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
+  x-amz-apigw-id: TwEtNHNwoAMF4jA=
+  access-control-allow-methods: GET,PUT,POST,DELETE,OPTIONS
+  x-amzn-trace-id: Root=1-5f764e54-7c2cf64e6fe7790d37779e4a
+  
+  {}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      5      0 --:--:-- --:--:-- --:--:--     5
+  </p></details>
+
+* **shield.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: e6476cb6-f8bd-439c-aa48-76045e9663d5
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:47:00 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    347      0 --:--:-- --:--:-- --:--:--   346
+  </p></details>
+
+* **dlm.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:47:01 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: 440fac4d-3dd3-43a4-bcb7-159a345f503c
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEtVFwpoAMFYmA=
+  x-amzn-trace-id: Root=1-5f764e55-342b1b4e426a39ce2ba4767e
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    202      0 --:--:-- --:--:-- --:--:--   202
+  </p></details>
+
+* **guardduty.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:47:01 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: 8a48cd18-21db-474a-b08a-0414e50228ef
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEtZFb0oAMF-Vw=
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    202      0 --:--:-- --:--:-- --:--:--   201
+  </p></details>
+
+* **sms-voice.pinpoint.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  content-type: application/json
+  content-length: 3
+  date: Thu, 01 Oct 2020 21:47:01 GMT
+  x-amzn-requestid: 3128588e-e634-4e13-ae81-38967a30b927
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Content-Sha256,X-Amz-User-Agent
+  x-amz-apigw-id: TwEtcHPvoAMFTkg=
+  access-control-allow-methods: GET,POST,PUT,DELETE,OPTIONS
+  x-cache: Miss from cloudfront
+  via: 1.1 802eebfb6e9ab6bda66a7156bc7add93.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C2
+  x-amz-cf-id: ajEDUGk39OtsHnKniDS9VF7bmfRi5TVMjQfW0Y7HVmqYWXd9bbT4hA==
+  
+  {}
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     3  100     3    0     0     10      0 --:--:-- --:--:-- --:--:--    10
+  </p></details>
+
+* **migrationhub-config.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:02 GMT
+  content-length: 0
+  x-amzn-requestid: 74a37d14-9e49-48bb-95bf-bac8aef4d89b
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **kafka.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  content-type: application/json
+  content-length: 73
+  date: Thu, 01 Oct 2020 21:47:02 GMT
+  x-amzn-requestid: c2bc149b-a5d6-4236-9b48-0142d89ddb87
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEtkEXOIAMF3yg=
+  x-amzn-trace-id: Root=1-5f764e56-ca8bd9a0fa66ebf017570de0
+  x-cache: Error from cloudfront
+  via: 1.1 95302b545c6afc8c720d42e23a5b7437.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C2
+  x-amz-cf-id: Ja8HkCec70go6Y_Ip0_FRwhq-9eL2jPyVWwSa_u8ezIIbtk7CpMFZw==
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    261      0 --:--:-- --:--:-- --:--:--   260
+  </p></details>
+
+* **cloudhsm.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: b217c99b-827f-4a94-8817-82c114087f58
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:02 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **schemas.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:47:03 GMT
+  content-type: application/json
+  content-length: 113
+  x-amzn-requestid: 35f1823d-987c-406c-9547-5e9dc42d7354
+  x-amzn-errortype: ForbiddenException
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEtsFUEoAMFa_Q=
+  x-amzn-trace-id: Root=1-5f764e57-33e494f4099ddd44632eef3e
+  
+  {
+  "Message":"Unable to determine service/operation name to be authorized",
+  "Code": "MethodNotAllowed"
+  }</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   113  100   113    0     0    315      0 --:--:-- --:--:-- --:--:--   315
+  </p></details>
+
+* **api.elastic-inference.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:03 GMT
+  content-type: application/json
+  content-length: 0
+  x-amzn-requestid: cb199638-68bc-4c46-b663-d2e4e3dfb939
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
+  x-amz-apigw-id: TwEtvHDYoAMFr6w=
+  access-control-allow-methods: POST
+  x-amzn-trace-id: Root=1-5f764e57-6ef6bd4f52a292da39d09584
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **mgh.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:47:04 GMT
+  x-amzn-RequestId: c6fd8be4-fa8e-4a18-a3fb-b0a89ffde444
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **datapipeline.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 6005e645-15b9-49e7-939e-ff1b40a1db81
+  Access-Control-Allow-Origin: https://foo.example
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Vary: Origin
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:04 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **glue.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:05 GMT
+  content-length: 0
+  x-amzn-requestid: d90306be-e75c-41c5-9db0-54cb172fe0fc
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **elasticmapreduce.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 3380b1b8-bd6b-415a-a4eb-6359f6aa9e4b
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:04 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **mediapackage.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  content-type: application/json
+  content-length: 73
+  date: Thu, 01 Oct 2020 21:47:05 GMT
+  x-amzn-requestid: 008ee49e-2efa-4306-bb44-94fb7fffaafb
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEuBGD6IAMFRhQ=
+  x-cache: Error from cloudfront
+  via: 1.1 e7b7c1bf4679a281bf65ea41c2939274.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C2
+  x-amz-cf-id: O7qkl9iw-5IP7GwvBgbcGWWQRsWc7dwkHqfL6qvKv44PyjjQw-1PAg==
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    608      0 --:--:-- --:--:-- --:--:--   603100    73  100    73    0     0    608      0 --:--:-- --:--:-- --:--:--   603
+  </p></details>
+
+* **ds.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 2bf93998-4fe3-43d3-884c-8ccb03db0f51
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:05 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **robomaker.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:47:06 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: a5c2dded-3873-4669-9314-223aac93d4b2
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEuMHecoAMFz8Q=
+  x-amzn-trace-id: Root=1-5f764e5a-25c8b6f43d44403b27f168b7
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    196      0 --:--:-- --:--:-- --:--:--   195
+  </p></details>
+
+* **appmesh.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-requestid: 4d462a01-195f-49a5-a36c-ac81b4cff020
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: PUT
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  content-length: 0
+  date: Thu, 01 Oct 2020 21:47:07 GMT
+  x-envoy-upstream-service-time: 0
+  server: envoy
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **apigateway.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:47:07 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: 90c059a0-97f6-439e-8858-793876a55c11
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEuVGgjoAMFtLQ=
+  x-amzn-trace-id: Root=1-5f764e5b-06fd85c12712cd96187d3f38
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    206      0 --:--:-- --:--:-- --:--:--   207
+  </p></details>
+
+* **sqs.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: a6d6ed33-e952-554b-ad0c-bac3b9ceca2a
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Date: Thu, 01 Oct 2020 21:47:08 GMT
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Type: null
+  Content-Length: 0
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **ssm.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Server: Server
+  Date: Thu, 01 Oct 2020 21:47:08 GMT
+  Content-Length: 0
+  Connection: keep-alive
+  x-amzn-RequestId: 23f0b63d-5bdf-47c3-8286-fa51b6bbed7b
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **mediastore.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  Date: Thu, 01 Oct 2020 21:47:08 GMT
+  x-amzn-RequestId: RZ7ZTBISONHHHRJSI4A2VGYEJYTE33JUUE2VOK55GU4ASCTXDZKVGMR3IAV3D4JGIONCITDBBEQ2BF6LDWU45CA
+  Content-Length: 127
+  Connection: keep-alive
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    367      0 --:--:-- --:--:-- --:--:--   365
+  </p></details>
+
+* **globalaccelerator.us-east-1.amazonaws.com**:
+
+  🚨ERROR
+  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://globalaccelerator.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: globalaccelerator.us-east-1.amazonaws.com" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: globalaccelerator.us-east-1.amazonaws.com</p></details>
+
+* **api.mediatailor.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  content-type: application/json
+  content-length: 73
+  date: Thu, 01 Oct 2020 21:47:09 GMT
+  x-amzn-requestid: e85ab452-3640-4574-89cf-70cef12b4a68
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEukG80IAMFRrg=
+  x-cache: Error from cloudfront
+  via: 1.1 000f4a2f631bace380a0afa747a82483.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C1
+  x-amz-cf-id: 6MSeE1Rtgmnr35_gYBOgqLMpREV5YxYnrChcR58T-qljIdG1C1aloA==
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    272      0 --:--:-- --:--:-- --:--:--   272
+  </p></details>
+
+* **swf.us-east-1.amazonaws.com**:
+  404 Not
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 404 Not Found
+  x-amzn-RequestId: ac378f91-d67f-4dc6-b609-5bda3b7184b4
+  Date: Thu, 1 Oct 2020 21:47:09 GMT
+  Content-Length: 29
+  
+  <UnknownOperationException/>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     84      0 --:--:-- --:--:-- --:--:--    84
+  </p></details>
+
+* **servicequotas.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:09 GMT
+  content-length: 0
+  x-amzn-requestid: cc50c2ab-8253-4815-bfc6-e872a366e158
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **elastictranscoder.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
+  x-amzn-RequestId: 814db2d3-1229-4b21-b55e-1972af6fcf4f
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: DELETE
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:09 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **forecastquery.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:47:09 GMT
+  x-amzn-RequestId: 44c9deca-9ef8-4e7d-b52c-7a401810790d
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **kinesis.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: e8f5da06-5dc4-979c-bf05-8a996db24923
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amz-request-id,x-amz-id-2,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 1 Oct 2020 21:47:11 GMT
+  Content-Length: 0
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **rds-data.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: c46307e2-655e-48b2-a347-c80801f2b8c0
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:47:10 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    360      0 --:--:-- --:--:-- --:--:--   360
+  </p></details>
+
+* **ebs.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: 1fbbeb15-5038-420f-b8ad-cfb1062a782f
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:47:10 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    356      0 --:--:-- --:--:-- --:--:--   355
+  </p></details>
+
+* **forecast.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:47:12 GMT
+  x-amzn-RequestId: 32900183-1fec-4afc-b30f-1a9470d90c34
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **translate.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 3267f933-a040-4f0c-b8e5-683d6234219f
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:12 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **clouddirectory.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 24205b6b-7c0f-4fbf-88ab-8bfd5f0817f3
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,x-amz-data-partition,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Date: Thu, 01 Oct 2020 21:47:12 GMT
+  x-amzn-RequestId: 24205b6b-7c0f-4fbf-88ab-8bfd5f0817f3
+  Access-Control-Allow-Methods: PUT
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **projects.iot1click.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:13 GMT
+  content-type: application/json
+  content-length: 0
+  x-amzn-requestid: 01d4755d-997f-4840-bfbc-a3e1f427c6f4
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
+  x-amz-apigw-id: TwEvPFmQoAMFYgA=
+  access-control-allow-methods: PUT,DELETE
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **session.qldb.us-east-1.amazonaws.com**:
+  500 Internal
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 500 Internal Server Error
+  x-amzn-RequestId: 7NmEKDVO5EmLmWgqhVUIsg
+  Date: Thu, 1 Oct 2020 21:47:13 GMT
+  Content-Length: 19
+  
+  <InternalFailure/>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    19  100    19    0     0     53      0 --:--:-- --:--:-- --:--:--    53
+  </p></details>
+
+* **email.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: e18d6029-9fcd-46ea-8c91-1480f0d9f118
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:13 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **kinesisvideo.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 2dcdec32-671e-4486-9c62-813a0d8e33a2
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:14 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **ecs.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
+  x-amzn-RequestId: 1e6eeba6-8d93-4de6-8f7d-ccde6169c6fd
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:14 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **codeguru-reviewer.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:15 GMT
+  content-type: application/json
+  content-length: 0
+  x-amzn-requestid: aa10d827-f0c7-456b-b1e7-768c96af1953
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
+  x-amz-apigw-id: TwEvjElioAMFteA=
+  access-control-allow-methods: POST,GET
+  x-amzn-trace-id: Root=1-5f764e63-1b29de866cf51f1e479ce651
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **route53.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: bc924f71-ebab-4af4-9dad-f5cd51507ec6
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:15 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **s3.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amz-request-id: 8M2QFZAKAGCK5KCW
+  x-amz-id-2: ko6l9Ii6SP4wad/MpYr4wmYuMa1S/Rg4pyqU+K4A5neyhanIIwb8xLbjiDAVcg4cDlUaaxZtCq8=
+  Content-Type: application/xml
+  Transfer-Encoding: chunked
+  Date: Thu, 01 Oct 2020 21:47:16 GMT
+  Server: AmazonS3
+  
+  <?xml version="1.0" encoding="UTF-8"?>
+  <Error><Code>AccessForbidden</Code><Message>CORSResponse: Bucket not found</Message><Method>DELETE</Method><ResourceType>BUCKET</ResourceType><RequestId>8M2QFZAKAGCK5KCW</RequestId><HostId>ko6l9Ii6SP4wad/MpYr4wmYuMa1S/Rg4pyqU+K4A5neyhanIIwb8xLbjiDAVcg4cDlUaaxZtCq8=</HostId></Error></p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   321    0   321    0     0    938      0 --:--:-- --:--:-- --:--:--   938
+  </p></details>
+
+* **waf-regional.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: fcf5a5fd-0ca0-4339-a88f-2e865c5946e2
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:15 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **codecommit.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
+  x-amzn-RequestId: 92f38eaa-384d-4b40-8e08-d1d9cdc57624
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:16 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **personalize-runtime.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 01 Oct 2020 21:47:16 GMT
+  x-amzn-RequestId: 9d324956-033b-4704-b60a-d476486cb3ff
+  Content-Length: 0
+  Connection: keep-alive
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **appsync.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  content-type: application/json
+  content-length: 23
+  date: Thu, 01 Oct 2020 21:47:17 GMT
+  x-amzn-requestid: 472f9498-30d3-4875-9947-a706eef3041a
+  x-amzn-errortype: ForbiddenException
+  x-amz-apigw-id: TwEv5G-6oAMF83w=
+  x-cache: Error from cloudfront
+  via: 1.1 1b0911478686968732f973d6e5e31d11.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C1
+  x-amz-cf-id: qPPw0xikwm-uG-G9rKLW3JiU_PMBpbGVBJ_K_nWFyRYI7bdGs-p2lg==
+  
+  {"message":"Forbidden"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    23  100    23    0     0    178      0 --:--:-- --:--:-- --:--:--   176100    23  100    23    0     0    178      0 --:--:-- --:--:-- --:--:--   176
+  </p></details>
+
+* **support.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: 6bdbade8-6c06-49bd-a7f1-7d685f9a3941
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:47:18 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    358      0 --:--:-- --:--:-- --:--:--   358
+  </p></details>
+
+* **acm.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
+  x-amzn-RequestId: 6c2c100a-c590-4ebc-8ce6-0e583a92ddba
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:17 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **lakeformation.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:18 GMT
+  content-length: 0
+  x-amzn-requestid: 73691472-0770-4237-ab09-e75d26946ace
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **metering.marketplace.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: a8269705-e0f9-486d-85c7-8a8153992c7e
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:47:18 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    359      0 --:--:-- --:--:-- --:--:--   359
+  </p></details>
+
+* **macie.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:47:19 GMT
+  content-length: 127
+  x-amzn-requestid: 06c304c1-7b65-4594-8c40-361aa7c86e83
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    362      0 --:--:-- --:--:-- --:--:--   362
+  </p></details>
+
+* **cognito-idp.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:20 GMT
+  content-length: 0
+  x-amzn-requestid: e16d7490-cff3-4dbf-af3e-102f779dc6aa
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **streams.dynamodb.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: E6D1PS3EPG4GVICCMGNPMG3DNFVV4KQNSO5AEMVJF66Q9ASUAAJG
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:20 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **ec2.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Access-Control-Allow-Origin: *
+  Access-Control-Max-Age: 1800
+  Access-Control-Allow-Methods: POST
+  Access-Control-Allow-Headers: content-type,user-agent,content-length,host,authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:20 GMT
+  Server: AmazonEC2
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **polly.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 816a659f-6269-4217-a785-ae037ff34e14
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: DELETE
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:21 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **api.detective.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  Content-Type: application/json
+  Content-Length: 73
+  Connection: keep-alive
+  Date: Thu, 01 Oct 2020 21:47:21 GMT
+  x-amzn-RequestId: c3b5d9ba-1cc7-45a2-b58e-405511e05261
+  x-amzn-ErrorType: AccessDeniedException
+  x-amz-apigw-id: TwEwjEdeIAMFs5w=
+  X-Amzn-Trace-Id: Root=1-5f764e69-1c8d79023c960ad846193125
+  X-Cache: Error from cloudfront
+  Via: 1.1 0aebf3fe433ff96e68d785fad4ea4c0f.cloudfront.net (CloudFront)
+  X-Amz-Cf-Pop: HIO50-C1
+  X-Amz-Cf-Id: i-peXVRYIYgRa-svIMEMVip1wMUX-t2aBLCrF-MCPNSX0qbGZeYlzQ==
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    236      0 --:--:-- --:--:-- --:--:--   235
+  </p></details>
+
+* **sms.us-east-1.amazonaws.com**:
+  403 Forbidden
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: 0569dbd1-619e-4d1f-bcb5-439e8d70c71a
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:47:21 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    360      0 --:--:-- --:--:-- --:--:--   360
+  </p></details>
+
+* **xray.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:22 GMT
+  content-length: 0
+  x-amzn-requestid: 08e25252-793d-4c8b-a12e-6b638bc3b2bb
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -5130,6 +4449,349 @@
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **networkmanager.us-east-1.amazonaws.com**:
+
+  🚨ERROR
+  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://networkmanager.us-east-1.amazonaws.com/global-networks/stringValue/customer-gateway-associations -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: networkmanager.us-east-1.amazonaws.com" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: networkmanager.us-east-1.amazonaws.com</p></details>
+
+* **kms.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 535701b8-ada4-414e-8678-3161d23e1ae3
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Cache-Control: no-cache, no-store, must-revalidate, private
+  Expires: 0
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Pragma: no-cache
+  Access-Control-Max-Age: 172800
+  Date: Thu, 1 Oct 2020 21:47:23 GMT
+  Content-Length: 0
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **batch.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:47:23 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: 833ebcf1-b162-4007-9f5b-17894a4d986a
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwEwzELMIAMFpRA=
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    196      0 --:--:-- --:--:-- --:--:--   196
+  </p></details>
+
+* **cloudfront.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: d8ab068d-9dd2-4388-bf80-85ca55a5a62d
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:23 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **workdocs.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 78236be4-4ea8-42df-b2e6-88848d8cd1b9
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Cache-Control: private, no-cache, no-store, max-age=0
+  Access-Control-Allow-Methods: DELETE
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Server-ResponseTime-Millis: 0
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:24 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **budgets.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:24 GMT
+  content-length: 0
+  x-amzn-requestid: 55d13951-5320-4670-bde5-d503f63f8b8a
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **elasticloadbalancing.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 510cb8bb-909f-4184-a011-9315d34be71a
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:24 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **api.pricing.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: c837277f-41f4-434b-821d-f2556c244c02
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:25 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **comprehend.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: c7f336a0-afc4-4f13-880f-96d0948824c7
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:25 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **machinelearning.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: b45c1ddb-82e6-4cbf-9b8d-428ee993b316
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:25 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **fms.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403
+  x-amzn-RequestId: becc94c8-b35f-4119-ba16-fd45de08af8f
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:47:26 GMT
+  
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    354      0 --:--:-- --:--:-- --:--:--   353
+  </p></details>
+
+* **textract.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 78a55a11-1048-4503-8041-170d30feb250
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:26 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **secretsmanager.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:27 GMT
+  content-length: 0
+  x-amzn-requestid: 02cd463e-17b4-4526-b08d-e127b4804253
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **codedeploy.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: e0215712-aa98-4127-8036-379a409d308b
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 1 Oct 2020 21:47:27 GMT
+  Content-Length: 0
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **securityhub.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:47:28 GMT
+  content-type: application/json
+  content-length: 73
+  x-amzn-requestid: cac9b3db-08e9-45ec-a589-5601a356d75b
+  x-amzn-errortype: AccessDeniedException
+  x-amz-apigw-id: TwExkG9yIAMFRPQ=
+  
+  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    199      0 --:--:-- --:--:-- --:--:--   199
   </p></details>
 
 * **ivs.us-east-1.amazonaws.com**:
@@ -5142,17 +4804,61 @@
   <details><summary>expand stdout</summary><p>  HTTP/2 200
   content-type: application/json
   content-length: 0
-  date: Fri, 18 Sep 2020 18:06:01 GMT
-  x-amzn-requestid: aa503fdb-3e9f-4c13-94eb-abd46ae01ee2
+  date: Thu, 01 Oct 2020 21:47:28 GMT
+  x-amzn-requestid: 45fcac33-6eef-4548-923e-c6e4297e235b
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: TEuJhF-9IAMF58g=
+  x-amz-apigw-id: TwExnH3WoAMFc2Q=
   access-control-allow-methods: POST
-  x-amzn-trace-id: Root=1-5f64f709-131161862b0444aa5a25941c
+  x-amzn-trace-id: Root=1-5f764e70-49f407d67c7005f816c1179f
   x-cache: Miss from cloudfront
-  via: 1.1 ec2a2c75c16156e4d43504606c118b91.cloudfront.net (CloudFront)
-  x-amz-cf-pop: SEA19-C1
-  x-amz-cf-id: Rq2xMDHg4NhdFIuwStWFWiIlatjHt6ZPgo82O3uxSgpecmKLDjaqBg==
+  via: 1.1 9b311162717b41c968f6f00426d88aaa.cloudfront.net (CloudFront)
+  x-amz-cf-pop: HIO50-C1
+  x-amz-cf-id: Br9--dSKROTC0CJfwLpQIOHxm_sNH82Jf0W3HvBykM7fMaY4DaTfBw==
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **states.us-east-1.amazonaws.com**:
+  404 Not
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 404 Not Found
+  x-amzn-RequestId: 722bbbde-6552-4986-9506-a3f4abaa0706
+  Content-Type: null
+  Content-Length: 29
+  
+  <UnknownOperationException/>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     85      0 --:--:-- --:--:-- --:--:--    85
+  </p></details>
+
+* **directconnect.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 1a0d4246-9a7c-4546-879c-c81d29c3fca3
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:28 GMT
   
   </p></details>
 
@@ -5161,52 +4867,101 @@
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **macie2.us-east-1.amazonaws.com**:
-  403 
+* **license-manager.us-east-1.amazonaws.com**:
+  403 Forbidden
 
   ❌ **CORS**
 
   ❌ **Retry Headers**
 
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:06:01 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: 3e5b9e38-da48-48b7-9fb1-b3f20efc052c
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuJkFOKIAMF-sg=
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 403 Forbidden
+  x-amzn-RequestId: f4428b88-6f67-4eed-864d-7cda72effe6f
+  Content-Length: 127
+  Date: Thu, 01 Oct 2020 21:47:29 GMT
   
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+  <MissingAuthenticationTokenException>
+  <Message>Missing Authentication Token</Message>
+  </MissingAuthenticationTokenException>
+  </p></details>
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    238      0 --:--:-- --:--:-- --:--:--   237
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    353      0 --:--:-- --:--:-- --:--:--   352
   </p></details>
 
-* **synthetics.us-east-1.amazonaws.com**:
-  403 
+* **api.ecr.us-east-1.amazonaws.com**:
+  200 OK
 
-  ❌ **CORS**
+  ✅ **CORS**
 
-  ❌ **Retry Headers**
+  ✅ **Retry Headers**
 
-  <details><summary>expand stdout</summary><p>  HTTP/2 403
-  date: Fri, 18 Sep 2020 18:06:02 GMT
-  content-type: application/json
-  content-length: 73
-  x-amzn-requestid: 7a41a13f-6313-4133-a6af-8f52c01e918e
-  x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: TEuJoEq9oAMFjYg=
-  x-amzn-trace-id: Root=1-5f64f70a-c1833cfec9fb13dd869d796d
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 2294d9ac-bac0-4044-bb24-62b86db50b87
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Thu, 1 Oct 2020 21:47:30 GMT
+  Content-Length: 0
   
-  {"Message":"Unable to determine service/operation name to be authorized"}</p></details>
+  </p></details>
 
   <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    217      0 --:--:-- --:--:-- --:--:--   217
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   </p></details>
 
-* **braket.us-east-1.amazonaws.com**:
+* **data.jobs.iot.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: c45ae957-0bef-430d-9d78-4ae9b84dec83
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: GET
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:30 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **rds.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 00213e37-4cb9-4fe9-93e3-ceb803e1db3b
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:30 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **fsx.us-east-1.amazonaws.com**:
   200 
 
   ✅ **CORS**
@@ -5214,16 +4969,264 @@
   ✅ **Retry Headers**
 
   <details><summary>expand stdout</summary><p>  HTTP/2 200
-  date: Fri, 18 Sep 2020 18:06:02 GMT
+  date: Thu, 01 Oct 2020 21:47:31 GMT
+  content-length: 0
+  x-amzn-requestid: bba01482-c868-4241-ac7a-53f3b863c347
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **api.tunneling.iot.us-east-1.amazonaws.com**:
+  403 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 403
+  date: Thu, 01 Oct 2020 21:47:31 GMT
+  content-length: 25
+  x-amzn-requestid: 8c7958d1-9679-4911-ad35-20a468a24fd7
+  
+  <AccessDeniedException/>
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25  100    25    0     0     66      0 --:--:-- --:--:-- --:--:--    66
+  </p></details>
+
+* **opsworks-cm.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 0547f6f5-d15d-41f1-884d-b707328b90f4
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:31 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **resource-groups.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:32 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: 0912f53e-7a9b-4106-8525-dc16c644f152
+  x-amzn-requestid: ea7f14ff-b186-4487-bb2f-435e3e9432b7
   access-control-allow-origin: *
-  access-control-allow-headers: *,Authorization,Date,X-Amz-Date,X-Amz-Security-Token,X-Amz-Target,content-type,x-amz-content-sha256,x-amz-user-agent,x-amzn-platform-id,x-amzn-trace-id
-  x-amz-apigw-id: TEuJrErRoAMFoLQ=
-  access-control-allow-methods: PUT
-  x-amzn-trace-id: Root=1-5f64f70a-81b7bcf6a804e704e8928b90
-  access-control-max-age: 600
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
+  x-amz-apigw-id: TwEyOGItIAMFpXQ=
+  access-control-allow-methods: POST,GET
+  x-amzn-trace-id: Root=1-5f764e74-6286b26c6ff22bae32dd92ef
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **execute-api.us-east-1.amazonaws.com**:
+
+  🚨ERROR
+  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://execute-api.us-east-1.amazonaws.com/@connections/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: execute-api.us-east-1.amazonaws.com" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: execute-api.us-east-1.amazonaws.com</p></details>
+
+* **email.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 616df674-f1fc-415d-b3e5-20c3666d3a70
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:32 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **dynamodb.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  Server: Server
+  Date: Thu, 01 Oct 2020 21:47:33 GMT
+  Content-Length: 0
+  Connection: keep-alive
+  x-amzn-RequestId: 9I492E5R6RJECMJ6DNKVI9QCRRVV4KQNSO5AEMVJF66Q9ASUAAJG
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **kinesisvideo.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 44146e4c-2f2f-4eb7-bc9d-5e816e67d93d
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:33 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **cloudsearchdomain.us-east-1.amazonaws.com**:
+
+  🚨ERROR
+  <details><summary>expand error</summary><p>Command failed: curl --insecure -i -X OPTIONS https://cloudsearchdomain.us-east-1.amazonaws.com/2013-01-01/search -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: GET" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: cloudsearchdomain.us-east-1.amazonaws.com" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: cloudsearchdomain.us-east-1.amazonaws.com</p></details>
+
+* **a4b.us-east-1.amazonaws.com**:
+  200 
+
+  ❌ **CORS**
+
+  ❌ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  allow: OPTIONS, POST
+  content-length: 0
+  date: Thu, 01 Oct 2020 21:47:34 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **sts.us-east-1.amazonaws.com**:
+  200 OK
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200 OK
+  x-amzn-RequestId: 63b7da8e-f6c6-4380-a0c8-f768bd860497
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:33 GMT
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **cognito-sync.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/2 200
+  date: Thu, 01 Oct 2020 21:47:35 GMT
+  content-length: 0
+  x-amzn-requestid: 3ea2745b-0fee-47e1-8d68-f13ebaf3c0b9
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  </p></details>
+
+  <details><summary>expand stderr</summary><p>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  </p></details>
+
+* **marketplacecommerceanalytics.us-east-1.amazonaws.com**:
+  200 
+
+  ✅ **CORS**
+
+  ✅ **Retry Headers**
+
+  <details><summary>expand stdout</summary><p>  HTTP/1.1 200
+  x-amzn-RequestId: 4aae693e-dafa-4ff4-b1a6-f1b2bc55f8e7
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Thu, 01 Oct 2020 21:47:35 GMT
   
   </p></details>
 
