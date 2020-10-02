@@ -183,11 +183,19 @@ const makeOptionsRequest = async (httpRequest) => {
 
 const run = async () => {
   const C2JModels = await loadC2JModels();
-  const dir = await fs.promises.opendir(path.join(v3dir, clientsDir));
-  for await (const clientDir of dir) {
+  const clientsDirPath = path.join(v3dir, clientsDir);
+  const dir = await fs.promises.readdir(clientsDirPath, {
+    withFileTypes: true,
+  });
+  for (const clientDir of dir) {
     if (!clientDir.isDirectory()) continue;
     if (clientDir.name === "client-transcribe-streaming") continue; // transcribe streaming is not supported in v2
-    const servicePath = path.join(dir.path, clientDir.name, "dist", "cjs");
+    const servicePath = path.join(
+      clientsDirPath,
+      clientDir.name,
+      "dist",
+      "cjs"
+    );
     const clientFileName = fs
       .readdirSync(servicePath)
       .filter((name) => /(.+)Client.js$/.test)[0];
