@@ -137,47 +137,43 @@ const makeOptionsRequest = async (httpRequest) => {
     const { status, statusMessage, headers: respHeaders } = parseCurlResponse(
       stdout
     );
-    // console.log(respHeaders);
-    console.log(`  ${status} ${statusMessage}\n`);
-    console.log(
-      `  ${
-        respHeaders["access-control-allow-origin"]
-          ? `✅ **CORS**`
-          : `❌ **CORS**`
-      }\n`
-    );
+
     const allowHeaders = respHeaders["access-control-allow-headers"]?.split(
       ","
     );
-    console.log(
-      `  ${
+    console.log(`
+    <tr>
+      <td><strong>${httpRequest.hostname}</strong></td>
+      <td>${status} ${statusMessage}</td>
+      <td>${respHeaders["access-control-allow-origin"] ? "✅ " : "❌"}</td>
+      <td>${
         allowHeaders?.includes("*") ||
         allowHeaders?.includes("amz-sdk-invocation-id")
-          ? "✅ **Retry Headers**"
-          : "❌ **Retry Headers**"
-      }\n`
-    );
-    console.log(
-      `  <details><summary>expand stdout</summary><p>${stdout
-        .split("\n")
-        .map((line) => `  ${line.trim()}`)
-        .filter((line) => line !== "")
-        .join("\n")}</p></details>\n`
-    );
-    if (stderr) {
-      console.log(
-        `  <details><summary>expand stderr</summary><p>${stderr
-          .split("\n")
-          .map((line) => `  ${line.trim()}`)
-          .filter((line) => line !== "")
-          .join("\n")}</p></details>\n`
-      );
-    }
+          ? "✅ "
+          : "❌ "
+      }</td>
+    </tr>`);
+    // console.log(
+    //   `  <details>\n  <summary>expand stdout</summary>\n\n\  \`\`console\n${stdout
+    //     .split("\n")
+    //     .map((line) => `  ${line.trim()}`)
+    //     .filter((line) => line !== "")
+    //     .join("\n")}\n\`\`\`\n\n</details>\n`
+    // );
+    // if (stderr) {
+    //   console.log(
+    //     `  <details>\n<summary>expand stderr</summary>\n\n\`\`\`console\nconsole${stderr
+    //       .split("\n")
+    //       .map((line) => `  ${line.trim()}`)
+    //       .filter((line) => line !== "")
+    //       .join("\n")}\n\`\`\`\n\n</details>\n`
+    //   );
+    // }
   } catch (e) {
-    console.log("\n  🚨ERROR");
-    console.log(
-      `  <details><summary>expand error</summary><p>${e.message.trim()}</p></details>\n`
-    );
+    // console.log("\n  🚨ERROR");
+    // console.log(
+    //   `  <details><summary>expand error</summary><p>${e.message.trim()}</p></details>\n`
+    // );
   }
 };
 
@@ -187,6 +183,16 @@ const run = async () => {
   const dir = await fs.promises.readdir(clientsDirPath, {
     withFileTypes: true,
   });
+  console.log(`<table>
+  <thead>
+    <tr>
+      <th>Service Endpoint</th>
+      <th>HTTP Response</th>
+      <th>CORS</th>
+      <th>Retry Header</th>
+    </tr>
+  </thead>
+  <tbody>`);
   for (const clientDir of dir) {
     if (!clientDir.isDirectory()) continue;
     if (clientDir.name === "client-transcribe-streaming") continue; // transcribe streaming is not supported in v2
@@ -226,10 +232,9 @@ const run = async () => {
     const command = new (require(commandPath)[commandName])(fakeParames);
 
     const request = await createRequest(client, command);
-    console.log(`* **${request.hostname}**:`);
     await makeOptionsRequest(request);
   }
-  console.log("execution complete");
+  console.log(`  </tbody>\n</table>`);
 };
 
 run();
