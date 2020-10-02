@@ -156,6 +156,9 @@ const makeOptionsRequest = async (httpRequest) => {
     console.log(`    <tr>
       <td colspan="4">\n<details><summary>Details</summary>`);
     console.log(
+      `\n<strong>cmd</strong>\n<pre>\n<code>\n${cmd}\n</code>\n</pre>\n`
+    );
+    console.log(
       `\n<strong>stdout</strong>\n<pre>\n<code>\n${stdout
         .split("\n")
         .map((line) => `  ${line.trim()}`)
