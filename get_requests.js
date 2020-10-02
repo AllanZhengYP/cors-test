@@ -141,8 +141,7 @@ const makeOptionsRequest = async (httpRequest) => {
     const allowHeaders = respHeaders["access-control-allow-headers"]?.split(
       ","
     );
-    console.log(`
-    <tr>
+    console.log(`    <tr>
       <td><strong>${httpRequest.hostname}</strong></td>
       <td>${status} ${statusMessage}</td>
       <td>${respHeaders["access-control-allow-origin"] ? "✅ " : "❌"}</td>
@@ -153,27 +152,31 @@ const makeOptionsRequest = async (httpRequest) => {
           : "❌ "
       }</td>
     </tr>`);
-    // console.log(
-    //   `  <details>\n  <summary>expand stdout</summary>\n\n\  \`\`console\n${stdout
-    //     .split("\n")
-    //     .map((line) => `  ${line.trim()}`)
-    //     .filter((line) => line !== "")
-    //     .join("\n")}\n\`\`\`\n\n</details>\n`
-    // );
-    // if (stderr) {
-    //   console.log(
-    //     `  <details>\n<summary>expand stderr</summary>\n\n\`\`\`console\nconsole${stderr
-    //       .split("\n")
-    //       .map((line) => `  ${line.trim()}`)
-    //       .filter((line) => line !== "")
-    //       .join("\n")}\n\`\`\`\n\n</details>\n`
-    //   );
-    // }
+
+    console.log(`    <tr>
+      <td colspan="4">\n<details><summary>Details</summary>`);
+    console.log(
+      `\n<strong>stdout</strong>\n\n\`\`\`console\n${stdout
+        .split("\n")
+        .map((line) => `  ${line.trim()}`)
+        .filter((line) => line !== "")
+        .join("\n")}\n\`\`\`\n`
+    );
+    if (stderr) {
+      console.log(
+        `\n<strong>stderr</strong>\n\n\`\`\`console\n${stderr
+          .split("\n")
+          .map((line) => `  ${line.trim()}`)
+          .filter((line) => line !== "")
+          .join("\n")}\n\`\`\`\n`
+      );
+    }
+    console.log(`</details>\n      </td>\n    </tr>`);
   } catch (e) {
-    // console.log("\n  🚨ERROR");
-    // console.log(
-    //   `  <details><summary>expand error</summary><p>${e.message.trim()}</p></details>\n`
-    // );
+    console.log("\n  🚨ERROR");
+    console.log(
+      `  <details><summary>expand error</summary><p>${e.message.trim()}</p></details>\n`
+    );
   }
 };
 
