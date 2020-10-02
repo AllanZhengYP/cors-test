@@ -173,10 +173,16 @@ const makeOptionsRequest = async (httpRequest) => {
     }
     console.log(`</details>\n      </td>\n    </tr>`);
   } catch (e) {
-    console.log("\n  🚨ERROR");
+    console.log(`    <tr>
+      <td><strong>${httpRequest.hostname}</strong></td>
+      <td colspan="3">🚨 ERROR</td>
+    </tr>`);
+    console.log(`    <tr>
+      <td colspan="4">\n<details><summary>Details</summary>`);
     console.log(
-      `  <details><summary>expand error</summary><p>${e.message.trim()}</p></details>\n`
+      `\n<strong>Error</strong>\n\n\`\`\`console\n${e.message.trim()}\n\`\`\`\n`
     );
+    console.log(`</details>\n      </td>\n    </tr>`);
   }
 };
 
