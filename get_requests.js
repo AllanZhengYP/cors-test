@@ -156,19 +156,19 @@ const makeOptionsRequest = async (httpRequest) => {
     console.log(`    <tr>
       <td colspan="4">\n<details><summary>Details</summary>`);
     console.log(
-      `\n<strong>stdout</strong>\n\n\`\`\`console\n${stdout
+      `\n<strong>stdout</strong>\n<pre>\n<code>\n${stdout
         .split("\n")
         .map((line) => `  ${line.trim()}`)
         .filter((line) => line !== "")
-        .join("\n")}\n\`\`\`\n`
+        .join("\n")}\n</code>\n</pre>\n`
     );
     if (stderr) {
       console.log(
-        `\n<strong>stderr</strong>\n\n\`\`\`console\n${stderr
+        `\n<strong>stderr</strong>\n<pre>\n<code>\n${stderr
           .split("\n")
           .map((line) => `  ${line.trim()}`)
           .filter((line) => line !== "")
-          .join("\n")}\n\`\`\`\n`
+          .join("\n")}\n</code>\n</pre>\n`
       );
     }
     console.log(`</details>\n      </td>\n    </tr>`);
@@ -180,7 +180,7 @@ const makeOptionsRequest = async (httpRequest) => {
     console.log(`    <tr>
       <td colspan="4">\n<details><summary>Details</summary>`);
     console.log(
-      `\n<strong>Error</strong>\n\n\`\`\`console\n${e.message.trim()}\n\`\`\`\n`
+      `\n<strong>Error</strong>\n<pre>\n<code>\n${e.message.trim()}\n</code>\n</pre>\n`
     );
     console.log(`</details>\n      </td>\n    </tr>`);
   }
