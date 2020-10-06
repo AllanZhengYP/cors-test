@@ -13,7 +13,7 @@ process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 
 const { v3dir } = yargs
   .string("v3dir")
-  .required("v3dir")
+  .demandOption("v3dir")
   .describe(
     "v3dir",
     "Path to a checked out v3 SDK repo(https://github.com/aws/aws-sdk-js-v3.git). " +
