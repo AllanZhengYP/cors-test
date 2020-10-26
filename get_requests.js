@@ -88,7 +88,7 @@ const getFakeParams = (inputShape, shapes) => {
   if (inputShape.type === "list") {
     return [getFakeParams(inputShape.member, shapes)];
   }
-  return "stringValue";
+  return "stringvalue";
 };
 
 const parseCurlResponse = (stdout) => {
