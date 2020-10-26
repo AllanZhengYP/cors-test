@@ -30,15 +30,15 @@ curl --insecure -i -X OPTIONS https://access-analyzer.us-east-1.amazonaws.com/an
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:31 GMT
+  date: Mon, 26 Oct 2020 21:52:28 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: 4ece69f4-b200-4cd6-955d-c8ce6ddc1ecd
+  x-amzn-requestid: cd83b589-88e4-4218-ba47-d658a1d440d2
   access-control-allow-origin: *
   access-control-allow-headers: Authorization,Date,X-Amz-Date,X-Amz-Security-Token,X-Amz-Target,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxPx1GTEIAMFkcA=
+  x-amz-apigw-id: VCe8bGbMIAMFfmA=
   access-control-allow-methods: GET,PUT
-  x-amzn-trace-id: Root=1-5f90600b-2a86dacc0ff0e353279e0086
+  x-amzn-trace-id: Root=1-5f97451c-3a7aae5f3ded91947538df68
   access-control-max-age: 600
   
   
@@ -81,14 +81,14 @@ curl --insecure -i -X OPTIONS https://acm.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200
-  x-amzn-RequestId: 20446a66-5415-402b-9de2-912709042279
+  x-amzn-RequestId: 537aabdd-5c1c-4001-a749-1231e96a263f
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:31 GMT
+  Date: Mon, 26 Oct 2020 21:52:27 GMT
   
   
 </code>
@@ -100,7 +100,7 @@ curl --insecure -i -X OPTIONS https://acm.us-east-1.amazonaws.com/ -H "User-Agen
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -130,9 +130,9 @@ curl --insecure -i -X OPTIONS https://acm-pca.us-east-1.amazonaws.com/ -H "User-
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:21:32 GMT
+  date: Mon, 26 Oct 2020 21:52:28 GMT
   content-length: 127
-  x-amzn-requestid: e316e3db-8950-40d9-bfcd-325b10595e29
+  x-amzn-requestid: f36149e6-3561-43ab-87e4-dbc7046d3935
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -147,7 +147,7 @@ curl --insecure -i -X OPTIONS https://acm-pca.us-east-1.amazonaws.com/ -H "User-
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    465      0 --:--:-- --:--:-- --:--:--   465
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    429      0 --:--:-- --:--:-- --:--:--   427
   
 </code>
 </pre>
@@ -179,7 +179,7 @@ curl --insecure -i -X OPTIONS https://a4b.us-east-1.amazonaws.com/ -H "User-Agen
   HTTP/2 200
   allow: OPTIONS, POST
   content-length: 0
-  date: Wed, 21 Oct 2020 16:21:32 GMT
+  date: Mon, 26 Oct 2020 21:52:29 GMT
   
   
 </code>
@@ -223,14 +223,14 @@ curl --insecure -i -X OPTIONS https://amplify.us-east-1.amazonaws.com/apps -H "U
   HTTP/2 403
   content-type: application/json
   content-length: 73
-  date: Wed, 21 Oct 2020 16:21:32 GMT
-  x-amzn-requestid: 2db32477-62a6-4457-b7d5-8e8c1b935479
+  date: Mon, 26 Oct 2020 21:52:29 GMT
+  x-amzn-requestid: c6603c30-e3e9-47e9-941a-9728b7c4737d
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxPyCE8NoAMFxBw=
+  x-amz-apigw-id: VCe8pHRRoAMFUkg=
   x-cache: Error from cloudfront
-  via: 1.1 c1c7bd66e338154bf556b9c8414debe9.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C2
-  x-amz-cf-id: A-GbCkT1XRlAB-nhTve1FuHH5PBCcQXUpS12ects59TUvgIAemgDdQ==
+  via: 1.1 570075675953459325e00b7bcd171df3.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C2
+  x-amz-cf-id: vwFvw849EQcR1VwAUB1ND5KMz8Poud9FtoPODfvK9UJbsOMTmnjmww==
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -242,7 +242,7 @@ curl --insecure -i -X OPTIONS https://amplify.us-east-1.amazonaws.com/apps -H "U
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    273      0 --:--:-- --:--:-- --:--:--   272
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    293      0 --:--:-- --:--:-- --:--:--   293
   
 </code>
 </pre>
@@ -272,12 +272,12 @@ curl --insecure -i -X OPTIONS https://apigateway.us-east-1.amazonaws.com/apikeys
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:33 GMT
+  date: Mon, 26 Oct 2020 21:52:30 GMT
   content-length: 0
-  x-amzn-requestid: fa820870-dfe0-4a1e-96aa-89c741bc0721
+  x-amzn-requestid: 18bede22-0532-4b49-a1b0-a203e7333521
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,content-length,accept,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  x-amz-apigw-id: UxPyFLqGIAMEbow=
+  x-amz-apigw-id: VCe8tKfUoAMEdMg=
   access-control-allow-methods: POST
   access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   access-control-max-age: 172800
@@ -292,7 +292,7 @@ curl --insecure -i -X OPTIONS https://apigateway.us-east-1.amazonaws.com/apikeys
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -311,7 +311,7 @@ curl --insecure -i -X OPTIONS https://apigateway.us-east-1.amazonaws.com/apikeys
 <strong>Error</strong>
 <pre>
 <code>
-Command failed: curl --insecure -i -X OPTIONS https://execute-api.us-east-1.amazonaws.com/@connections/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: execute-api.us-east-1.amazonaws.com" 
+Command failed: curl --insecure -i -X OPTIONS https://execute-api.us-east-1.amazonaws.com/@connections/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: execute-api.us-east-1.amazonaws.com" 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: execute-api.us-east-1.amazonaws.com
@@ -343,13 +343,13 @@ curl --insecure -i -X OPTIONS https://apigateway.us-east-1.amazonaws.com/v2/apis
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:21:33 GMT
+  date: Mon, 26 Oct 2020 21:52:30 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: eabf38a5-8878-4064-a082-d614025b81d1
+  x-amzn-requestid: 526b3f09-d2da-4a92-9588-5c2103a8e884
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxPyJEt5IAMF25Q=
-  x-amzn-trace-id: Root=1-5f90600d-79a4e48974f66c7b56a44bab
+  x-amz-apigw-id: VCe8wF7DIAMFbEw=
+  x-amzn-trace-id: Root=1-5f97451e-58f7cc0b336c733a0a4f8992
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -361,7 +361,7 @@ curl --insecure -i -X OPTIONS https://apigateway.us-east-1.amazonaws.com/v2/apis
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    262      0 --:--:-- --:--:-- --:--:--   262
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    267      0 --:--:-- --:--:-- --:--:--   267
   
 </code>
 </pre>
@@ -382,7 +382,7 @@ curl --insecure -i -X OPTIONS https://apigateway.us-east-1.amazonaws.com/v2/apis
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://appmesh.us-east-1.amazonaws.com/v20190125/meshes/stringValue/virtualGateway/stringValue/gatewayRoutes -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: appmesh.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://appmesh.us-east-1.amazonaws.com/v20190125/meshes/stringvalue/virtualGateway/stringvalue/gatewayRoutes -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: appmesh.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -391,14 +391,14 @@ curl --insecure -i -X OPTIONS https://appmesh.us-east-1.amazonaws.com/v20190125/
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-requestid: 056b4f89-fdfb-4ee5-a114-1779a44e185e
+  x-amzn-requestid: 2f0b35c3-4349-47e4-964c-44112b86018f
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: PUT
   access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   access-control-max-age: 172800
   content-length: 0
-  date: Wed, 21 Oct 2020 16:21:33 GMT
+  date: Mon, 26 Oct 2020 21:52:30 GMT
   x-envoy-upstream-service-time: 0
   server: envoy
   
@@ -412,7 +412,7 @@ curl --insecure -i -X OPTIONS https://appmesh.us-east-1.amazonaws.com/v20190125/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -442,9 +442,9 @@ curl --insecure -i -X OPTIONS https://appconfig.us-east-1.amazonaws.com/applicat
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:21:34 GMT
+  date: Mon, 26 Oct 2020 21:52:31 GMT
   content-length: 127
-  x-amzn-requestid: 451ea8cd-eacd-4d95-9a3b-7456dca72478
+  x-amzn-requestid: 99f09066-cfd4-4cae-aa28-f8e44e346a42
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -459,7 +459,57 @@ curl --insecure -i -X OPTIONS https://appconfig.us-east-1.amazonaws.com/applicat
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    411      0 --:--:-- --:--:-- --:--:--   411
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    468      0 --:--:-- --:--:-- --:--:--   466
+  
+</code>
+</pre>
+
+</details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>appflow.us-east-1.amazonaws.com</strong></td>
+      <td>200 </td>
+      <td>✅ </td>
+      <td>❌ </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+<details><summary>Details</summary>
+
+<strong>cmd</strong>
+<pre>
+<code>
+curl --insecure -i -X OPTIONS https://appflow.us-east-1.amazonaws.com/create-connector-profile -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: appflow.us-east-1.amazonaws.com" 
+</code>
+</pre>
+
+
+<strong>stdout</strong>
+<pre>
+<code>
+  HTTP/2 200
+  date: Mon, 26 Oct 2020 21:52:31 GMT
+  content-type: application/json
+  content-length: 0
+  x-amzn-requestid: b9889337-26dc-4922-a334-c0b1030687a1
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
+  x-amz-apigw-id: VCe86EGDIAMF1yw=
+  access-control-allow-methods: POST
+  x-amzn-trace-id: Root=1-5f97451f-47770fb220e8eb930c7a1e4d
+  
+  
+</code>
+</pre>
+
+
+<strong>stderr</strong>
+<pre>
+<code>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -489,14 +539,14 @@ curl --insecure -i -X OPTIONS https://application-autoscaling.us-east-1.amazonaw
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 9af57554-4368-46dc-b1f8-296b87085b6f
+  x-amzn-RequestId: 95c86e81-570b-4059-985f-4ab102fbb420
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:33 GMT
+  Date: Mon, 26 Oct 2020 21:52:31 GMT
   
   
 </code>
@@ -538,8 +588,8 @@ curl --insecure -i -X OPTIONS https://discovery.us-east-1.amazonaws.com/ -H "Use
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  Date: Wed, 21 Oct 2020 16:21:34 GMT
-  x-amzn-RequestId: 8ae92628-759c-4676-b3f8-3fe8abfd3dc1
+  Date: Mon, 26 Oct 2020 21:52:32 GMT
+  x-amzn-RequestId: f96f986d-28d3-43b1-a9b6-a6b7f7f9144f
   Content-Length: 127
   Connection: keep-alive
   
@@ -556,7 +606,7 @@ curl --insecure -i -X OPTIONS https://discovery.us-east-1.amazonaws.com/ -H "Use
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    463      0 --:--:-- --:--:-- --:--:--   461
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    403      0 --:--:-- --:--:-- --:--:--   401
   
 </code>
 </pre>
@@ -586,9 +636,9 @@ curl --insecure -i -X OPTIONS https://applicationinsights.us-east-1.amazonaws.co
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:35 GMT
+  date: Mon, 26 Oct 2020 21:52:32 GMT
   content-length: 0
-  x-amzn-requestid: d5f62c9e-e411-4150-8b07-efb2a9ef70ee
+  x-amzn-requestid: daf76c2b-2387-424d-8928-3d88565ce130
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -635,14 +685,14 @@ curl --insecure -i -X OPTIONS https://appstream2.us-east-1.amazonaws.com/ -H "Us
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: be546eb9-eeec-446d-aba1-3efaf1bd9190
+  x-amzn-RequestId: ea6d63a6-ad35-41a6-82c0-20e0b66488b6
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:35 GMT
+  Date: Mon, 26 Oct 2020 21:52:32 GMT
   
   
 </code>
@@ -675,7 +725,7 @@ curl --insecure -i -X OPTIONS https://appstream2.us-east-1.amazonaws.com/ -H "Us
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://appsync.us-east-1.amazonaws.com/apis/stringValue/ApiCaches -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: appsync.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://appsync.us-east-1.amazonaws.com/apis/stringvalue/ApiCaches -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: appsync.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -686,14 +736,14 @@ curl --insecure -i -X OPTIONS https://appsync.us-east-1.amazonaws.com/apis/strin
   HTTP/2 403
   content-type: application/json
   content-length: 23
-  date: Wed, 21 Oct 2020 16:21:35 GMT
-  x-amzn-requestid: b0edb9e8-fa80-4c78-beb9-15158010f73d
+  date: Mon, 26 Oct 2020 21:52:32 GMT
+  x-amzn-requestid: 4ab26226-dfce-4aaf-a306-acc3187a3929
   x-amzn-errortype: ForbiddenException
-  x-amz-apigw-id: UxPyeGdwoAMFkbw=
+  x-amz-apigw-id: VCe9JH9HoAMFw3A=
   x-cache: Error from cloudfront
-  via: 1.1 5ab5dc09da67e3ea794ec8a82992cc89.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C1
-  x-amz-cf-id: X9dD2dHjfX2OBGw_B9qxOHr62ayJAbxV6fTfrlDgsE9BoZS57ZIJaA==
+  via: 1.1 12a392bc3a7281f8d5d4591bfadc41fc.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C2
+  x-amz-cf-id: qoVnzbmFS_kCE-v9YliSdFkVKQ7gl0p-3TS9lp06jsvN_3gLG0gTgw==
   
   {"message":"Forbidden"}
 </code>
@@ -705,7 +755,7 @@ curl --insecure -i -X OPTIONS https://appsync.us-east-1.amazonaws.com/apis/strin
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    23  100    23    0     0    203      0 --:--:-- --:--:-- --:--:--   203
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    23  100    23    0     0    142      0 --:--:-- --:--:-- --:--:--   141100    23  100    23    0     0    142      0 --:--:-- --:--:-- --:--:--   141
   
 </code>
 </pre>
@@ -740,8 +790,8 @@ curl --insecure -i -X OPTIONS https://athena.us-east-1.amazonaws.com/ -H "User-A
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:21:35 GMT
-  x-amzn-RequestId: 61f40959-c844-47f5-9b90-b358f07e04b0
+  Date: Mon, 26 Oct 2020 21:52:32 GMT
+  x-amzn-RequestId: fb151b59-8e0e-4845-8d28-bd8b1869e024
   Content-Length: 0
   Connection: keep-alive
   
@@ -755,7 +805,7 @@ curl --insecure -i -X OPTIONS https://athena.us-east-1.amazonaws.com/ -H "User-A
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -785,14 +835,14 @@ curl --insecure -i -X OPTIONS https://autoscaling.us-east-1.amazonaws.com/ -H "U
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: e4a21a7b-3718-4824-8fd5-a014d872c70b
+  x-amzn-RequestId: d59f12c0-eb83-4712-9b96-d3de60fdecb5
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:36 GMT
+  Date: Mon, 26 Oct 2020 21:52:33 GMT
   
   
 </code>
@@ -834,14 +884,14 @@ curl --insecure -i -X OPTIONS https://autoscaling-plans.us-east-1.amazonaws.com/
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: a18d660a-1e78-4cfc-a68b-82e53bb5b449
+  x-amzn-RequestId: 8aa4de6c-f294-43a4-873a-49a0dfe3fce6
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:35 GMT
+  Date: Mon, 26 Oct 2020 21:52:33 GMT
   
   
 </code>
@@ -853,7 +903,7 @@ curl --insecure -i -X OPTIONS https://autoscaling-plans.us-east-1.amazonaws.com/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -883,8 +933,8 @@ curl --insecure -i -X OPTIONS https://backup.us-east-1.amazonaws.com/backup/plan
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  Date: Wed, 21 Oct 2020 16:21:36 GMT
-  x-amzn-RequestId: 426625e9-5ce9-466d-a16e-8cdc49dd3869
+  Date: Mon, 26 Oct 2020 21:52:34 GMT
+  x-amzn-RequestId: 26b4d16a-d994-4c6a-b960-460a71bcd088
   Content-Length: 127
   Connection: keep-alive
   
@@ -901,7 +951,7 @@ curl --insecure -i -X OPTIONS https://backup.us-east-1.amazonaws.com/backup/plan
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    451      0 --:--:-- --:--:-- --:--:--   450
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    407      0 --:--:-- --:--:-- --:--:--   407
   
 </code>
 </pre>
@@ -931,12 +981,12 @@ curl --insecure -i -X OPTIONS https://batch.us-east-1.amazonaws.com/v1/canceljob
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:21:37 GMT
+  date: Mon, 26 Oct 2020 21:52:34 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: a352bc1a-d86d-4b6d-bd35-51b24ee60d4c
+  x-amzn-requestid: ee02e8f9-431b-4f7f-bcbd-91c2c571cd55
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxPytG39oAMFv5Q=
+  x-amz-apigw-id: VCe9aF7wIAMFolg=
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -948,7 +998,7 @@ curl --insecure -i -X OPTIONS https://batch.us-east-1.amazonaws.com/v1/canceljob
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    240      0 --:--:-- --:--:-- --:--:--   240
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    263      0 --:--:-- --:--:-- --:--:--   264
   
 </code>
 </pre>
@@ -969,7 +1019,7 @@ curl --insecure -i -X OPTIONS https://batch.us-east-1.amazonaws.com/v1/canceljob
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://braket.us-east-1.amazonaws.com/quantum-task/stringValue/cancel -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: braket.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://braket.us-east-1.amazonaws.com/quantum-task/stringvalue/cancel -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: braket.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -978,15 +1028,15 @@ curl --insecure -i -X OPTIONS https://braket.us-east-1.amazonaws.com/quantum-tas
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:37 GMT
+  date: Mon, 26 Oct 2020 21:52:34 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: 61a0ff8e-fcd6-435f-b313-7c79a0730a37
+  x-amzn-requestid: deb86153-3258-41ae-b52d-73c6d287e3f9
   access-control-allow-origin: *
   access-control-allow-headers: *,Authorization,Date,X-Amz-Date,X-Amz-Security-Token,X-Amz-Target,amz-sdk-invocation-id,amz-sdk-request,content-type,x-amz-content-sha256,x-amz-user-agent,x-amzn-platform-id,x-amzn-trace-id
-  x-amz-apigw-id: UxPywH-LoAMFctw=
+  x-amz-apigw-id: VCe9eFvzoAMFv3w=
   access-control-allow-methods: PUT
-  x-amzn-trace-id: Root=1-5f906011-32b80dcc31ecdf294b351142
+  x-amzn-trace-id: Root=1-5f974522-74fcd075167f13511385ccd8
   access-control-max-age: 600
   
   
@@ -999,7 +1049,7 @@ curl --insecure -i -X OPTIONS https://braket.us-east-1.amazonaws.com/quantum-tas
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1029,9 +1079,9 @@ curl --insecure -i -X OPTIONS https://budgets.amazonaws.com/ -H "User-Agent: Moz
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:37 GMT
+  date: Mon, 26 Oct 2020 21:52:35 GMT
   content-length: 0
-  x-amzn-requestid: cfeb1be6-3543-4b8a-8ed1-b42e5b5712aa
+  x-amzn-requestid: 7cdabdb2-50a4-4401-9fe5-b13fde94f26c
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -1048,7 +1098,7 @@ curl --insecure -i -X OPTIONS https://budgets.amazonaws.com/ -H "User-Agent: Moz
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1069,7 +1119,7 @@ curl --insecure -i -X OPTIONS https://budgets.amazonaws.com/ -H "User-Agent: Moz
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://service.chime.aws.amazon.com/accounts/stringValue/users/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: service.chime.aws.amazon.com" 
+curl --insecure -i -X OPTIONS https://service.chime.aws.amazon.com/accounts/stringvalue/users/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: service.chime.aws.amazon.com" 
 </code>
 </pre>
 
@@ -1078,9 +1128,9 @@ curl --insecure -i -X OPTIONS https://service.chime.aws.amazon.com/accounts/stri
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 5c88e0f4-5799-4e25-85e3-3cc7c38b7457
+  x-amzn-RequestId: 0288b835-ad15-4a7c-bf04-ee6d3fc930dd
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:21:37 GMT
+  Date: Mon, 26 Oct 2020 21:52:35 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -1095,7 +1145,7 @@ curl --insecure -i -X OPTIONS https://service.chime.aws.amazon.com/accounts/stri
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    300      0 --:--:-- --:--:-- --:--:--   300
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    360      0 --:--:-- --:--:-- --:--:--   360
   
 </code>
 </pre>
@@ -1125,9 +1175,9 @@ curl --insecure -i -X OPTIONS https://cloud9.us-east-1.amazonaws.com/ -H "User-A
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:38 GMT
+  date: Mon, 26 Oct 2020 21:52:36 GMT
   content-length: 0
-  x-amzn-requestid: d4d546af-7998-4950-8d07-5ce8c7a283ee
+  x-amzn-requestid: e973b976-7287-49dc-b52b-4c9f0db08bba
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -1144,7 +1194,7 @@ curl --insecure -i -X OPTIONS https://cloud9.us-east-1.amazonaws.com/ -H "User-A
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1174,11 +1224,11 @@ curl --insecure -i -X OPTIONS https://clouddirectory.us-east-1.amazonaws.com/ama
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 93ba0a45-4f3a-497d-aee9-7d6a12879447
+  x-amzn-RequestId: cdc63d77-9a64-4b47-bb1f-920d82c1bde0
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,x-amz-data-partition,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Date: Wed, 21 Oct 2020 16:21:38 GMT
-  x-amzn-RequestId: 93ba0a45-4f3a-497d-aee9-7d6a12879447
+  Date: Mon, 26 Oct 2020 21:52:36 GMT
+  x-amzn-RequestId: cdc63d77-9a64-4b47-bb1f-920d82c1bde0
   Access-Control-Allow-Methods: PUT
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
@@ -1194,7 +1244,7 @@ curl --insecure -i -X OPTIONS https://clouddirectory.us-east-1.amazonaws.com/ama
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1224,14 +1274,14 @@ curl --insecure -i -X OPTIONS https://cloudformation.us-east-1.amazonaws.com/ -H
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 93fc3f57-1cf8-467f-9e56-eac4469c040d
+  x-amzn-RequestId: cce83f82-ec23-4375-8f55-ee86b56f6b23
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:38 GMT
+  Date: Mon, 26 Oct 2020 21:52:36 GMT
   
   
 </code>
@@ -1273,14 +1323,14 @@ curl --insecure -i -X OPTIONS https://cloudfront.amazonaws.com/2020-05-31/cache-
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 4ca39b42-12dc-4428-816c-800797b39f62
+  x-amzn-RequestId: cd5f7efb-fc39-42f2-9761-cd95d9b090e1
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:39 GMT
+  Date: Mon, 26 Oct 2020 21:52:36 GMT
   
   
 </code>
@@ -1322,14 +1372,14 @@ curl --insecure -i -X OPTIONS https://cloudhsm.us-east-1.amazonaws.com/ -H "User
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 5e74062e-efbb-4588-af12-c17f8dcc2954
+  x-amzn-RequestId: bc57fd6f-4ca7-4900-b70f-17a0fd92f549
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:40 GMT
+  Date: Mon, 26 Oct 2020 21:52:37 GMT
   
   
 </code>
@@ -1341,7 +1391,7 @@ curl --insecure -i -X OPTIONS https://cloudhsm.us-east-1.amazonaws.com/ -H "User
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1371,8 +1421,8 @@ curl --insecure -i -X OPTIONS https://cloudhsmv2.us-east-1.amazonaws.com/ -H "Us
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  Date: Wed, 21 Oct 2020 16:21:39 GMT
-  x-amzn-RequestId: ea75ebb9-112c-4f54-93cd-e5abfec96217
+  Date: Mon, 26 Oct 2020 21:52:37 GMT
+  x-amzn-RequestId: 354acf06-90ab-4554-996a-907f308a2ef7
   Content-Length: 127
   Connection: keep-alive
   
@@ -1389,7 +1439,7 @@ curl --insecure -i -X OPTIONS https://cloudhsmv2.us-east-1.amazonaws.com/ -H "Us
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    409      0 --:--:-- --:--:-- --:--:--   409
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    395      0 --:--:-- --:--:-- --:--:--   394100   127  100   127    0     0    395      0 --:--:-- --:--:-- --:--:--   394
   
 </code>
 </pre>
@@ -1419,9 +1469,9 @@ curl --insecure -i -X OPTIONS https://cloudsearch.us-east-1.amazonaws.com/ -H "U
 <pre>
 <code>
   HTTP/1.1 404 Not Found
-  x-amzn-RequestId: d686d5c5-b61f-48c3-a802-d40b2b411161
+  x-amzn-RequestId: 64a3e1da-23f7-409b-b31d-4394cfe730a8
   Content-Length: 29
-  Date: Wed, 21 Oct 2020 16:21:39 GMT
+  Date: Mon, 26 Oct 2020 21:52:37 GMT
   
   <UnknownOperationException/>
   
@@ -1434,7 +1484,7 @@ curl --insecure -i -X OPTIONS https://cloudsearch.us-east-1.amazonaws.com/ -H "U
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     94      0 --:--:-- --:--:-- --:--:--    94
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     86      0 --:--:-- --:--:-- --:--:--    86
   
 </code>
 </pre>
@@ -1485,14 +1535,14 @@ curl --insecure -i -X OPTIONS https://cloudtrail.us-east-1.amazonaws.com/ -H "Us
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: e523c5e7-1dce-4373-b7e3-5fe4c0b40a43
+  x-amzn-RequestId: d74553c1-af37-4ceb-a740-a5b6dc81688e
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:40 GMT
+  Date: Mon, 26 Oct 2020 21:52:38 GMT
   
   
 </code>
@@ -1504,7 +1554,7 @@ curl --insecure -i -X OPTIONS https://cloudtrail.us-east-1.amazonaws.com/ -H "Us
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1534,14 +1584,14 @@ curl --insecure -i -X OPTIONS https://monitoring.us-east-1.amazonaws.com/ -H "Us
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 826edf3e-f227-4edf-8a8c-70eeea318c74
+  x-amzn-RequestId: 4b594e3a-f584-481e-97ca-5f491dffafc7
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:40 GMT
+  Date: Mon, 26 Oct 2020 21:52:38 GMT
   
   
 </code>
@@ -1553,7 +1603,7 @@ curl --insecure -i -X OPTIONS https://monitoring.us-east-1.amazonaws.com/ -H "Us
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1583,14 +1633,14 @@ curl --insecure -i -X OPTIONS https://events.us-east-1.amazonaws.com/ -H "User-A
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 14197e70-d889-44dc-ad8e-bd474d828988
+  x-amzn-RequestId: cefee939-9e1b-4cb7-9a88-225cb62e27a0
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:41 GMT
+  Date: Mon, 26 Oct 2020 21:52:38 GMT
   
   
 </code>
@@ -1632,14 +1682,14 @@ curl --insecure -i -X OPTIONS https://logs.us-east-1.amazonaws.com/ -H "User-Age
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 036bf05b-e598-4e28-8fee-f7656dbb65e7
+  x-amzn-RequestId: 200b6eb4-2191-41b4-95c1-38cef65129c0
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:41 GMT
+  Date: Mon, 26 Oct 2020 21:52:39 GMT
   
   
 </code>
@@ -1651,7 +1701,7 @@ curl --insecure -i -X OPTIONS https://logs.us-east-1.amazonaws.com/ -H "User-Age
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1681,9 +1731,9 @@ curl --insecure -i -X OPTIONS https://codeartifact.us-east-1.amazonaws.com/v1/re
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:42 GMT
+  date: Mon, 26 Oct 2020 21:52:39 GMT
   content-length: 0
-  x-amzn-requestid: 3c6486a3-2d19-474d-a9b7-7857476f10ad
+  x-amzn-requestid: 9c25d82d-c35a-4a36-b609-9f05d2d5cacb
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -1700,7 +1750,7 @@ curl --insecure -i -X OPTIONS https://codeartifact.us-east-1.amazonaws.com/v1/re
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1730,14 +1780,14 @@ curl --insecure -i -X OPTIONS https://codebuild.us-east-1.amazonaws.com/ -H "Use
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: a569f8ea-0614-453a-9bcc-7e5ec637a28a
+  x-amzn-RequestId: 97c6b765-e01c-4875-80d5-35c9e4864cb7
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:42 GMT
+  Date: Mon, 26 Oct 2020 21:52:40 GMT
   
   
 </code>
@@ -1779,14 +1829,14 @@ curl --insecure -i -X OPTIONS https://codecommit.us-east-1.amazonaws.com/ -H "Us
 <pre>
 <code>
   HTTP/1.1 200
-  x-amzn-RequestId: fe8b414d-1f96-4b08-bfc2-c599a6466a7c
+  x-amzn-RequestId: 9bea2326-95a4-4fc7-ad9d-27ea049ec9ec
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:42 GMT
+  Date: Mon, 26 Oct 2020 21:52:40 GMT
   
   
 </code>
@@ -1798,7 +1848,7 @@ curl --insecure -i -X OPTIONS https://codecommit.us-east-1.amazonaws.com/ -H "Us
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1828,13 +1878,13 @@ curl --insecure -i -X OPTIONS https://codedeploy.us-east-1.amazonaws.com/ -H "Us
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 0d3669ed-5fc8-44d4-94dc-891392dc7ee5
+  x-amzn-RequestId: 1c0bdcee-eae9-4275-9553-ae06893f9f10
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:21:43 GMT
+  Date: Mon, 26 Oct 2020 21:52:41 GMT
   Content-Length: 0
   
   
@@ -1847,7 +1897,7 @@ curl --insecure -i -X OPTIONS https://codedeploy.us-east-1.amazonaws.com/ -H "Us
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1877,15 +1927,15 @@ curl --insecure -i -X OPTIONS https://codeguru-reviewer.us-east-1.amazonaws.com/
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:43 GMT
+  date: Mon, 26 Oct 2020 21:52:41 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: ee1b1f3a-a624-48e6-b024-2340632abcad
+  x-amzn-requestid: f2d3bda7-5532-4a71-89a5-a77e27dde199
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: UxPzuHbnIAMFv5Q=
+  x-amz-apigw-id: VCe-fGvloAMFaGg=
   access-control-allow-methods: POST,GET
-  x-amzn-trace-id: Root=1-5f906017-444a9a4572ffe3ee50b318a9
+  x-amzn-trace-id: Root=1-5f974529-25cb6658085d0e6f31a0ad4b
   
   
 </code>
@@ -1918,7 +1968,7 @@ curl --insecure -i -X OPTIONS https://codeguru-reviewer.us-east-1.amazonaws.com/
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://codeguru-profiler.us-east-1.amazonaws.com/profilingGroups/stringValue/configureAgent -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: codeguru-profiler.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://codeguru-profiler.us-east-1.amazonaws.com/profilingGroups/stringvalue/configureAgent -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: codeguru-profiler.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -1929,18 +1979,18 @@ curl --insecure -i -X OPTIONS https://codeguru-profiler.us-east-1.amazonaws.com/
   HTTP/2 200
   content-type: application/json
   content-length: 0
-  date: Wed, 21 Oct 2020 16:21:43 GMT
-  x-amzn-requestid: 5331710a-1f60-46c2-9b7a-b3abbe210f32
+  date: Mon, 26 Oct 2020 21:52:41 GMT
+  x-amzn-requestid: e2c87cb4-6ec9-4d0c-b7c9-ea6622f3717f
   access-control-allow-origin: *
   access-control-allow-headers: Authorization,Content-Type,Date,X-Amz-Content-Sha256,X-Amz-Date,X-Amz-Security-Token,X-Amz-Target,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxPzvFOYoAMFg9g=
+  x-amz-apigw-id: VCe-hEoQIAMFing=
   access-control-allow-methods: POST
-  x-amzn-trace-id: Root=1-5f906017-6e75243652bf2418356f12c4
+  x-amzn-trace-id: Root=1-5f974529-4ceaff5739b769e27edad0cc
   access-control-max-age: 600
   x-cache: Miss from cloudfront
-  via: 1.1 5a1753718d8b33365e5f693dd338c511.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C1
-  x-amz-cf-id: vXWRmKRbjCjLsGwyFVd_zQ64bAKisCyCehHF7u9zOm-C3Tc1suK6oA==
+  via: 1.1 d6b180eb367f7de26d67a9f3901b96a6.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C2
+  x-amz-cf-id: _8wrht5mFuzqHjAV3DZJuzfzAFuHCy0j-NyC8_GVGcs2imypVFQXdA==
   
   
 </code>
@@ -1952,7 +2002,7 @@ curl --insecure -i -X OPTIONS https://codeguru-profiler.us-east-1.amazonaws.com/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -1982,7 +2032,7 @@ curl --insecure -i -X OPTIONS https://codepipeline.us-east-1.amazonaws.com/ -H "
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 5513e610-55e3-4c91-b02f-1fcb08970db6
+  x-amzn-RequestId: c5ff7de1-2e33-4da8-8386-6667ad149314
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
@@ -2001,7 +2051,7 @@ curl --insecure -i -X OPTIONS https://codepipeline.us-east-1.amazonaws.com/ -H "
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -2031,14 +2081,14 @@ curl --insecure -i -X OPTIONS https://codestar.us-east-1.amazonaws.com/ -H "User
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 2247372f-8cf6-47db-b840-d5ab409f746c
+  x-amzn-RequestId: a0568ccc-79b3-4248-8160-a5b2a4d92b5e
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:44 GMT
+  Date: Mon, 26 Oct 2020 21:52:41 GMT
   
   
 </code>
@@ -2080,9 +2130,9 @@ curl --insecure -i -X OPTIONS https://codestar-connections.us-east-1.amazonaws.c
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:44 GMT
+  date: Mon, 26 Oct 2020 21:52:42 GMT
   content-length: 0
-  x-amzn-requestid: bab3cf28-a63b-4297-bd40-f6fb55baefa8
+  x-amzn-requestid: a1b631f7-f92a-4d2a-9641-9305b9ee5c67
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -2099,7 +2149,7 @@ curl --insecure -i -X OPTIONS https://codestar-connections.us-east-1.amazonaws.c
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -2129,15 +2179,15 @@ curl --insecure -i -X OPTIONS https://codestar-notifications.us-east-1.amazonaws
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:45 GMT
+  date: Mon, 26 Oct 2020 21:52:42 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: fb1ab407-8c03-4f4c-a0b2-5fa9d0ef8d03
+  x-amzn-requestid: 39dc84c4-2cd1-490c-84df-bf8de77c66f2
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxPz8FbVoAMFrfA=
+  x-amz-apigw-id: VCe-uGWPoAMFjnQ=
   access-control-allow-methods: POST
-  x-amzn-trace-id: Root=1-5f906019-4fa9e74336ba82453b525cc3
+  x-amzn-trace-id: Root=1-5f97452a-0cfb51044d8a27b535d1218e
   
   
 </code>
@@ -2149,7 +2199,7 @@ curl --insecure -i -X OPTIONS https://codestar-notifications.us-east-1.amazonaws
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -2179,9 +2229,9 @@ curl --insecure -i -X OPTIONS https://cognito-identity.us-east-1.amazonaws.com/ 
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:45 GMT
+  date: Mon, 26 Oct 2020 21:52:43 GMT
   content-length: 0
-  x-amzn-requestid: 8081077a-d54b-4f52-946f-c37680a71395
+  x-amzn-requestid: a32af9e4-2e98-4d38-8750-d62ceebf663e
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -2228,9 +2278,9 @@ curl --insecure -i -X OPTIONS https://cognito-idp.us-east-1.amazonaws.com/ -H "U
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:45 GMT
+  date: Mon, 26 Oct 2020 21:52:43 GMT
   content-length: 0
-  x-amzn-requestid: e41d9952-f1e8-4e8c-9f5a-a99c892405b0
+  x-amzn-requestid: 13ef063d-a692-4ce8-9438-086627aa9ced
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -2247,7 +2297,7 @@ curl --insecure -i -X OPTIONS https://cognito-idp.us-east-1.amazonaws.com/ -H "U
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -2268,7 +2318,7 @@ curl --insecure -i -X OPTIONS https://cognito-idp.us-east-1.amazonaws.com/ -H "U
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://cognito-sync.us-east-1.amazonaws.com/identitypools/stringValue/bulkpublish -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: cognito-sync.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://cognito-sync.us-east-1.amazonaws.com/identitypools/stringvalue/bulkpublish -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: cognito-sync.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -2277,9 +2327,9 @@ curl --insecure -i -X OPTIONS https://cognito-sync.us-east-1.amazonaws.com/ident
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:46 GMT
+  date: Mon, 26 Oct 2020 21:52:44 GMT
   content-length: 0
-  x-amzn-requestid: abd8cbda-0a64-4e80-996d-5563b1062e3a
+  x-amzn-requestid: 0d5f3c55-6bae-4eb8-a724-1b43f3244986
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -2296,7 +2346,7 @@ curl --insecure -i -X OPTIONS https://cognito-sync.us-east-1.amazonaws.com/ident
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -2326,14 +2376,14 @@ curl --insecure -i -X OPTIONS https://comprehend.us-east-1.amazonaws.com/ -H "Us
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 34146546-ed7d-4c79-9a54-1c3b45916b2b
+  x-amzn-RequestId: ea1d4586-16da-4c30-9107-beffa5c0df52
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:46 GMT
+  Date: Mon, 26 Oct 2020 21:52:43 GMT
   
   
 </code>
@@ -2375,14 +2425,14 @@ curl --insecure -i -X OPTIONS https://comprehendmedical.us-east-1.amazonaws.com/
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 51c4be2f-9211-462e-9fad-c321a59ba7b8
+  x-amzn-RequestId: 4512801d-b1d8-4f22-9cc2-d6f7f4a804e6
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:46 GMT
+  Date: Mon, 26 Oct 2020 21:52:44 GMT
   
   
 </code>
@@ -2394,7 +2444,7 @@ curl --insecure -i -X OPTIONS https://comprehendmedical.us-east-1.amazonaws.com/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -2424,9 +2474,9 @@ curl --insecure -i -X OPTIONS https://compute-optimizer.us-east-1.amazonaws.com/
 <pre>
 <code>
   HTTP/2 404
-  date: Wed, 21 Oct 2020 16:21:47 GMT
+  date: Mon, 26 Oct 2020 21:52:45 GMT
   content-length: 272
-  x-amzn-requestid: 0d6bfad5-a992-4be5-8894-e037fd69bb72
+  x-amzn-requestid: 97a3a325-f79d-4a99-8531-10697da5c7bb
   
   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2444,7 +2494,7 @@ curl --insecure -i -X OPTIONS https://compute-optimizer.us-east-1.amazonaws.com/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   272  100   272    0     0    888      0 --:--:-- --:--:-- --:--:--   888
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   272  100   272    0     0    925      0 --:--:-- --:--:-- --:--:--   922
   
 </code>
 </pre>
@@ -2474,7 +2524,7 @@ curl --insecure -i -X OPTIONS https://config.us-east-1.amazonaws.com/ -H "User-A
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: a847335a-d15e-412c-b477-8c13a426424b
+  x-amzn-RequestId: bcba7adf-8d77-4a3b-b1c2-ac7c0de4c589
   Access-Control-Allow-Origin: *
   Strict-Transport-Security: max-age=86400
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
@@ -2482,7 +2532,7 @@ curl --insecure -i -X OPTIONS https://config.us-east-1.amazonaws.com/ -H "User-A
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:46 GMT
+  Date: Mon, 26 Oct 2020 21:52:44 GMT
   
   
 </code>
@@ -2515,7 +2565,7 @@ curl --insecure -i -X OPTIONS https://config.us-east-1.amazonaws.com/ -H "User-A
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://connect.us-east-1.amazonaws.com/users/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: connect.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://connect.us-east-1.amazonaws.com/routing-profiles/stringvalue/stringvalue/associate-queues -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: connect.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -2524,15 +2574,15 @@ curl --insecure -i -X OPTIONS https://connect.us-east-1.amazonaws.com/users/stri
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:47 GMT
+  date: Mon, 26 Oct 2020 21:52:45 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: 9b23c4e8-d363-49cf-83ef-15ebee6bd4b6
+  x-amzn-requestid: 7ef15e12-2c4a-444e-8f61-69ead5c7f7d8
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: UxP0WFz2IAMF-Hg=
-  access-control-allow-methods: PUT
-  x-amzn-trace-id: Root=1-5f90601b-2f9d99581cb52b964d33bf21
+  x-amz-apigw-id: VCe_KFOcIAMFt4g=
+  access-control-allow-methods: POST
+  x-amzn-trace-id: Root=1-5f97452d-4d1797004e8640f85fd53f34
   
   
 </code>
@@ -2544,7 +2594,7 @@ curl --insecure -i -X OPTIONS https://connect.us-east-1.amazonaws.com/users/stri
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -2574,15 +2624,15 @@ curl --insecure -i -X OPTIONS https://participant.connect.us-east-1.amazonaws.co
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:48 GMT
+  date: Mon, 26 Oct 2020 21:52:46 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: 3bb6926a-190e-4fee-aa2a-42035f98dc39
+  x-amzn-requestid: 5d3fa2f4-bd71-4f6a-b55b-0e2d3e989fad
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,X-Amz-Bearer
-  x-amz-apigw-id: UxP0aE9NoAMFdCw=
+  x-amz-apigw-id: VCe_OG0OoAMFebQ=
   access-control-allow-methods: POST
-  x-amzn-trace-id: Root=1-5f90601c-79846db57026bed2280f0e92
+  x-amzn-trace-id: Root=1-5f97452e-35efa2ed0012ed2148b37d8f
   
   
 </code>
@@ -2594,7 +2644,7 @@ curl --insecure -i -X OPTIONS https://participant.connect.us-east-1.amazonaws.co
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -2624,14 +2674,14 @@ curl --insecure -i -X OPTIONS https://cur.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 3abc4d12-1d7c-4fa5-a81f-ea0854576ab7
+  x-amzn-RequestId: 06586477-7db3-4095-ac79-49176f597314
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:48 GMT
+  Date: Mon, 26 Oct 2020 21:52:46 GMT
   
   
 </code>
@@ -2673,9 +2723,9 @@ curl --insecure -i -X OPTIONS https://ce.us-east-1.amazonaws.com/ -H "User-Agent
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:48 GMT
+  date: Mon, 26 Oct 2020 21:52:46 GMT
   content-length: 0
-  x-amzn-requestid: 5034c3ae-c72c-4747-bc0f-91e489287115
+  x-amzn-requestid: fcbb55a3-4619-4461-8311-eaf4b17a30d4
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -2722,7 +2772,7 @@ curl --insecure -i -X OPTIONS https://datapipeline.us-east-1.amazonaws.com/ -H "
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 6ddd41a6-9e89-4342-95c4-fee22f722e76
+  x-amzn-RequestId: 64099739-c183-4ddd-80c5-196d9c9b6f21
   Access-Control-Allow-Origin: https://foo.example
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Vary: Origin
@@ -2730,7 +2780,7 @@ curl --insecure -i -X OPTIONS https://datapipeline.us-east-1.amazonaws.com/ -H "
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:49 GMT
+  Date: Mon, 26 Oct 2020 21:52:46 GMT
   
   
 </code>
@@ -2772,14 +2822,14 @@ curl --insecure -i -X OPTIONS https://dms.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: e6bb3a9a-027b-4b58-9d8e-0e5a5758705e
+  x-amzn-RequestId: 507e0270-6881-4850-ba6f-bf9740f2d63f
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:49 GMT
+  Date: Mon, 26 Oct 2020 21:52:47 GMT
   
   
 </code>
@@ -2812,7 +2862,7 @@ curl --insecure -i -X OPTIONS https://dms.us-east-1.amazonaws.com/ -H "User-Agen
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://dataexchange.us-east-1.amazonaws.com/v1/jobs/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: dataexchange.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://dataexchange.us-east-1.amazonaws.com/v1/jobs/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: dataexchange.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -2823,15 +2873,15 @@ curl --insecure -i -X OPTIONS https://dataexchange.us-east-1.amazonaws.com/v1/jo
   HTTP/2 403
   content-type: application/json
   content-length: 73
-  date: Wed, 21 Oct 2020 16:21:49 GMT
-  x-amzn-requestid: 4de76326-34f2-4a26-aad2-667fbd49a920
+  date: Mon, 26 Oct 2020 21:52:47 GMT
+  x-amzn-requestid: 746e783d-37bf-4e12-9c8b-e71c47ec85c0
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP0qEMoIAMF4uQ=
-  x-amzn-trace-id: Root=1-5f90601d-292314dd3fa0f6fe223b224c
+  x-amz-apigw-id: VCe_eFlIoAMFa_Q=
+  x-amzn-trace-id: Root=1-5f97452f-6ea3f4fe16af30a771d3f0cc
   x-cache: Error from cloudfront
-  via: 1.1 c9cb74549b807d498500f04e1d4b8c7d.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C2
-  x-amz-cf-id: zBJQY3E-fdaZ3JQPpzrcsrdWm5XHJJqXKRP-MO4N66dUgcLiquXvbQ==
+  via: 1.1 34f8ef0e4c880df0650a814412a26ea6.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C1
+  x-amz-cf-id: tPog1G751PVHQ3LtHITeJPeJCXw2MXn1N4QEjRcwPF2pTQAx_gUcjw==
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -2843,7 +2893,7 @@ curl --insecure -i -X OPTIONS https://dataexchange.us-east-1.amazonaws.com/v1/jo
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    278      0 --:--:-- --:--:-- --:--:--   278
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    285      0 --:--:-- --:--:-- --:--:--   285
   
 </code>
 </pre>
@@ -2873,9 +2923,9 @@ curl --insecure -i -X OPTIONS https://datasync.us-east-1.amazonaws.com/ -H "User
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:21:50 GMT
+  date: Mon, 26 Oct 2020 21:52:48 GMT
   content-length: 127
-  x-amzn-requestid: 8b284cd9-7a9b-49d7-9841-f439c7870d00
+  x-amzn-requestid: 002b1f7c-932c-4c99-aba6-1d0491084f33
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -2890,7 +2940,7 @@ curl --insecure -i -X OPTIONS https://datasync.us-east-1.amazonaws.com/ -H "User
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    419      0 --:--:-- --:--:-- --:--:--   417
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    440      0 --:--:-- --:--:-- --:--:--   440
   
 </code>
 </pre>
@@ -2920,14 +2970,14 @@ curl --insecure -i -X OPTIONS https://dax.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: a220099b-6f1f-4a47-bf9e-3a55fd7452d7
+  x-amzn-RequestId: f301c5cd-2e23-4385-99dd-b0cf91208625
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:50 GMT
+  Date: Mon, 26 Oct 2020 21:52:48 GMT
   
   
 </code>
@@ -2972,15 +3022,15 @@ curl --insecure -i -X OPTIONS https://api.detective.us-east-1.amazonaws.com/invi
   Content-Type: application/json
   Content-Length: 73
   Connection: keep-alive
-  Date: Wed, 21 Oct 2020 16:21:50 GMT
-  x-amzn-RequestId: 0ad19b3c-5486-4651-b07e-ba266f0a5ac6
+  Date: Mon, 26 Oct 2020 21:52:48 GMT
+  x-amzn-RequestId: c81ef98f-5e84-473d-a868-46dd7c91a1d1
   x-amzn-ErrorType: AccessDeniedException
-  x-amz-apigw-id: UxP00E5WoAMFxFA=
-  X-Amzn-Trace-Id: Root=1-5f90601e-004decd072e6322d59d83454
+  x-amz-apigw-id: VCe_pEnWIAMFuFQ=
+  X-Amzn-Trace-Id: Root=1-5f974530-6dca5aef239f6bee25253dd5
   X-Cache: Error from cloudfront
-  Via: 1.1 26ca01ec7377e425b59b6a08cb1ec343.cloudfront.net (CloudFront)
-  X-Amz-Cf-Pop: HIO50-C1
-  X-Amz-Cf-Id: YI0ZpszLyLrweDlfh4fzcI2awoTaqnbHvpAR_27vxDR3KAKf1OXuMg==
+  Via: 1.1 ec2a2c75c16156e4d43504606c118b91.cloudfront.net (CloudFront)
+  X-Amz-Cf-Pop: SEA19-C1
+  X-Amz-Cf-Id: goOksN7U-9EHo37aAGd4y2KutfYjYt1hTZz00gkAeK8V5jME0-puSg==
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -2992,7 +3042,7 @@ curl --insecure -i -X OPTIONS https://api.detective.us-east-1.amazonaws.com/invi
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    187      0 --:--:-- --:--:-- --:--:--   186100    73  100    73    0     0    187      0 --:--:-- --:--:-- --:--:--   186
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    196      0 --:--:-- --:--:-- --:--:--   196100    73  100    73    0     0    196      0 --:--:-- --:--:-- --:--:--   196
   
 </code>
 </pre>
@@ -3043,14 +3093,14 @@ curl --insecure -i -X OPTIONS https://directconnect.us-east-1.amazonaws.com/ -H 
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 5bdc2124-c365-4881-ad0f-23c7c172b0a6
+  x-amzn-RequestId: 4ff5ff54-a8b6-4c97-95b6-3eee51ac9c1e
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:50 GMT
+  Date: Mon, 26 Oct 2020 21:52:49 GMT
   
   
 </code>
@@ -3092,14 +3142,14 @@ curl --insecure -i -X OPTIONS https://ds.us-east-1.amazonaws.com/ -H "User-Agent
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 67f54984-f15d-4acc-9ed3-b6f8a34a5e12
+  x-amzn-RequestId: ddd2b50b-21ee-4d89-94cb-f7eb84f14518
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:51 GMT
+  Date: Mon, 26 Oct 2020 21:52:49 GMT
   
   
 </code>
@@ -3141,13 +3191,13 @@ curl --insecure -i -X OPTIONS https://dlm.us-east-1.amazonaws.com/policies -H "U
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:21:51 GMT
+  date: Mon, 26 Oct 2020 21:52:50 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: 1c1e454c-daf4-4271-8ac8-414145a9dd78
+  x-amzn-requestid: a60c6e0f-fd24-4ff7-8517-50a01f9681cd
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP1AG-hIAMFZFw=
-  x-amzn-trace-id: Root=1-5f90601f-6ec9b6e70a1ee2346c04503e
+  x-amz-apigw-id: VCe_1E15IAMFoJg=
+  x-amzn-trace-id: Root=1-5f974532-1de98cda3c68eea840ec2fe9
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -3159,7 +3209,7 @@ curl --insecure -i -X OPTIONS https://dlm.us-east-1.amazonaws.com/policies -H "U
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    151      0 --:--:-- --:--:-- --:--:--   150100    73  100    73    0     0    151      0 --:--:-- --:--:-- --:--:--   150
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    245      0 --:--:-- --:--:-- --:--:--   244
   
 </code>
 </pre>
@@ -3189,14 +3239,14 @@ curl --insecure -i -X OPTIONS https://rds.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 6667b6d5-2b8e-41ab-9c08-e703b29e021b
+  x-amzn-RequestId: e96690d6-a50f-45b4-a7a2-eb237c008b5d
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:52 GMT
+  Date: Mon, 26 Oct 2020 21:52:49 GMT
   
   
 </code>
@@ -3239,10 +3289,10 @@ curl --insecure -i -X OPTIONS https://dynamodb.us-east-1.amazonaws.com/ -H "User
 <code>
   HTTP/1.1 200 OK
   Server: Server
-  Date: Wed, 21 Oct 2020 16:21:52 GMT
+  Date: Mon, 26 Oct 2020 21:52:50 GMT
   Content-Length: 0
   Connection: keep-alive
-  x-amzn-RequestId: E1HAVJHOEPU15G5FU5LFUK3TDFVV4KQNSO5AEMVJF66Q9ASUAAJG
+  x-amzn-RequestId: GMCJBH987G2911EPLHSOS1V15NVV4KQNSO5AEMVJF66Q9ASUAAJG
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
@@ -3290,10 +3340,10 @@ curl --insecure -i -X OPTIONS https://streams.dynamodb.us-east-1.amazonaws.com/ 
 <code>
   HTTP/1.1 200 OK
   Server: Server
-  Date: Wed, 21 Oct 2020 16:21:52 GMT
+  Date: Mon, 26 Oct 2020 21:52:50 GMT
   Content-Length: 0
   Connection: keep-alive
-  x-amzn-RequestId: 38Q0012DKM7LKSLTSVSFPA8J5BVV4KQNSO5AEMVJF66Q9ASUAAJG
+  x-amzn-RequestId: 40K1JRUL1I8TVEKJBS4LP123O3VV4KQNSO5AEMVJF66Q9ASUAAJG
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
@@ -3331,7 +3381,7 @@ curl --insecure -i -X OPTIONS https://streams.dynamodb.us-east-1.amazonaws.com/ 
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://ebs.us-east-1.amazonaws.com/snapshots/completion/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,x-amz-ChangedBlocksCount,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: ebs.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://ebs.us-east-1.amazonaws.com/snapshots/completion/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,x-amz-ChangedBlocksCount,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: ebs.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -3340,9 +3390,9 @@ curl --insecure -i -X OPTIONS https://ebs.us-east-1.amazonaws.com/snapshots/comp
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: facef781-5fa3-4dcf-a631-6e623ce49519
+  x-amzn-RequestId: 8444a799-4c73-4f39-990b-fbfdaf558ddd
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:21:53 GMT
+  Date: Mon, 26 Oct 2020 21:52:50 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -3357,7 +3407,7 @@ curl --insecure -i -X OPTIONS https://ebs.us-east-1.amazonaws.com/snapshots/comp
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    416      0 --:--:-- --:--:-- --:--:--   416
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    445      0 --:--:-- --:--:-- --:--:--   445
   
 </code>
 </pre>
@@ -3392,7 +3442,7 @@ curl --insecure -i -X OPTIONS https://ec2.us-east-1.amazonaws.com/ -H "User-Agen
   Access-Control-Allow-Methods: POST
   Access-Control-Allow-Headers: content-type,user-agent,content-length,host,authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:53 GMT
+  Date: Mon, 26 Oct 2020 21:52:52 GMT
   Server: AmazonEC2
   
   
@@ -3405,7 +3455,7 @@ curl --insecure -i -X OPTIONS https://ec2.us-east-1.amazonaws.com/ -H "User-Agen
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -3435,9 +3485,9 @@ curl --insecure -i -X OPTIONS https://ec2-instance-connect.us-east-1.amazonaws.c
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 9280a67c-f4ef-4187-b89a-217aec96a7fa
+  x-amzn-RequestId: 01d727d1-0015-48fc-aae5-33b41f456f5a
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:21:53 GMT
+  Date: Mon, 26 Oct 2020 21:52:51 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -3452,7 +3502,7 @@ curl --insecure -i -X OPTIONS https://ec2-instance-connect.us-east-1.amazonaws.c
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    461      0 --:--:-- --:--:-- --:--:--   461
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    416      0 --:--:-- --:--:-- --:--:--   416
   
 </code>
 </pre>
@@ -3482,13 +3532,13 @@ curl --insecure -i -X OPTIONS https://api.ecr.us-east-1.amazonaws.com/ -H "User-
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: a16891c0-f696-4f20-9911-277c4566cc2d
+  x-amzn-RequestId: 1567cbc1-53a4-407c-ae65-41c66a787f76
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:21:54 GMT
+  Date: Mon, 26 Oct 2020 21:52:52 GMT
   Content-Length: 0
   
   
@@ -3531,14 +3581,14 @@ curl --insecure -i -X OPTIONS https://ecs.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200
-  x-amzn-RequestId: 0762daff-e0fb-4ca6-91b6-44e640e01590
+  x-amzn-RequestId: 6063cb1c-bee1-4703-8d59-b62f20169bab
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:54 GMT
+  Date: Mon, 26 Oct 2020 21:52:53 GMT
   
   
 </code>
@@ -3550,7 +3600,7 @@ curl --insecure -i -X OPTIONS https://ecs.us-east-1.amazonaws.com/ -H "User-Agen
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -3580,14 +3630,14 @@ curl --insecure -i -X OPTIONS https://elasticfilesystem.us-east-1.amazonaws.com/
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 04d048eb-b45a-48d4-a581-70422bf117ef
+  x-amzn-RequestId: f52f8602-e106-41f0-8806-b003dc160d37
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:54 GMT
+  Date: Mon, 26 Oct 2020 21:52:53 GMT
   
   
 </code>
@@ -3599,7 +3649,7 @@ curl --insecure -i -X OPTIONS https://elasticfilesystem.us-east-1.amazonaws.com/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -3629,13 +3679,13 @@ curl --insecure -i -X OPTIONS https://eks.us-east-1.amazonaws.com/clusters -H "U
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:21:55 GMT
+  date: Mon, 26 Oct 2020 21:52:53 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: 1cc326c2-f711-4657-8293-a9bfd74e215e
+  x-amzn-requestid: f8c42969-4e38-4f87-bbc5-b61555ee2df2
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP1iFLJoAMFlMw=
-  x-amzn-trace-id: Root=1-5f906023-3faaa4805f21abf7550ce34c
+  x-amz-apigw-id: VCfAaGM5oAMFmtA=
+  x-amzn-trace-id: Root=1-5f974535-237c986921c6d7654a48276a
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -3647,7 +3697,7 @@ curl --insecure -i -X OPTIONS https://eks.us-east-1.amazonaws.com/clusters -H "U
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    261      0 --:--:-- --:--:-- --:--:--   261
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    213      0 --:--:-- --:--:-- --:--:--   213
   
 </code>
 </pre>
@@ -3682,8 +3732,8 @@ curl --insecure -i -X OPTIONS https://elasticbeanstalk.us-east-1.amazonaws.com/ 
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:21:55 GMT
-  x-amzn-RequestId: 57f2e159-2fbf-4433-9fc2-cafc4e107de7
+  Date: Mon, 26 Oct 2020 21:52:53 GMT
+  x-amzn-RequestId: acb5d5f7-a480-4f9f-b068-7353b6f40691
   Content-Length: 0
   Connection: keep-alive
   
@@ -3697,7 +3747,7 @@ curl --insecure -i -X OPTIONS https://elasticbeanstalk.us-east-1.amazonaws.com/ 
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -3727,15 +3777,113 @@ curl --insecure -i -X OPTIONS https://api.elastic-inference.us-east-1.amazonaws.
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:55 GMT
+  date: Mon, 26 Oct 2020 21:52:54 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: 5b97d98a-4616-4108-a2d8-9969a03a1041
+  x-amzn-requestid: 16f298a8-d33f-42b9-8749-8ef8b87e5579
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxP1oGmDoAMFlXw=
+  x-amz-apigw-id: VCfAhGWuIAMF9MQ=
   access-control-allow-methods: POST
-  x-amzn-trace-id: Root=1-5f906023-3196edba5f3c616a48b40ceb
+  x-amzn-trace-id: Root=1-5f974536-2a312a9c23893c950f3afcab
+  
+  
+</code>
+</pre>
+
+
+<strong>stderr</strong>
+<pre>
+<code>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  
+</code>
+</pre>
+
+</details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>elasticloadbalancing.us-east-1.amazonaws.com</strong></td>
+      <td>200 OK</td>
+      <td>✅ </td>
+      <td>✅ </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+<details><summary>Details</summary>
+
+<strong>cmd</strong>
+<pre>
+<code>
+curl --insecure -i -X OPTIONS https://elasticloadbalancing.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: elasticloadbalancing.us-east-1.amazonaws.com" 
+</code>
+</pre>
+
+
+<strong>stdout</strong>
+<pre>
+<code>
+  HTTP/1.1 200 OK
+  x-amzn-RequestId: dadee43f-ac2e-4166-b859-907909eecad9
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Mon, 26 Oct 2020 21:52:54 GMT
+  
+  
+</code>
+</pre>
+
+
+<strong>stderr</strong>
+<pre>
+<code>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  
+</code>
+</pre>
+
+</details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>elasticloadbalancing.us-east-1.amazonaws.com</strong></td>
+      <td>200 OK</td>
+      <td>✅ </td>
+      <td>✅ </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+<details><summary>Details</summary>
+
+<strong>cmd</strong>
+<pre>
+<code>
+curl --insecure -i -X OPTIONS https://elasticloadbalancing.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: elasticloadbalancing.us-east-1.amazonaws.com" 
+</code>
+</pre>
+
+
+<strong>stdout</strong>
+<pre>
+<code>
+  HTTP/1.1 200 OK
+  x-amzn-RequestId: 30047a48-b77f-49b3-be1a-83bf9e30dbad
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Mon, 26 Oct 2020 21:52:54 GMT
   
   
 </code>
@@ -3748,104 +3896,6 @@ curl --insecure -i -X OPTIONS https://api.elastic-inference.us-east-1.amazonaws.
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  
-</code>
-</pre>
-
-</details>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>elasticloadbalancing.us-east-1.amazonaws.com</strong></td>
-      <td>200 OK</td>
-      <td>✅ </td>
-      <td>✅ </td>
-    </tr>
-    <tr>
-      <td colspan="4">
-<details><summary>Details</summary>
-
-<strong>cmd</strong>
-<pre>
-<code>
-curl --insecure -i -X OPTIONS https://elasticloadbalancing.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: elasticloadbalancing.us-east-1.amazonaws.com" 
-</code>
-</pre>
-
-
-<strong>stdout</strong>
-<pre>
-<code>
-  HTTP/1.1 200 OK
-  x-amzn-RequestId: 788bf989-5846-424c-be1c-eaed8cb6140b
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:55 GMT
-  
-  
-</code>
-</pre>
-
-
-<strong>stderr</strong>
-<pre>
-<code>
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  
-</code>
-</pre>
-
-</details>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>elasticloadbalancing.us-east-1.amazonaws.com</strong></td>
-      <td>200 OK</td>
-      <td>✅ </td>
-      <td>✅ </td>
-    </tr>
-    <tr>
-      <td colspan="4">
-<details><summary>Details</summary>
-
-<strong>cmd</strong>
-<pre>
-<code>
-curl --insecure -i -X OPTIONS https://elasticloadbalancing.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: elasticloadbalancing.us-east-1.amazonaws.com" 
-</code>
-</pre>
-
-
-<strong>stdout</strong>
-<pre>
-<code>
-  HTTP/1.1 200 OK
-  x-amzn-RequestId: f7231675-88f0-4825-b754-9d48ddd429d2
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:56 GMT
-  
-  
-</code>
-</pre>
-
-
-<strong>stderr</strong>
-<pre>
-<code>
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -3866,7 +3916,7 @@ curl --insecure -i -X OPTIONS https://elasticloadbalancing.us-east-1.amazonaws.c
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://elastictranscoder.us-east-1.amazonaws.com/2012-09-25/jobs/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: elastictranscoder.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://elastictranscoder.us-east-1.amazonaws.com/2012-09-25/jobs/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: elastictranscoder.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -3875,7 +3925,7 @@ curl --insecure -i -X OPTIONS https://elastictranscoder.us-east-1.amazonaws.com/
 <pre>
 <code>
   HTTP/1.1 200
-  x-amzn-RequestId: 7290b1a5-9842-4592-8ce5-8783077c3cc5
+  x-amzn-RequestId: ab4ed287-7ef0-4474-82c2-85fc8c30763a
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: DELETE
@@ -3883,7 +3933,7 @@ curl --insecure -i -X OPTIONS https://elastictranscoder.us-east-1.amazonaws.com/
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:56 GMT
+  Date: Mon, 26 Oct 2020 21:52:55 GMT
   
   
 </code>
@@ -3895,7 +3945,7 @@ curl --insecure -i -X OPTIONS https://elastictranscoder.us-east-1.amazonaws.com/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -3925,14 +3975,14 @@ curl --insecure -i -X OPTIONS https://elasticache.us-east-1.amazonaws.com/ -H "U
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: eb6c83c3-5e81-4f93-a22c-6309bd0fd23e
+  x-amzn-RequestId: 2c855ef9-f7fd-4014-bbf5-a2bc5b7175dc
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:56 GMT
+  Date: Mon, 26 Oct 2020 21:52:55 GMT
   
   
 </code>
@@ -3965,7 +4015,7 @@ curl --insecure -i -X OPTIONS https://elasticache.us-east-1.amazonaws.com/ -H "U
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://es.us-east-1.amazonaws.com/2015-01-01/es/ccs/inboundConnection/stringValue/accept -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: es.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://es.us-east-1.amazonaws.com/2015-01-01/es/ccs/inboundConnection/stringvalue/accept -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: es.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -3974,9 +4024,9 @@ curl --insecure -i -X OPTIONS https://es.us-east-1.amazonaws.com/2015-01-01/es/c
 <pre>
 <code>
   HTTP/1.1 404 Not Found
-  x-amzn-RequestId: de0b4824-4ebf-4482-8e78-d1fa9f7e8167
+  x-amzn-RequestId: 82f478da-aa90-42e3-9d55-517d68914359
   Content-Length: 29
-  Date: Wed, 21 Oct 2020 16:21:56 GMT
+  Date: Mon, 26 Oct 2020 21:52:55 GMT
   
   <UnknownOperationException/>
   
@@ -3989,7 +4039,7 @@ curl --insecure -i -X OPTIONS https://es.us-east-1.amazonaws.com/2015-01-01/es/c
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     95      0 --:--:-- --:--:-- --:--:--    95
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     90      0 --:--:-- --:--:-- --:--:--    90
   
 </code>
 </pre>
@@ -4019,14 +4069,14 @@ curl --insecure -i -X OPTIONS https://elasticmapreduce.us-east-1.amazonaws.com/ 
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: f5a3ee7f-ed3a-4ed2-9b9b-9f0c162418b9
+  x-amzn-RequestId: ded5afd5-82fb-4de9-ad2d-0acc35ffc28f
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:57 GMT
+  Date: Mon, 26 Oct 2020 21:52:56 GMT
   
   
 </code>
@@ -4038,7 +4088,7 @@ curl --insecure -i -X OPTIONS https://elasticmapreduce.us-east-1.amazonaws.com/ 
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -4068,14 +4118,14 @@ curl --insecure -i -X OPTIONS https://events.us-east-1.amazonaws.com/ -H "User-A
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 67c0831f-a444-4980-bb6f-06addb7b4751
+  x-amzn-RequestId: 042c9f48-5b53-4c40-a430-f76273cae927
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:57 GMT
+  Date: Mon, 26 Oct 2020 21:52:56 GMT
   
   
 </code>
@@ -4087,7 +4137,7 @@ curl --insecure -i -X OPTIONS https://events.us-east-1.amazonaws.com/ -H "User-A
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -4117,14 +4167,14 @@ curl --insecure -i -X OPTIONS https://firehose.us-east-1.amazonaws.com/ -H "User
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: cf639fb7-44d0-2f9f-9769-fdd16783e1db
+  x-amzn-RequestId: f18a9ce5-59e9-7907-a99b-db9c15fc1ac7
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amz-request-id,x-amz-id-2,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:21:57 GMT
+  Date: Mon, 26 Oct 2020 21:52:56 GMT
   
   
 </code>
@@ -4166,9 +4216,9 @@ curl --insecure -i -X OPTIONS https://fms.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 403
-  x-amzn-RequestId: df55c18f-66b9-45c0-827e-f424962ac20f
+  x-amzn-RequestId: 2ad38661-5ea5-441c-b044-3b8e3f3797b8
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:21:58 GMT
+  Date: Mon, 26 Oct 2020 21:52:57 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -4183,7 +4233,7 @@ curl --insecure -i -X OPTIONS https://fms.us-east-1.amazonaws.com/ -H "User-Agen
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   127    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    463      0 --:--:-- --:--:-- --:--:--   461
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    376      0 --:--:-- --:--:-- --:--:--   376
   
 </code>
 </pre>
@@ -4218,8 +4268,8 @@ curl --insecure -i -X OPTIONS https://forecast.us-east-1.amazonaws.com/ -H "User
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:21:59 GMT
-  x-amzn-RequestId: 2d7b0b68-628e-46e1-b780-e0332b578ad0
+  Date: Mon, 26 Oct 2020 21:52:57 GMT
+  x-amzn-RequestId: 919ba25e-bcef-4dea-b728-18142609006d
   Content-Length: 0
   Connection: keep-alive
   
@@ -4233,7 +4283,7 @@ curl --insecure -i -X OPTIONS https://forecast.us-east-1.amazonaws.com/ -H "User
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -4268,8 +4318,8 @@ curl --insecure -i -X OPTIONS https://forecastquery.us-east-1.amazonaws.com/ -H 
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:21:59 GMT
-  x-amzn-RequestId: 7623e2ff-34e4-4dd1-8700-3180e0318a68
+  Date: Mon, 26 Oct 2020 21:52:58 GMT
+  x-amzn-RequestId: 9ddeffbc-5eed-4c98-a072-2efcdaad6617
   Content-Length: 0
   Connection: keep-alive
   
@@ -4313,9 +4363,9 @@ curl --insecure -i -X OPTIONS https://frauddetector.us-east-1.amazonaws.com/ -H 
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:21:59 GMT
+  date: Mon, 26 Oct 2020 21:52:58 GMT
   content-length: 0
-  x-amzn-requestid: b5ab0897-0641-4984-bba5-1af233e90c71
+  x-amzn-requestid: 109bec87-de0a-4e11-bf76-9a022b971bf8
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -4332,7 +4382,7 @@ curl --insecure -i -X OPTIONS https://frauddetector.us-east-1.amazonaws.com/ -H 
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -4362,9 +4412,9 @@ curl --insecure -i -X OPTIONS https://fsx.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:00 GMT
+  date: Mon, 26 Oct 2020 21:52:58 GMT
   content-length: 0
-  x-amzn-requestid: c9b62921-99cc-4640-b735-d0e68a1c65f9
+  x-amzn-requestid: 7c915c66-597d-44ac-b89d-ef3d3ad7f192
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -4381,7 +4431,7 @@ curl --insecure -i -X OPTIONS https://fsx.us-east-1.amazonaws.com/ -H "User-Agen
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -4411,14 +4461,14 @@ curl --insecure -i -X OPTIONS https://gamelift.us-east-1.amazonaws.com/ -H "User
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: ddc1f224-fcb3-47c1-82bf-30b7ac2e8e8e
+  x-amzn-RequestId: 54ffb6f4-254e-4b45-99f5-58586198577f
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:00 GMT
+  Date: Mon, 26 Oct 2020 21:52:58 GMT
   
   
 </code>
@@ -4451,7 +4501,7 @@ curl --insecure -i -X OPTIONS https://gamelift.us-east-1.amazonaws.com/ -H "User
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://glacier.us-east-1.amazonaws.com/stringValue/vaults/stringValue/multipart-uploads/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,x-amz-glacier-version,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: glacier.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://glacier.us-east-1.amazonaws.com/stringvalue/vaults/stringvalue/multipart-uploads/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,x-amz-glacier-version,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: glacier.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -4460,9 +4510,9 @@ curl --insecure -i -X OPTIONS https://glacier.us-east-1.amazonaws.com/stringValu
 <pre>
 <code>
   HTTP/1.1 400 Bad Request
-  x-amzn-RequestId: GwWP9gOETwf0RsjWyQ_ogN3I7ljoL_5iBvcsbZ7JRSl2gSA
+  x-amzn-RequestId: NHVvpebacLTNEsfZqGRapnwsy5UGNnlQpPV5O54iXLmFOfs
   Content-Length: 109
-  Date: Wed, 21 Oct 2020 16:22:00 GMT
+  Date: Mon, 26 Oct 2020 21:52:59 GMT
   Connection: close
   
   {"code":"MissingParameterValueException","message":"Required parameter missing: API version","type":"Client"}
@@ -4475,7 +4525,7 @@ curl --insecure -i -X OPTIONS https://glacier.us-east-1.amazonaws.com/stringValu
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   109    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   109  100   109    0     0    357      0 --:--:-- --:--:-- --:--:--   356
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   109  100   109    0     0    378      0 --:--:-- --:--:-- --:--:--   378
   
 </code>
 </pre>
@@ -4526,9 +4576,9 @@ curl --insecure -i -X OPTIONS https://glue.us-east-1.amazonaws.com/ -H "User-Age
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:01 GMT
+  date: Mon, 26 Oct 2020 21:53:00 GMT
   content-length: 0
-  x-amzn-requestid: d0e4a9f8-06c3-4beb-99e2-01dbbbca22b7
+  x-amzn-requestid: 9d9e6ebc-0334-4f1b-846b-dcf0eefb6327
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -4545,7 +4595,7 @@ curl --insecure -i -X OPTIONS https://glue.us-east-1.amazonaws.com/ -H "User-Age
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -4566,7 +4616,7 @@ curl --insecure -i -X OPTIONS https://glue.us-east-1.amazonaws.com/ -H "User-Age
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://greengrass.us-east-1.amazonaws.com/greengrass/groups/stringValue/role -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: greengrass.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://greengrass.us-east-1.amazonaws.com/greengrass/groups/stringvalue/role -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: greengrass.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -4575,13 +4625,13 @@ curl --insecure -i -X OPTIONS https://greengrass.us-east-1.amazonaws.com/greengr
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:01 GMT
+  date: Mon, 26 Oct 2020 21:53:00 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: fc017ef1-b1fa-4d56-bbb0-837eada9a91c
+  x-amzn-requestid: b9c9dc9d-e5df-4cb4-80a6-4c8ec3da46b4
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP2gH6roAMFbxA=
-  x-amzn-trace-id: Root=1-5f906029-04aca911423022dd3ea4b3a0
+  x-amz-apigw-id: VCfBdF3LIAMFYew=
+  x-amzn-trace-id: Root=1-5f97453c-6b68e5d66f2baf044426aa1f
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -4593,7 +4643,7 @@ curl --insecure -i -X OPTIONS https://greengrass.us-east-1.amazonaws.com/greengr
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    266      0 --:--:-- --:--:-- --:--:--   266
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    242      0 --:--:-- --:--:-- --:--:--   243
   
 </code>
 </pre>
@@ -4612,7 +4662,7 @@ curl --insecure -i -X OPTIONS https://greengrass.us-east-1.amazonaws.com/greengr
 <strong>Error</strong>
 <pre>
 <code>
-Command failed: curl --insecure -i -X OPTIONS https://groundstation.us-east-1.amazonaws.com/contact/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: groundstation.us-east-1.amazonaws.com" 
+Command failed: curl --insecure -i -X OPTIONS https://groundstation.us-east-1.amazonaws.com/contact/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: groundstation.us-east-1.amazonaws.com" 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: groundstation.us-east-1.amazonaws.com
@@ -4635,7 +4685,7 @@ Command failed: curl --insecure -i -X OPTIONS https://groundstation.us-east-1.am
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://guardduty.us-east-1.amazonaws.com/detector/stringValue/master -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: guardduty.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://guardduty.us-east-1.amazonaws.com/detector/stringvalue/master -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: guardduty.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -4644,12 +4694,12 @@ curl --insecure -i -X OPTIONS https://guardduty.us-east-1.amazonaws.com/detector
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:01 GMT
+  date: Mon, 26 Oct 2020 21:53:00 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: a40f48cf-d25f-4d2c-8238-9ba497246ce3
+  x-amzn-requestid: 12d52d9a-f380-4d1c-9f69-f550a7225fa8
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP2kHz3oAMFUXg=
+  x-amz-apigw-id: VCfBiELwoAMFsfg=
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -4661,7 +4711,7 @@ curl --insecure -i -X OPTIONS https://guardduty.us-east-1.amazonaws.com/detector
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    262      0 --:--:-- --:--:-- --:--:--   261
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    233      0 --:--:-- --:--:-- --:--:--   233
   
 </code>
 </pre>
@@ -4699,7 +4749,7 @@ curl --insecure -i -X OPTIONS https://health.us-east-1.amazonaws.com/ -H "User-A
   Access-Control-Max-Age: 172800
   Access-Control-Allow-Credentials: true
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:02 GMT
+  Date: Mon, 26 Oct 2020 21:53:00 GMT
   
   
 </code>
@@ -4762,14 +4812,14 @@ curl --insecure -i -X OPTIONS https://iam.amazonaws.com/ -H "User-Agent: Mozilla
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 8c94d584-e8a7-4d65-aaa1-a7ee945e9064
+  x-amzn-RequestId: 7a4bff39-81f8-4b3d-948e-98452afd5456
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:01 GMT
+  Date: Mon, 26 Oct 2020 21:53:00 GMT
   
   
 </code>
@@ -4782,6 +4832,55 @@ curl --insecure -i -X OPTIONS https://iam.amazonaws.com/ -H "User-Agent: Mozilla
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  
+</code>
+</pre>
+
+</details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>identitystore.us-east-1.amazonaws.com</strong></td>
+      <td>200 </td>
+      <td>✅ </td>
+      <td>✅ </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+<details><summary>Details</summary>
+
+<strong>cmd</strong>
+<pre>
+<code>
+curl --insecure -i -X OPTIONS https://identitystore.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: identitystore.us-east-1.amazonaws.com" 
+</code>
+</pre>
+
+
+<strong>stdout</strong>
+<pre>
+<code>
+  HTTP/2 200
+  date: Mon, 26 Oct 2020 21:53:02 GMT
+  content-length: 0
+  x-amzn-requestid: 8da72856-bd7f-49c7-8508-3894bf07e424
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  
+</code>
+</pre>
+
+
+<strong>stderr</strong>
+<pre>
+<code>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -4811,13 +4910,13 @@ curl --insecure -i -X OPTIONS https://imagebuilder.us-east-1.amazonaws.com/Cance
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:02 GMT
+  date: Mon, 26 Oct 2020 21:53:02 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: e6e69cfb-26ba-4a46-8f6b-dfe0f639eba2
+  x-amzn-requestid: f139f87f-5e15-4920-83ca-0f872b395ed9
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: UxP2uHwyIAMFnCQ=
+  x-amz-apigw-id: VCfBwGYsoAMF61w=
   access-control-allow-methods: PUT
   
   
@@ -4830,7 +4929,7 @@ curl --insecure -i -X OPTIONS https://imagebuilder.us-east-1.amazonaws.com/Cance
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -4860,14 +4959,14 @@ curl --insecure -i -X OPTIONS https://inspector.us-east-1.amazonaws.com/ -H "Use
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: b5529019-b59d-40d4-ad21-3738b31df312
+  x-amzn-RequestId: 31ec4908-2cfb-486d-bb47-0f09f8c2ae1d
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:02 GMT
+  Date: Mon, 26 Oct 2020 21:53:02 GMT
   
   
 </code>
@@ -4900,7 +4999,7 @@ curl --insecure -i -X OPTIONS https://inspector.us-east-1.amazonaws.com/ -H "Use
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://iot.us-east-1.amazonaws.com/accept-certificate-transfer/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PATCH" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: iot.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://iot.us-east-1.amazonaws.com/accept-certificate-transfer/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PATCH" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: iot.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -4909,13 +5008,13 @@ curl --insecure -i -X OPTIONS https://iot.us-east-1.amazonaws.com/accept-certifi
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:03 GMT
+  date: Mon, 26 Oct 2020 21:53:03 GMT
   content-type: application/json
   content-length: 2
-  x-amzn-requestid: 5bb0c973-dd25-4aa2-8c35-023d0d9580eb
+  x-amzn-requestid: 49c1414e-9de2-432b-8483-36f852e35a0f
   access-control-allow-origin: *
   access-control-allow-headers: Authorization, X-Amz-Date, X-Amz-Security-Token, x-amzn-iot-principal, X-Amz-Content-Sha256, X-Amz-User-Agent, Content-Type, x-amzn-principal
-  x-amz-apigw-id: UxP21Gp7oAMFxzw=
+  x-amz-apigw-id: VCfB5EVHIAMFjsw=
   access-control-allow-methods: OPTIONS, GET, HEAD, POST, PUT, PATCH, DELETE
   
   {}
@@ -4947,7 +5046,7 @@ curl --insecure -i -X OPTIONS https://iot.us-east-1.amazonaws.com/accept-certifi
 <strong>Error</strong>
 <pre>
 <code>
-Command failed: curl --insecure -i -X OPTIONS https://devices.iot1click.us-east-1.amazonaws.com/claims/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: devices.iot1click.us-east-1.amazonaws.com" 
+Command failed: curl --insecure -i -X OPTIONS https://devices.iot1click.us-east-1.amazonaws.com/claims/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: devices.iot1click.us-east-1.amazonaws.com" 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: devices.iot1click.us-east-1.amazonaws.com
@@ -4970,7 +5069,7 @@ Command failed: curl --insecure -i -X OPTIONS https://devices.iot1click.us-east-
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://projects.iot1click.us-east-1.amazonaws.com/projects/stringValue/placements/stringValue/devices/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: projects.iot1click.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://projects.iot1click.us-east-1.amazonaws.com/projects/stringvalue/placements/stringvalue/devices/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: projects.iot1click.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -4979,13 +5078,13 @@ curl --insecure -i -X OPTIONS https://projects.iot1click.us-east-1.amazonaws.com
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:04 GMT
+  date: Mon, 26 Oct 2020 21:53:03 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: a791f076-a815-4db0-8994-048a625301e8
+  x-amzn-requestid: 888a2bc8-d4cc-4bcb-b78f-bbdda6cb8905
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxP25FNoIAMFb_w=
+  x-amz-apigw-id: VCfB8H3cIAMFnFQ=
   access-control-allow-methods: PUT,DELETE
   
   
@@ -4998,7 +5097,7 @@ curl --insecure -i -X OPTIONS https://projects.iot1click.us-east-1.amazonaws.com
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -5019,7 +5118,7 @@ curl --insecure -i -X OPTIONS https://projects.iot1click.us-east-1.amazonaws.com
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://data.iot.us-east-1.amazonaws.com/things/stringValue/shadow -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: data.iot.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://data.iot.us-east-1.amazonaws.com/things/stringvalue/shadow -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: data.iot.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -5033,7 +5132,7 @@ curl --insecure -i -X OPTIONS https://data.iot.us-east-1.amazonaws.com/things/st
   access-control-allow-headers: Authorization,X-amz-security-token,Accept,X-amz-date,X-amz-user-agent,X-amz-content-sha256,Accept-Language,X-requested-with,Content-Language,Content-Type
   access-control-max-age: 1800
   content-length: 0
-  date: "Wed, 21 Oct 2020 16:22:04 GMT"
+  date: "Mon, 26 Oct 2020 21:53:03 GMT"
   
   
 </code>
@@ -5045,7 +5144,7 @@ curl --insecure -i -X OPTIONS https://data.iot.us-east-1.amazonaws.com/things/st
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -5075,9 +5174,9 @@ curl --insecure -i -X OPTIONS https://iotevents.us-east-1.amazonaws.com/detector
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:04 GMT
+  date: Mon, 26 Oct 2020 21:53:04 GMT
   content-length: 0
-  x-amzn-requestid: c3728986-e4a7-4744-8e4f-d8b426236177
+  x-amzn-requestid: d45e285d-6cd8-460b-94b4-9632275fc66b
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -5124,9 +5223,9 @@ curl --insecure -i -X OPTIONS https://data.iotevents.us-east-1.amazonaws.com/inp
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:04 GMT
+  date: Mon, 26 Oct 2020 21:53:04 GMT
   content-length: 0
-  x-amzn-requestid: 5f806f8a-90ec-4208-be2f-3b747cf2be4d
+  x-amzn-requestid: cb95258e-db3e-413f-bd75-55259607156d
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -5143,7 +5242,7 @@ curl --insecure -i -X OPTIONS https://data.iotevents.us-east-1.amazonaws.com/inp
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -5164,7 +5263,7 @@ curl --insecure -i -X OPTIONS https://data.iotevents.us-east-1.amazonaws.com/inp
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://data.jobs.iot.us-east-1.amazonaws.com/things/stringValue/jobs/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: GET" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: data.jobs.iot.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://data.jobs.iot.us-east-1.amazonaws.com/things/stringvalue/jobs/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: GET" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: data.jobs.iot.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -5173,14 +5272,14 @@ curl --insecure -i -X OPTIONS https://data.jobs.iot.us-east-1.amazonaws.com/thin
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: f388309e-5a8f-4bcf-bc19-439b9a585b1a
+  x-amzn-RequestId: 4b7faca1-f619-4138-9484-503ff37ce575
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: GET
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:04 GMT
+  Date: Mon, 26 Oct 2020 21:53:04 GMT
   
   
 </code>
@@ -5192,7 +5291,7 @@ curl --insecure -i -X OPTIONS https://data.jobs.iot.us-east-1.amazonaws.com/thin
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -5222,9 +5321,9 @@ curl --insecure -i -X OPTIONS https://iotanalytics.us-east-1.amazonaws.com/messa
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:05 GMT
+  date: Mon, 26 Oct 2020 21:53:05 GMT
   content-length: 0
-  x-amzn-requestid: 68cb34e5-2867-42fa-9fe8-f607503ed92d
+  x-amzn-requestid: 50c0d4be-cbd1-47e0-9145-18159c9e61d1
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   cache-control: no-cache, no-store, must-revalidate, private
@@ -5274,9 +5373,9 @@ curl --insecure -i -X OPTIONS https://api.tunneling.iot.us-east-1.amazonaws.com/
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:05 GMT
+  date: Mon, 26 Oct 2020 21:53:05 GMT
   content-length: 25
-  x-amzn-requestid: f81fcf27-13d9-4782-85c6-fd4d9c2a1908
+  x-amzn-requestid: 65f986d5-f196-4e6f-902f-10e3c012dcc9
   
   <AccessDeniedException/>
   
@@ -5289,7 +5388,7 @@ curl --insecure -i -X OPTIONS https://api.tunneling.iot.us-east-1.amazonaws.com/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25  100    25    0     0     81      0 --:--:-- --:--:-- --:--:--    81
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25  100    25    0     0     70      0 --:--:-- --:--:-- --:--:--    70
   
 </code>
 </pre>
@@ -5310,7 +5409,7 @@ curl --insecure -i -X OPTIONS https://api.tunneling.iot.us-east-1.amazonaws.com/
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://model.iotsitewise.us-east-1.amazonaws.com/assets/stringValue/associate -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: model.iotsitewise.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://model.iotsitewise.us-east-1.amazonaws.com/assets/stringvalue/associate -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: model.iotsitewise.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -5319,9 +5418,9 @@ curl --insecure -i -X OPTIONS https://model.iotsitewise.us-east-1.amazonaws.com/
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:06 GMT
+  date: Mon, 26 Oct 2020 21:53:06 GMT
   content-length: 0
-  x-amzn-requestid: 911952d0-650f-4922-a694-095c4daa7924
+  x-amzn-requestid: 2f0de65d-2408-4f1a-bde9-c111bbd938fc
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -5368,9 +5467,9 @@ curl --insecure -i -X OPTIONS https://iotthingsgraph.us-east-1.amazonaws.com/ -H
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:06 GMT
+  date: Mon, 26 Oct 2020 21:53:06 GMT
   content-length: 130
-  x-amzn-requestid: 7307e2cb-b806-4b85-83a8-fb66807aafa0
+  x-amzn-requestid: 15bdfce5-7db3-4365-93b5-ba942f6f7e64
   
   <AccessDeniedException>
   <Message>Unable to determine service/operation name to be authorized</Message>
@@ -5385,7 +5484,7 @@ curl --insecure -i -X OPTIONS https://iotthingsgraph.us-east-1.amazonaws.com/ -H
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   130  100   130    0     0    422      0 --:--:-- --:--:-- --:--:--   422
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   130  100   130    0     0    411      0 --:--:-- --:--:-- --:--:--   411
   
 </code>
 </pre>
@@ -5417,17 +5516,17 @@ curl --insecure -i -X OPTIONS https://ivs.us-east-1.amazonaws.com/BatchGetChanne
   HTTP/2 200
   content-type: application/json
   content-length: 0
-  date: Wed, 21 Oct 2020 16:22:06 GMT
-  x-amzn-requestid: a772944a-0371-41ea-b61a-805b5a251ea6
+  date: Mon, 26 Oct 2020 21:53:06 GMT
+  x-amzn-requestid: 8793c62e-841a-4dc0-992b-bfad6a69a2e4
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxP3UGuAoAMFhTQ=
+  x-amz-apigw-id: VCfCcE3QoAMFmZg=
   access-control-allow-methods: POST
-  x-amzn-trace-id: Root=1-5f90602e-306912e13c06d351102f3fc1
+  x-amzn-trace-id: Root=1-5f974542-4dd8d1f8157578fd4d944563
   x-cache: Miss from cloudfront
-  via: 1.1 2afae0d44e2540f472c0635ab62c232b.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C1
-  x-amz-cf-id: PgftV1OYx-ACAHeusHEdZE5j87jJPGXsYlZ-SzwcgMeJ-tU3Ef2NnA==
+  via: 1.1 efcf7b9d0f917f9ebf314db03e52d9b7.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C1
+  x-amz-cf-id: 7NPPNY8lP5IpLlZTmjeYoRVxtP6tLSr2_DK50xhzozXl6PPLq1uOSA==
   
   
 </code>
@@ -5439,7 +5538,7 @@ curl --insecure -i -X OPTIONS https://ivs.us-east-1.amazonaws.com/BatchGetChanne
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -5460,7 +5559,7 @@ curl --insecure -i -X OPTIONS https://ivs.us-east-1.amazonaws.com/BatchGetChanne
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://kafka.us-east-1.amazonaws.com/v1/clusters -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: kafka.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://kafka.us-east-1.amazonaws.com/v1/clusters/stringvalue/scram-secrets -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: kafka.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -5471,15 +5570,15 @@ curl --insecure -i -X OPTIONS https://kafka.us-east-1.amazonaws.com/v1/clusters 
   HTTP/2 403
   content-type: application/json
   content-length: 73
-  date: Wed, 21 Oct 2020 16:22:07 GMT
-  x-amzn-requestid: ba7e7e78-9eeb-4dba-aed1-a4540346675b
+  date: Mon, 26 Oct 2020 21:53:06 GMT
+  x-amzn-requestid: 7fe578d0-afac-410a-92f6-8173856c36a9
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP3XE7eoAMFR_Q=
-  x-amzn-trace-id: Root=1-5f90602f-7974dbda50123a7458e4d28c
+  x-amz-apigw-id: VCfCeFlZoAMFovQ=
+  x-amzn-trace-id: Root=1-5f974542-0d40df280fdc6778646ea0e5
   x-cache: Error from cloudfront
-  via: 1.1 eb7d416369db7f3961117199ddc9e343.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C2
-  x-amz-cf-id: MUiLiqzzCEBYkxKfsdlFKa32EAXLFESuG9nUT5eoRR_rQJABU-_mkA==
+  via: 1.1 98aedae6661e3904540676966998ed89.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C2
+  x-amz-cf-id: nH4aMprE40oY1LrobLuyxvEPHoN3lBRogY83szxzvw9rg3DMBoVBaw==
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -5491,7 +5590,7 @@ curl --insecure -i -X OPTIONS https://kafka.us-east-1.amazonaws.com/v1/clusters 
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    271      0 --:--:-- --:--:-- --:--:--   271
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    354      0 --:--:-- --:--:-- --:--:--   352
   
 </code>
 </pre>
@@ -5521,14 +5620,14 @@ curl --insecure -i -X OPTIONS https://kendra.us-east-1.amazonaws.com/ -H "User-A
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 97cdf247-60be-431c-a6ee-3d5b3f732fcd
+  x-amzn-RequestId: 254ba838-b01b-4c6f-a876-f662c138d520
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:07 GMT
+  Date: Mon, 26 Oct 2020 21:53:06 GMT
   
   
 </code>
@@ -5570,14 +5669,63 @@ curl --insecure -i -X OPTIONS https://kinesis.us-east-1.amazonaws.com/ -H "User-
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: d60e15fb-18a4-d66e-8e04-7794262b8bc6
+  x-amzn-RequestId: f690f1ff-5618-3bdc-ae81-b67cddc9d58b
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amz-request-id,x-amz-id-2,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:07 GMT
+  Date: Mon, 26 Oct 2020 21:53:07 GMT
   Content-Length: 0
+  
+  
+</code>
+</pre>
+
+
+<strong>stderr</strong>
+<pre>
+<code>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  
+</code>
+</pre>
+
+</details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>kinesisanalytics.us-east-1.amazonaws.com</strong></td>
+      <td>200 OK</td>
+      <td>✅ </td>
+      <td>✅ </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+<details><summary>Details</summary>
+
+<strong>cmd</strong>
+<pre>
+<code>
+curl --insecure -i -X OPTIONS https://kinesisanalytics.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: kinesisanalytics.us-east-1.amazonaws.com" 
+</code>
+</pre>
+
+
+<strong>stdout</strong>
+<pre>
+<code>
+  HTTP/1.1 200 OK
+  x-amzn-RequestId: f746ae88-738a-4f79-a663-4cc1c5a29bb1
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Mon, 26 Oct 2020 21:53:07 GMT
   
   
 </code>
@@ -5619,63 +5767,14 @@ curl --insecure -i -X OPTIONS https://kinesisanalytics.us-east-1.amazonaws.com/ 
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 0e4d4f7e-a2c3-4866-ba37-9facabc2b395
+  x-amzn-RequestId: ad29c020-470a-4c09-864a-6d8e6f362fcf
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:07 GMT
-  
-  
-</code>
-</pre>
-
-
-<strong>stderr</strong>
-<pre>
-<code>
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  
-</code>
-</pre>
-
-</details>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>kinesisanalytics.us-east-1.amazonaws.com</strong></td>
-      <td>200 OK</td>
-      <td>✅ </td>
-      <td>✅ </td>
-    </tr>
-    <tr>
-      <td colspan="4">
-<details><summary>Details</summary>
-
-<strong>cmd</strong>
-<pre>
-<code>
-curl --insecure -i -X OPTIONS https://kinesisanalytics.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: kinesisanalytics.us-east-1.amazonaws.com" 
-</code>
-</pre>
-
-
-<strong>stdout</strong>
-<pre>
-<code>
-  HTTP/1.1 200 OK
-  x-amzn-RequestId: e4c28bca-8667-4241-8ad5-8d36615db4d9
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:08 GMT
+  Date: Mon, 26 Oct 2020 21:53:07 GMT
   
   
 </code>
@@ -5717,14 +5816,14 @@ curl --insecure -i -X OPTIONS https://kinesisvideo.us-east-1.amazonaws.com/creat
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 4eef2bce-786a-40a1-beb9-de00114d7524
+  x-amzn-RequestId: eed08c76-eb76-4149-b066-0ad5a9bab171
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:08 GMT
+  Date: Mon, 26 Oct 2020 21:53:08 GMT
   
   
 </code>
@@ -5766,14 +5865,14 @@ curl --insecure -i -X OPTIONS https://kinesisvideo.us-east-1.amazonaws.com/getCl
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: bcc596b9-2bd3-4bf9-92d8-76a9f9e5c0da
+  x-amzn-RequestId: 6430f7c0-8397-4b23-b4d6-0f6d400a954e
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:08 GMT
+  Date: Mon, 26 Oct 2020 21:53:08 GMT
   
   
 </code>
@@ -5785,7 +5884,7 @@ curl --insecure -i -X OPTIONS https://kinesisvideo.us-east-1.amazonaws.com/getCl
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -5815,14 +5914,14 @@ curl --insecure -i -X OPTIONS https://kinesisvideo.us-east-1.amazonaws.com/getMe
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: b62e950c-3481-4fe4-9b8b-49c43468c6f2
+  x-amzn-RequestId: 7fe142f4-0233-49f5-b16c-56f1dc6b5851
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:08 GMT
+  Date: Mon, 26 Oct 2020 21:53:09 GMT
   
   
 </code>
@@ -5864,14 +5963,14 @@ curl --insecure -i -X OPTIONS https://kinesisvideo.us-east-1.amazonaws.com/v1/ge
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 950b0790-ff7c-4e2e-bfee-484441e3ef5f
+  x-amzn-RequestId: 7f2d666c-135d-413e-90c6-a006413ac750
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:09 GMT
+  Date: Mon, 26 Oct 2020 21:53:09 GMT
   
   
 </code>
@@ -5913,7 +6012,7 @@ curl --insecure -i -X OPTIONS https://kms.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 543c149f-9be9-46f9-9381-3bde0c7d1a8f
+  x-amzn-RequestId: 6f170906-16cf-4420-ba3d-580948bcbe74
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Cache-Control: no-cache, no-store, must-revalidate, private
@@ -5922,7 +6021,7 @@ curl --insecure -i -X OPTIONS https://kms.us-east-1.amazonaws.com/ -H "User-Agen
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Pragma: no-cache
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:10 GMT
+  Date: Mon, 26 Oct 2020 21:53:09 GMT
   Content-Length: 0
   
   
@@ -5965,9 +6064,9 @@ curl --insecure -i -X OPTIONS https://lakeformation.us-east-1.amazonaws.com/ -H 
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:10 GMT
+  date: Mon, 26 Oct 2020 21:53:10 GMT
   content-length: 0
-  x-amzn-requestid: 96392fbe-4566-4846-839e-f363dcff145d
+  x-amzn-requestid: 5e55a746-836b-454e-9b09-d9506dd76093
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -6005,7 +6104,7 @@ curl --insecure -i -X OPTIONS https://lakeformation.us-east-1.amazonaws.com/ -H 
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://lambda.us-east-1.amazonaws.com/2018-10-31/layers/stringValue/versions/stringValue/policy -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: lambda.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://lambda.us-east-1.amazonaws.com/2018-10-31/layers/stringvalue/versions/stringvalue/policy -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: lambda.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -6014,9 +6113,9 @@ curl --insecure -i -X OPTIONS https://lambda.us-east-1.amazonaws.com/2018-10-31/
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:10 GMT
+  date: Mon, 26 Oct 2020 21:53:10 GMT
   content-length: 0
-  x-amzn-requestid: cc9c6444-36d8-487c-9a5a-a2b7e758632a
+  x-amzn-requestid: c1a7b533-9619-4f24-9b5f-f5e99528dc65
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -6054,7 +6153,7 @@ curl --insecure -i -X OPTIONS https://lambda.us-east-1.amazonaws.com/2018-10-31/
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://models.lex.us-east-1.amazonaws.com/bots/stringValue/versions -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: models.lex.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://models.lex.us-east-1.amazonaws.com/bots/stringvalue/versions -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: models.lex.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -6068,8 +6167,8 @@ curl --insecure -i -X OPTIONS https://models.lex.us-east-1.amazonaws.com/bots/st
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:10 GMT
-  x-amzn-RequestId: b50c1a5b-65c5-47c7-92e0-e0ed4647b7eb
+  Date: Mon, 26 Oct 2020 21:53:10 GMT
+  x-amzn-RequestId: a82fffe3-273e-4bbc-9df8-2fec10b6c68b
   Content-Length: 0
   Connection: keep-alive
   
@@ -6104,7 +6203,7 @@ curl --insecure -i -X OPTIONS https://models.lex.us-east-1.amazonaws.com/bots/st
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://runtime.lex.us-east-1.amazonaws.com/bot/stringValue/alias/stringValue/user/stringValue/session -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: runtime.lex.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://runtime.lex.us-east-1.amazonaws.com/bot/stringvalue/alias/stringvalue/user/stringvalue/session -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: runtime.lex.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -6113,13 +6212,13 @@ curl --insecure -i -X OPTIONS https://runtime.lex.us-east-1.amazonaws.com/bot/st
 <pre>
 <code>
   HTTP/2 200
-  x-amzn-requestid: 32408784-cc76-4cb0-9210-5661c74c48ad
+  x-amzn-requestid: 1ede3c97-dc29-4624-977b-ad84adbe1267
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: DELETE
   access-control-expose-headers: x-amz-lex-session-attributes,x-amz-lex-slots,x-amz-lex-dialog-state,Date,x-amz-lex-message,x-amz-lex-input-transcript,x-amzn-ErrorMessage,x-amz-lex-slot-to-elicit,x-amzn-RequestId,x-amzn-ErrorType,x-amz-lex-intent-name
   access-control-max-age: 172800
-  date: Wed, 21 Oct 2020 16:22:11 GMT
+  date: Mon, 26 Oct 2020 21:53:11 GMT
   content-length: 0
   
   
@@ -6162,9 +6261,9 @@ curl --insecure -i -X OPTIONS https://license-manager.us-east-1.amazonaws.com/ -
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: d460f55a-b049-4347-878f-4f28eb1f7124
+  x-amzn-RequestId: 79100a88-fbd6-4fad-91ce-9e1be7bab7d9
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:22:11 GMT
+  Date: Mon, 26 Oct 2020 21:53:11 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -6179,7 +6278,7 @@ curl --insecure -i -X OPTIONS https://license-manager.us-east-1.amazonaws.com/ -
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    374      0 --:--:-- --:--:-- --:--:--   374
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    389      0 --:--:-- --:--:-- --:--:--   389
   
 </code>
 </pre>
@@ -6210,10 +6309,10 @@ curl --insecure -i -X OPTIONS https://lightsail.us-east-1.amazonaws.com/ -H "Use
 <code>
   HTTP/1.1 404 Not Found
   Server: Server
-  Date: Wed, 21 Oct 2020 16:22:12 GMT
+  Date: Mon, 26 Oct 2020 21:53:12 GMT
   Content-Length: 114
   Connection: keep-alive
-  x-amzn-RequestId: 106dd2a0-8906-4ba2-8966-64f51008a0ec
+  x-amzn-RequestId: b893b2f2-59a8-4e18-a6cc-3726dd0af4c6
   
   <UnknownOperationException>
   <Message>The request is not valid operation.</Message>
@@ -6228,7 +6327,7 @@ curl --insecure -i -X OPTIONS https://lightsail.us-east-1.amazonaws.com/ -H "Use
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   114  100   114    0     0    416      0 --:--:-- --:--:-- --:--:--   414
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   114  100   114    0     0    344      0 --:--:-- --:--:-- --:--:--   343
   
 </code>
 </pre>
@@ -6258,14 +6357,14 @@ curl --insecure -i -X OPTIONS https://machinelearning.us-east-1.amazonaws.com/ -
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: adf1e634-7621-469b-a420-e4041adbf001
+  x-amzn-RequestId: fc00cafd-bd8a-4d2e-91bd-402e3328ff02
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:11 GMT
+  Date: Mon, 26 Oct 2020 21:53:12 GMT
   
   
 </code>
@@ -6307,9 +6406,9 @@ curl --insecure -i -X OPTIONS https://macie.us-east-1.amazonaws.com/ -H "User-Ag
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:12 GMT
+  date: Mon, 26 Oct 2020 21:53:12 GMT
   content-length: 127
-  x-amzn-requestid: 470afe33-64a6-40c1-8d05-c500cdda63af
+  x-amzn-requestid: 7a8376e0-f17c-47ce-a52a-8ac0543bcbd1
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -6324,7 +6423,7 @@ curl --insecure -i -X OPTIONS https://macie.us-east-1.amazonaws.com/ -H "User-Ag
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    463      0 --:--:-- --:--:-- --:--:--   463
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    394      0 --:--:-- --:--:-- --:--:--   394
   
 </code>
 </pre>
@@ -6354,12 +6453,12 @@ curl --insecure -i -X OPTIONS https://macie2.us-east-1.amazonaws.com/invitations
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:12 GMT
+  date: Mon, 26 Oct 2020 21:53:13 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: 38220f1e-660c-4968-9d55-350c7e170226
+  x-amzn-requestid: 010c5421-4070-4a0e-a447-d8b0d8947874
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP4SFOqIAMF1MA=
+  x-amz-apigw-id: VCfDdHztIAMFrPQ=
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -6371,7 +6470,7 @@ curl --insecure -i -X OPTIONS https://macie2.us-east-1.amazonaws.com/invitations
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    260      0 --:--:-- --:--:-- --:--:--   259
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    223      0 --:--:-- --:--:-- --:--:--   223
   
 </code>
 </pre>
@@ -6392,7 +6491,7 @@ curl --insecure -i -X OPTIONS https://macie2.us-east-1.amazonaws.com/invitations
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://managedblockchain.us-east-1.amazonaws.com/networks/stringValue/members -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: managedblockchain.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://managedblockchain.us-east-1.amazonaws.com/networks/stringvalue/members -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: managedblockchain.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -6401,12 +6500,12 @@ curl --insecure -i -X OPTIONS https://managedblockchain.us-east-1.amazonaws.com/
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:13 GMT
+  date: Mon, 26 Oct 2020 21:53:13 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: c9768584-9163-4e49-9c34-a9a8ad8d77dc
+  x-amzn-requestid: 424b10b8-4d80-4804-a7bd-afc352d9e2da
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP4VEiFoAMF8Jw=
+  x-amz-apigw-id: VCfDgHMJIAMFcdA=
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -6418,7 +6517,7 @@ curl --insecure -i -X OPTIONS https://managedblockchain.us-east-1.amazonaws.com/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    233      0 --:--:-- --:--:-- --:--:--   233
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    229      0 --:--:-- --:--:-- --:--:--   229
   
 </code>
 </pre>
@@ -6453,8 +6552,8 @@ curl --insecure -i -X OPTIONS https://catalog.marketplace.us-east-1.amazonaws.co
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:13 GMT
-  x-amzn-RequestId: ad77be6b-1861-4e1f-b3fe-637178ef208a
+  Date: Mon, 26 Oct 2020 21:53:13 GMT
+  x-amzn-RequestId: 88f6b7ee-7856-4d85-9e0e-33edf970f952
   Content-Length: 0
   Connection: keep-alive
   
@@ -6468,7 +6567,7 @@ curl --insecure -i -X OPTIONS https://catalog.marketplace.us-east-1.amazonaws.co
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -6498,14 +6597,14 @@ curl --insecure -i -X OPTIONS https://marketplacecommerceanalytics.us-east-1.ama
 <pre>
 <code>
   HTTP/1.1 200
-  x-amzn-RequestId: 528ea057-819a-4e8f-9582-21c1910666ad
+  x-amzn-RequestId: d5b2f471-9c18-4e03-8675-e887aa6e727d
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:13 GMT
+  Date: Mon, 26 Oct 2020 21:53:13 GMT
   
   
 </code>
@@ -6517,7 +6616,7 @@ curl --insecure -i -X OPTIONS https://marketplacecommerceanalytics.us-east-1.ama
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -6547,9 +6646,9 @@ curl --insecure -i -X OPTIONS https://entitlement.marketplace.us-east-1.amazonaw
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 26a51d06-ecfc-4c12-92db-2ea7cbfd9e2d
+  x-amzn-RequestId: 49cc4bf7-b77d-4554-aae5-f314cfae0fdb
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:22:14 GMT
+  Date: Mon, 26 Oct 2020 21:53:14 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -6564,7 +6663,7 @@ curl --insecure -i -X OPTIONS https://entitlement.marketplace.us-east-1.amazonaw
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    465      0 --:--:-- --:--:-- --:--:--   465
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    426      0 --:--:-- --:--:-- --:--:--   426
   
 </code>
 </pre>
@@ -6594,9 +6693,9 @@ curl --insecure -i -X OPTIONS https://metering.marketplace.us-east-1.amazonaws.c
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 373ca903-8187-4ed6-8ce3-f9ecca5b9b11
+  x-amzn-RequestId: 0ada60ae-fde4-4fad-a7fa-398e152e5d5a
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:22:13 GMT
+  Date: Mon, 26 Oct 2020 21:53:14 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -6611,7 +6710,7 @@ curl --insecure -i -X OPTIONS https://metering.marketplace.us-east-1.amazonaws.c
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    463      0 --:--:-- --:--:-- --:--:--   463
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    427      0 --:--:-- --:--:-- --:--:--   426
   
 </code>
 </pre>
@@ -6632,7 +6731,7 @@ curl --insecure -i -X OPTIONS https://metering.marketplace.us-east-1.amazonaws.c
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://mediaconnect.us-east-1.amazonaws.com/v1/flows/stringValue/outputs -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: mediaconnect.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://mediaconnect.us-east-1.amazonaws.com/v1/flows/stringvalue/outputs -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: mediaconnect.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -6643,16 +6742,16 @@ curl --insecure -i -X OPTIONS https://mediaconnect.us-east-1.amazonaws.com/v1/fl
   HTTP/2 403
   content-type: application/json
   content-length: 73
-  date: Wed, 21 Oct 2020 16:22:14 GMT
-  x-amzn-requestid: 235b5f60-75bf-40e0-9d27-3af727ba5245
+  date: Mon, 26 Oct 2020 21:53:15 GMT
+  x-amzn-requestid: a778be86-b436-4128-8933-05842aba5db1
   x-amzn-errortype: APIGatewayFailedToParseRequestError
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP4kFxBoAMFaNQ=
-  x-amzn-trace-id: Root=1-5f906036-618662a11fa277b022166967
+  x-amz-apigw-id: VCfDwF4lIAMF8Tw=
+  x-amzn-trace-id: Root=1-5f97454b-172ecbe216c1bd100ccee0ab
   x-cache: Error from cloudfront
-  via: 1.1 6ba3abdaa02208a6c3f49daf91689ad2.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C2
-  x-amz-cf-id: Z3dMeHGltc442WGSaC-1SkzCQngnGnHhgs1Ig3g9f1xIh4rRNyNMww==
+  via: 1.1 e9f9d4725d6328edca783d6dff756da8.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C1
+  x-amz-cf-id: JTB-x6wlrwBuTmJdr5x9HrGYfPXZ6iiwLZW1fwcIN9URGxbNvGeR8w==
   
   {"message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -6664,7 +6763,7 @@ curl --insecure -i -X OPTIONS https://mediaconnect.us-east-1.amazonaws.com/v1/fl
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    274      0 --:--:-- --:--:-- --:--:--   274
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    496      0 --:--:-- --:--:-- --:--:--   496
   
 </code>
 </pre>
@@ -6696,17 +6795,17 @@ curl --insecure -i -X OPTIONS https://mediaconvert.us-east-1.amazonaws.com/2017-
   HTTP/2 200
   content-type: application/json
   content-length: 8
-  date: Wed, 21 Oct 2020 16:22:14 GMT
-  x-amzn-requestid: c9f699b4-d24d-4372-a1e3-1f20181d8783
+  date: Mon, 26 Oct 2020 21:53:15 GMT
+  x-amzn-requestid: 6e34dcd8-e541-4227-8f3d-2e551b78c6ba
   access-control-allow-origin: *
   access-control-allow-headers: Authorization,Content-Type,X-Amz-Content-Sha256,X-Amz-Date,X-Amz-User-Agent
-  x-amz-apigw-id: UxP4mGFOIAMFRcQ=
+  x-amz-apigw-id: VCfDxE7ZoAMFe9g=
   access-control-allow-methods: OPTIONS,POST
-  x-amzn-trace-id: Root=1-5f906036-6acd3a320bd6cec5255b40b0
+  x-amzn-trace-id: Root=1-5f97454b-3c1577ff6af2d95c2a1d3f0e
   x-cache: Miss from cloudfront
-  via: 1.1 4dbcbae01dbe8e38ad716ec4b04c5f39.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C2
-  x-amz-cf-id: 3iaCj6CU-Z9_nAMZP3BxOb0fSRjIB2p5eMxshmLfjdCJsx0gNRNFiw==
+  via: 1.1 d90109c5a0c30f43223e0db85921c5c2.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C1
+  x-amz-cf-id: xZPjYeoSvpAl94WcZQvwaAFA50P7h8TdgqZG-Q0UnCp-WjAc-6X7JQ==
   
   
 </code>
@@ -6718,7 +6817,7 @@ curl --insecure -i -X OPTIONS https://mediaconvert.us-east-1.amazonaws.com/2017-
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     8  100     8    0     0     70      0 --:--:-- --:--:-- --:--:--    70
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     8  100     8    0     0     60      0 --:--:-- --:--:-- --:--:--    60
   
 </code>
 </pre>
@@ -6739,7 +6838,7 @@ curl --insecure -i -X OPTIONS https://mediaconvert.us-east-1.amazonaws.com/2017-
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://medialive.us-east-1.amazonaws.com/prod/channels/stringValue/schedule -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: medialive.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://medialive.us-east-1.amazonaws.com/prod/inputDevices/stringvalue/accept -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: medialive.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -6750,15 +6849,15 @@ curl --insecure -i -X OPTIONS https://medialive.us-east-1.amazonaws.com/prod/cha
   HTTP/2 403
   content-type: application/json
   content-length: 73
-  date: Wed, 21 Oct 2020 16:22:15 GMT
-  x-amzn-requestid: 0e36c435-c747-40d8-8bad-7217c0e184c8
+  date: Mon, 26 Oct 2020 21:53:15 GMT
+  x-amzn-requestid: cb73bc37-d21a-4629-937e-61330728c3de
   x-amzn-errortype: ForbiddenException
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP4nEAZIAMF8Ng=
+  x-amz-apigw-id: VCfD1HODIAMFbVA=
   x-cache: Error from cloudfront
-  via: 1.1 916b3636f0e5533b1181c2f24120881f.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C2
-  x-amz-cf-id: xIx-bGHAh5_x3avFLPgjUtELEoV0-iZe9T_Ke_2Qb6gsLJGJ2FzqoA==
+  via: 1.1 2241406ac19fffc8f35d6ddef8e22f56.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C1
+  x-amz-cf-id: iQQKcavV2ndpsFxvCtYaGJmonIODQAwApJqaljW-u3vMV6yn81swbQ==
   
   {"message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -6770,7 +6869,7 @@ curl --insecure -i -X OPTIONS https://medialive.us-east-1.amazonaws.com/prod/cha
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    640      0 --:--:-- --:--:-- --:--:--   646
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    296      0 --:--:-- --:--:-- --:--:--   296
   
 </code>
 </pre>
@@ -6791,7 +6890,7 @@ curl --insecure -i -X OPTIONS https://medialive.us-east-1.amazonaws.com/prod/cha
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://mediapackage.us-east-1.amazonaws.com/channels -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: mediapackage.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://mediapackage.us-east-1.amazonaws.com/channels/stringvalue/configure_logs -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: mediapackage.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -6802,14 +6901,14 @@ curl --insecure -i -X OPTIONS https://mediapackage.us-east-1.amazonaws.com/chann
   HTTP/2 403
   content-type: application/json
   content-length: 73
-  date: Wed, 21 Oct 2020 16:22:15 GMT
-  x-amzn-requestid: 618ac4ca-603d-4066-9328-301158d9e3ce
+  date: Mon, 26 Oct 2020 21:53:15 GMT
+  x-amzn-requestid: 9779898d-4f72-45c5-bb99-7d017ebe236f
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP4qFyIIAMFj9A=
+  x-amz-apigw-id: VCfD4G40oAMFYew=
   x-cache: Error from cloudfront
-  via: 1.1 802eebfb6e9ab6bda66a7156bc7add93.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C2
-  x-amz-cf-id: YIAkPfmI4R7IEhsQmWXMEJtbJOSKoJ1ifjn7YfqLi7JU7ovsjjTV_Q==
+  via: 1.1 d0387b833e3ca8cb748a1296b4b4bf2b.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C1
+  x-amz-cf-id: zK0X1emhPWccEcSdsb-lN-kbqtfKryFQDZ5MOCXFvc2lEWYpj1jaCg==
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -6821,7 +6920,7 @@ curl --insecure -i -X OPTIONS https://mediapackage.us-east-1.amazonaws.com/chann
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    271      0 --:--:-- --:--:-- --:--:--   271
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    267      0 --:--:-- --:--:-- --:--:--   266
   
 </code>
 </pre>
@@ -6853,16 +6952,16 @@ curl --insecure -i -X OPTIONS https://mediapackage-vod.us-east-1.amazonaws.com/a
   HTTP/2 200
   content-type: application/json
   content-length: 3
-  date: Wed, 21 Oct 2020 16:22:15 GMT
-  x-amzn-requestid: d66956b8-ecc4-4b97-8b76-e1e69deddc26
+  date: Mon, 26 Oct 2020 21:53:16 GMT
+  x-amzn-requestid: 760a0455-4c53-42e0-a298-840303764a27
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxP4tFyvIAMF3KA=
+  x-amz-apigw-id: VCfD8F_VIAMF5JQ=
   access-control-allow-methods: *
   x-cache: Miss from cloudfront
-  via: 1.1 5a1753718d8b33365e5f693dd338c511.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C1
-  x-amz-cf-id: 7WsG_ZdaE_prrRNnScrzWfC6T7teYzDBNdkZ-a3i8Qeuv9ajpOPPGg==
+  via: 1.1 476c2ba6d9f6cd69dbcedbd65688cbc0.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C2
+  x-amz-cf-id: dz-tNXcCXV8fTMRlW739RJkO3es-mwD9APUvHdMElSKIH_uJvX9sWQ==
   
   {}
   
@@ -6875,7 +6974,7 @@ curl --insecure -i -X OPTIONS https://mediapackage-vod.us-east-1.amazonaws.com/a
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     3  100     3    0     0     11      0 --:--:-- --:--:-- --:--:--    11
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     3  100     3    0     0      8      0 --:--:-- --:--:-- --:--:--     8
   
 </code>
 </pre>
@@ -6905,8 +7004,8 @@ curl --insecure -i -X OPTIONS https://mediastore.us-east-1.amazonaws.com/ -H "Us
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  Date: Wed, 21 Oct 2020 16:22:15 GMT
-  x-amzn-RequestId: JLEZAVJ7KJ6WFUO554MI6SABBRDHHJZ2BWJWB742SKJV5LMJSUJEBK2V3EBNBS42N4MCJJBD5ZETQGMZPKMAB7Q
+  Date: Mon, 26 Oct 2020 21:53:16 GMT
+  x-amzn-RequestId: FE6GU3WITDYSE2KZUWXYKJRA3RNS66NGCEIHPEBOTDVGUKP4AYXZ3J5SWPUWFY4RFV6QEMBVHNVKUSFSRE5OR2I
   Content-Length: 127
   Connection: keep-alive
   
@@ -6923,7 +7022,7 @@ curl --insecure -i -X OPTIONS https://mediastore.us-east-1.amazonaws.com/ -H "Us
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    463      0 --:--:-- --:--:-- --:--:--   463
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    453      0 --:--:-- --:--:-- --:--:--   453
   
 </code>
 </pre>
@@ -6942,7 +7041,7 @@ curl --insecure -i -X OPTIONS https://mediastore.us-east-1.amazonaws.com/ -H "Us
 <strong>Error</strong>
 <pre>
 <code>
-Command failed: curl --insecure -i -X OPTIONS https://data.mediastore.us-east-1.amazonaws.com/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: data.mediastore.us-east-1.amazonaws.com" 
+Command failed: curl --insecure -i -X OPTIONS https://data.mediastore.us-east-1.amazonaws.com/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: data.mediastore.us-east-1.amazonaws.com" 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: data.mediastore.us-east-1.amazonaws.com
@@ -6965,7 +7064,7 @@ Command failed: curl --insecure -i -X OPTIONS https://data.mediastore.us-east-1.
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://api.mediatailor.us-east-1.amazonaws.com/playbackConfiguration/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: api.mediatailor.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://api.mediatailor.us-east-1.amazonaws.com/playbackConfiguration/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: api.mediatailor.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -6974,12 +7073,12 @@ curl --insecure -i -X OPTIONS https://api.mediatailor.us-east-1.amazonaws.com/pl
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:16 GMT
+  date: Mon, 26 Oct 2020 21:53:17 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: fbf3d1d0-c7a6-4be7-a194-403645607345
+  x-amzn-requestid: 805d8cee-f7df-43a2-ad38-ef80cd342176
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP4zFBjIAMFZFw=
+  x-amz-apigw-id: VCfEDF5HoAMFqLA=
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -6991,7 +7090,7 @@ curl --insecure -i -X OPTIONS https://api.mediatailor.us-east-1.amazonaws.com/pl
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    237      0 --:--:-- --:--:-- --:--:--   238
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    224      0 --:--:-- --:--:-- --:--:--   223
   
 </code>
 </pre>
@@ -7026,8 +7125,8 @@ curl --insecure -i -X OPTIONS https://mgh.us-east-1.amazonaws.com/ -H "User-Agen
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:16 GMT
-  x-amzn-RequestId: a4ff428b-cf58-449d-a450-73158f5a57cc
+  Date: Mon, 26 Oct 2020 21:53:17 GMT
+  x-amzn-RequestId: bfb6d1d8-d6b2-4ce4-926b-d9de48b52168
   Content-Length: 0
   Connection: keep-alive
   
@@ -7071,9 +7170,9 @@ curl --insecure -i -X OPTIONS https://migrationhub-config.us-east-1.amazonaws.co
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:16 GMT
+  date: Mon, 26 Oct 2020 21:53:17 GMT
   content-length: 0
-  x-amzn-requestid: 303e85e5-e666-4449-b5e5-114df70949ba
+  x-amzn-requestid: c291b09b-114e-45e7-8e78-3f255091d674
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -7090,7 +7189,7 @@ curl --insecure -i -X OPTIONS https://migrationhub-config.us-east-1.amazonaws.co
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -7125,8 +7224,8 @@ curl --insecure -i -X OPTIONS https://mobile.us-east-1.amazonaws.com/projects -H
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:17 GMT
-  x-amzn-RequestId: 74826e83-f864-4f8e-acd4-1362ecce9741
+  Date: Mon, 26 Oct 2020 21:53:17 GMT
+  x-amzn-RequestId: 909e50be-7919-4492-8328-53ef26d43507
   Content-Length: 0
   Connection: keep-alive
   
@@ -7140,7 +7239,7 @@ curl --insecure -i -X OPTIONS https://mobile.us-east-1.amazonaws.com/projects -H
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -7172,15 +7271,15 @@ curl --insecure -i -X OPTIONS https://mq.us-east-1.amazonaws.com/v1/brokers -H "
   HTTP/2 403
   content-type: application/json
   content-length: 73
-  date: Wed, 21 Oct 2020 16:22:17 GMT
-  x-amzn-requestid: bea3b4b7-2874-4ddb-a5ef-f644beaffeca
+  date: Mon, 26 Oct 2020 21:53:18 GMT
+  x-amzn-requestid: 503d1273-ba0d-478b-af69-82f13c0607e7
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP5AFr9IAMFx_A=
-  x-amzn-trace-id: Root=1-5f906039-2df53f64548c1c8a1a48d723
+  x-amz-apigw-id: VCfERHJ5oAMF5Zg=
+  x-amzn-trace-id: Root=1-5f97454e-7dcde4446e443ef823f0de5c
   x-cache: Error from cloudfront
-  via: 1.1 8f22423015641505b8c857a37450d6c0.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C1
-  x-amz-cf-id: uNuKWmVof8XOaI09zt-odVw9UOcHtTaiFFR0L31PRVTEutq_YdIj_Q==
+  via: 1.1 32c16f33c8f5601364fa8229b0d74dc3.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C2
+  x-amz-cf-id: kYqLZ3LhSK2myVXeXchoCz-ZYBtInc5ekAPWhud4ZbBYDkwpIMdLgA==
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -7192,7 +7291,7 @@ curl --insecure -i -X OPTIONS https://mq.us-east-1.amazonaws.com/v1/brokers -H "
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    278      0 --:--:-- --:--:-- --:--:--   278
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    288      0 --:--:-- --:--:-- --:--:--   289
   
 </code>
 </pre>
@@ -7222,14 +7321,14 @@ curl --insecure -i -X OPTIONS https://mturk-requester.us-east-1.amazonaws.com/ -
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 6f8c3954-d28d-401e-bdc7-a960a706c335
+  x-amzn-RequestId: 0ff2aa35-1231-48c8-90af-f8db552bf73b
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:17 GMT
+  Date: Mon, 26 Oct 2020 21:53:18 GMT
   
   
 </code>
@@ -7241,7 +7340,7 @@ curl --insecure -i -X OPTIONS https://mturk-requester.us-east-1.amazonaws.com/ -
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -7271,14 +7370,14 @@ curl --insecure -i -X OPTIONS https://rds.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 565bc9a3-c2b9-4b83-9527-f66e2d68b6c0
+  x-amzn-RequestId: 3889cfc2-538c-4e71-b9c9-a0f210024af0
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:18 GMT
+  Date: Mon, 26 Oct 2020 21:53:18 GMT
   
   
 </code>
@@ -7309,7 +7408,7 @@ curl --insecure -i -X OPTIONS https://rds.us-east-1.amazonaws.com/ -H "User-Agen
 <strong>Error</strong>
 <pre>
 <code>
-Command failed: curl --insecure -i -X OPTIONS https://networkmanager.us-east-1.amazonaws.com/global-networks/stringValue/customer-gateway-associations -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: networkmanager.us-east-1.amazonaws.com" 
+Command failed: curl --insecure -i -X OPTIONS https://networkmanager.us-east-1.amazonaws.com/global-networks/stringvalue/customer-gateway-associations -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: networkmanager.us-east-1.amazonaws.com" 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: networkmanager.us-east-1.amazonaws.com
@@ -7346,8 +7445,8 @@ curl --insecure -i -X OPTIONS https://opsworks.us-east-1.amazonaws.com/ -H "User
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:17 GMT
-  x-amzn-RequestId: e79921a8-b897-49f1-81f5-e9a253a22a1d
+  Date: Mon, 26 Oct 2020 21:53:19 GMT
+  x-amzn-RequestId: f99527e3-570d-4e7f-b3ff-96fc05bf6a6a
   Content-Length: 0
   Connection: keep-alive
   
@@ -7391,14 +7490,14 @@ curl --insecure -i -X OPTIONS https://opsworks-cm.us-east-1.amazonaws.com/ -H "U
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 952b0a3e-7715-421d-a46a-bc96bda643a5
+  x-amzn-RequestId: 831a2a29-b6e3-40fd-b402-e3ec3eae131f
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:18 GMT
+  Date: Mon, 26 Oct 2020 21:53:19 GMT
   
   
 </code>
@@ -7440,14 +7539,14 @@ curl --insecure -i -X OPTIONS https://organizations.us-east-1.amazonaws.com/ -H 
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: a6455972-4f8b-4e46-a040-b2e3007d2c04
+  x-amzn-RequestId: 183f2ccf-158f-4dc3-982a-c26c7988165c
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:18 GMT
+  Date: Mon, 26 Oct 2020 21:53:19 GMT
   
   
 </code>
@@ -7489,15 +7588,15 @@ curl --insecure -i -X OPTIONS https://outposts.us-east-1.amazonaws.com/outposts 
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:19 GMT
+  date: Mon, 26 Oct 2020 21:53:20 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: 51a67821-319a-440d-8b88-b72e15a242ad
+  x-amzn-requestid: 068b67cf-189a-42f2-8477-96e2b30d2b24
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxP5UEv9IAMFZYQ=
+  x-amz-apigw-id: VCfEoFFYoAMF8Nw=
   access-control-allow-methods: POST,GET
-  x-amzn-trace-id: Root=1-5f90603b-02f1fee9536422a0346340cf
+  x-amzn-trace-id: Root=1-5f974550-4c15a02f7821746e2198053a
   
   
 </code>
@@ -7544,8 +7643,8 @@ curl --insecure -i -X OPTIONS https://personalize.us-east-1.amazonaws.com/ -H "U
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:19 GMT
-  x-amzn-RequestId: 2f3c98e5-4662-414b-9a17-29439a2aa163
+  Date: Mon, 26 Oct 2020 21:53:20 GMT
+  x-amzn-RequestId: 35e05e1d-e7c1-4e3e-8a65-699f06202a26
   Content-Length: 0
   Connection: keep-alive
   
@@ -7594,8 +7693,8 @@ curl --insecure -i -X OPTIONS https://personalize-events.us-east-1.amazonaws.com
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:19 GMT
-  x-amzn-RequestId: 9e68aa6c-03e4-46ca-9977-255e8723dfd1
+  Date: Mon, 26 Oct 2020 21:53:20 GMT
+  x-amzn-RequestId: 3a46f63c-9ff2-487b-a26f-33563ea9f7fb
   Content-Length: 0
   Connection: keep-alive
   
@@ -7644,8 +7743,8 @@ curl --insecure -i -X OPTIONS https://personalize-runtime.us-east-1.amazonaws.co
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:20 GMT
-  x-amzn-RequestId: 08a0774c-6e78-4279-a073-1956ae744cf1
+  Date: Mon, 26 Oct 2020 21:53:21 GMT
+  x-amzn-RequestId: 9e9cdf3f-2a8f-4fe2-93b4-11e71c7766f4
   Content-Length: 0
   Connection: keep-alive
   
@@ -7694,8 +7793,8 @@ curl --insecure -i -X OPTIONS https://pi.us-east-1.amazonaws.com/ -H "User-Agent
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:20 GMT
-  x-amzn-RequestId: de548294-c8c6-4e72-b353-52935f8f7631
+  Date: Mon, 26 Oct 2020 21:53:21 GMT
+  x-amzn-RequestId: a5c04b35-4407-438a-aa98-dcfc385c3616
   Content-Length: 0
   Connection: keep-alive
   
@@ -7742,16 +7841,16 @@ curl --insecure -i -X OPTIONS https://pinpoint.us-east-1.amazonaws.com/v1/apps -
   Content-Type: application/json
   Content-Length: 0
   Connection: keep-alive
-  Date: Wed, 21 Oct 2020 16:22:21 GMT
-  x-amzn-RequestId: 74e156ed-ec6d-4473-a342-0d53a614e352
+  Date: Mon, 26 Oct 2020 21:53:22 GMT
+  x-amzn-RequestId: 42dfb5bc-3f45-41e6-854d-6ce31456e4eb
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxP5jF9sIAMFpIg=
+  x-amz-apigw-id: VCfE4FB9oAMFb-Q=
   Access-Control-Allow-Methods: POST,GET,OPTIONS
   X-Cache: Miss from cloudfront
-  Via: 1.1 f13aef0c4b52f6f681401f232d03eb69.cloudfront.net (CloudFront)
-  X-Amz-Cf-Pop: HIO50-C1
-  X-Amz-Cf-Id: B-e2nhmoKctg9ILCYvWLCqrYZpEBHMytqDivhFopO_wwWuSfVIjwpA==
+  Via: 1.1 040bad3c7f7db09654c66da40c719fb0.cloudfront.net (CloudFront)
+  X-Amz-Cf-Pop: YVR50-C1
+  X-Amz-Cf-Id: OiW2PPN6f_gcuvD7UhaBCM3pcoNtYcKHLRidzxGD-Cc1MvwqholdUQ==
   
   
 </code>
@@ -7793,14 +7892,14 @@ curl --insecure -i -X OPTIONS https://email.us-east-1.amazonaws.com/v1/email/con
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 96b900d3-b253-49dd-b809-d75ef7a3f8b5
+  x-amzn-RequestId: 1e0de721-a79c-4313-bca6-2f01b0ce58dc
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:20 GMT
+  Date: Mon, 26 Oct 2020 21:53:21 GMT
   
   
 </code>
@@ -7844,16 +7943,16 @@ curl --insecure -i -X OPTIONS https://sms-voice.pinpoint.us-east-1.amazonaws.com
   HTTP/2 200
   content-type: application/json
   content-length: 3
-  date: Wed, 21 Oct 2020 16:22:21 GMT
-  x-amzn-requestid: 7121b273-c126-43d0-a98a-64d2839948df
+  date: Mon, 26 Oct 2020 21:53:22 GMT
+  x-amzn-requestid: c1c8644e-5341-4163-a7ea-114df80d2747
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: UxP5pFkrIAMFaGg=
+  x-amz-apigw-id: VCfE9Ex0IAMFoYg=
   access-control-allow-methods: GET,POST,PUT,DELETE,OPTIONS
   x-cache: Miss from cloudfront
-  via: 1.1 38e44b0b4251fbfb70eb0f304e9558fb.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C2
-  x-amz-cf-id: aGrNf8A_FfNhEdwbZjdWxWnHgQmK0QpznptzPmIoHCqfzXSUXDB2PA==
+  via: 1.1 6a9b42e38e76b7d4a4044ebe0e0eca09.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C2
+  x-amz-cf-id: HBf1dZjL-NV1NnUXnTHpm34_nCImjhK3XBoB4yzr-iC1v94eHmAABA==
   
   {}
   
@@ -7866,7 +7965,7 @@ curl --insecure -i -X OPTIONS https://sms-voice.pinpoint.us-east-1.amazonaws.com
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     3  100     3    0     0     11      0 --:--:-- --:--:-- --:--:--    11
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     3  100     3    0     0     18      0 --:--:-- --:--:-- --:--:--    18100     3  100     3    0     0     18      0 --:--:-- --:--:-- --:--:--    18
   
 </code>
 </pre>
@@ -7887,7 +7986,7 @@ curl --insecure -i -X OPTIONS https://sms-voice.pinpoint.us-east-1.amazonaws.com
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://polly.us-east-1.amazonaws.com/v1/lexicons/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: polly.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://polly.us-east-1.amazonaws.com/v1/lexicons/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: polly.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -7896,14 +7995,14 @@ curl --insecure -i -X OPTIONS https://polly.us-east-1.amazonaws.com/v1/lexicons/
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 45dc95fa-1486-46ee-b5fd-734f76d57757
+  x-amzn-RequestId: b2f9ac76-031d-4d4b-ab3c-e86e64cc59fa
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: DELETE
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:22 GMT
+  Date: Mon, 26 Oct 2020 21:53:23 GMT
   
   
 </code>
@@ -7915,7 +8014,7 @@ curl --insecure -i -X OPTIONS https://polly.us-east-1.amazonaws.com/v1/lexicons/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -7945,14 +8044,14 @@ curl --insecure -i -X OPTIONS https://api.pricing.us-east-1.amazonaws.com/ -H "U
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 70502b39-8637-4ba0-883f-991243a591f7
+  x-amzn-RequestId: ba9489f4-d29b-4fb4-bb5b-67c6fa3f91c3
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:22 GMT
+  Date: Mon, 26 Oct 2020 21:53:23 GMT
   
   
 </code>
@@ -7985,7 +8084,7 @@ curl --insecure -i -X OPTIONS https://api.pricing.us-east-1.amazonaws.com/ -H "U
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://qldb.us-east-1.amazonaws.com/ledgers/stringValue/journal-kinesis-streams/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: qldb.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://qldb.us-east-1.amazonaws.com/ledgers/stringvalue/journal-kinesis-streams/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: qldb.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -7996,17 +8095,17 @@ curl --insecure -i -X OPTIONS https://qldb.us-east-1.amazonaws.com/ledgers/strin
   HTTP/2 200
   content-type: application/json
   content-length: 0
-  date: Wed, 21 Oct 2020 16:22:22 GMT
-  x-amzn-requestid: 8ce8cb3f-912e-4494-bcc1-45d1787c51c1
+  date: Mon, 26 Oct 2020 21:53:23 GMT
+  x-amzn-requestid: 39ce497d-2edc-473b-9bba-e4a500416df4
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: UxP5zFh3oAMFeFg=
+  x-amz-apigw-id: VCfFIFQFoAMFz-w=
   access-control-allow-methods: DELETE,GET
-  x-amzn-trace-id: Root=1-5f90603e-710ae0eb6cbec7201934a4b1
+  x-amzn-trace-id: Root=1-5f974553-5682827146fde97554ce8122
   x-cache: Miss from cloudfront
-  via: 1.1 41e349e25dc4bc856d0e5d2c162428a0.cloudfront.net (CloudFront)
-  x-amz-cf-pop: HIO50-C1
-  x-amz-cf-id: gFeOscRKtJQkCwpwXp9VO_XkeZxD7pdbUWw5b8es9IWUvqOwdM0WdQ==
+  via: 1.1 760139201585481b26f947c5f776103a.cloudfront.net (CloudFront)
+  x-amz-cf-pop: SEA19-C2
+  x-amz-cf-id: it4uL07THrOkWkAblDbo718M8Drfi8xKbolWgZ0NbxSDpTu5TjT25w==
   
   
 </code>
@@ -8018,7 +8117,7 @@ curl --insecure -i -X OPTIONS https://qldb.us-east-1.amazonaws.com/ledgers/strin
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -8048,8 +8147,8 @@ curl --insecure -i -X OPTIONS https://session.qldb.us-east-1.amazonaws.com/ -H "
 <pre>
 <code>
   HTTP/1.1 500 Internal Server Error
-  x-amzn-RequestId: 6GZuY8d2Uem4PVISwbrFzX
-  Date: Wed, 21 Oct 2020 16:22:22 GMT
+  x-amzn-RequestId: IXlQAYIEZqGAxBVVsaOjr0
+  Date: Mon, 26 Oct 2020 21:53:24 GMT
   Content-Length: 19
   
   <InternalFailure/>
@@ -8063,7 +8162,7 @@ curl --insecure -i -X OPTIONS https://session.qldb.us-east-1.amazonaws.com/ -H "
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    19  100    19    0     0     61      0 --:--:-- --:--:-- --:--:--    60
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    19  100    19    0     0     68      0 --:--:-- --:--:-- --:--:--    68
   
 </code>
 </pre>
@@ -8084,7 +8183,7 @@ curl --insecure -i -X OPTIONS https://session.qldb.us-east-1.amazonaws.com/ -H "
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://quicksight.us-east-1.amazonaws.com/accounts/stringValue/data-sets/stringValue/ingestions/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: quicksight.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://quicksight.us-east-1.amazonaws.com/accounts/stringvalue/data-sets/stringvalue/ingestions/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: quicksight.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -8093,9 +8192,9 @@ curl --insecure -i -X OPTIONS https://quicksight.us-east-1.amazonaws.com/account
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:23 GMT
+  date: Mon, 26 Oct 2020 21:53:24 GMT
   content-length: 127
-  x-amzn-requestid: 5807adc7-f1d3-491e-99a4-bf856651607e
+  x-amzn-requestid: 513090b3-f21d-4962-950a-f1db225fbe03
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -8110,7 +8209,7 @@ curl --insecure -i -X OPTIONS https://quicksight.us-east-1.amazonaws.com/account
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    450      0 --:--:-- --:--:-- --:--:--   450
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    396      0 --:--:-- --:--:-- --:--:--   396
   
 </code>
 </pre>
@@ -8140,13 +8239,13 @@ curl --insecure -i -X OPTIONS https://ram.us-east-1.amazonaws.com/acceptresource
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:23 GMT
+  date: Mon, 26 Oct 2020 21:53:25 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: c09bf0ef-71bb-4553-947c-74af218a1d76
+  x-amzn-requestid: dd012542-28e4-410c-8cac-4580c4cc7f2f
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP59HOKoAMFqoA=
-  x-amzn-trace-id: Root=1-5f90603f-487e3bef5f2502f32be0f868
+  x-amz-apigw-id: VCfFTEN0IAMFkrA=
+  x-amzn-trace-id: Root=1-5f974555-3b42b6150b48238909be10db
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -8158,7 +8257,7 @@ curl --insecure -i -X OPTIONS https://ram.us-east-1.amazonaws.com/acceptresource
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    238      0 --:--:-- --:--:-- --:--:--   238
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    252      0 --:--:-- --:--:-- --:--:--   251
   
 </code>
 </pre>
@@ -8188,14 +8287,14 @@ curl --insecure -i -X OPTIONS https://rds.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 8f06fa0e-6251-45ba-8154-d322e94e0c34
+  x-amzn-RequestId: 2d2d4c47-dde3-44ef-90a6-062a96d762a4
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:23 GMT
+  Date: Mon, 26 Oct 2020 21:53:24 GMT
   
   
 </code>
@@ -8207,7 +8306,7 @@ curl --insecure -i -X OPTIONS https://rds.us-east-1.amazonaws.com/ -H "User-Agen
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -8237,9 +8336,9 @@ curl --insecure -i -X OPTIONS https://rds-data.us-east-1.amazonaws.com/BatchExec
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: cb31a486-cc4a-4ab3-8872-4aa72bfef5cd
+  x-amzn-RequestId: 18e48a85-6db3-4f0f-9544-1ed5034ab345
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:22:23 GMT
+  Date: Mon, 26 Oct 2020 21:53:25 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -8254,7 +8353,7 @@ curl --insecure -i -X OPTIONS https://rds-data.us-east-1.amazonaws.com/BatchExec
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    461      0 --:--:-- --:--:-- --:--:--   461
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    400      0 --:--:-- --:--:-- --:--:--   400
   
 </code>
 </pre>
@@ -8284,14 +8383,63 @@ curl --insecure -i -X OPTIONS https://redshift.us-east-1.amazonaws.com/ -H "User
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: c97ce4fe-0125-4e82-af95-39d5c18346d3
+  x-amzn-RequestId: fa1ae7ae-9fe3-49da-87e6-c55adb35b6b2
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:24 GMT
+  Date: Mon, 26 Oct 2020 21:53:26 GMT
+  
+  
+</code>
+</pre>
+
+
+<strong>stderr</strong>
+<pre>
+<code>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  
+</code>
+</pre>
+
+</details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>redshift-data.us-east-1.amazonaws.com</strong></td>
+      <td>200 OK</td>
+      <td>✅ </td>
+      <td>✅ </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+<details><summary>Details</summary>
+
+<strong>cmd</strong>
+<pre>
+<code>
+curl --insecure -i -X OPTIONS https://redshift-data.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: redshift-data.us-east-1.amazonaws.com" 
+</code>
+</pre>
+
+
+<strong>stdout</strong>
+<pre>
+<code>
+  HTTP/1.1 200 OK
+  x-amzn-RequestId: 32af3cbd-abf8-4833-8c52-f0f1b2300ae0
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Mon, 26 Oct 2020 21:53:26 GMT
   
   
 </code>
@@ -8338,8 +8486,8 @@ curl --insecure -i -X OPTIONS https://rekognition.us-east-1.amazonaws.com/ -H "U
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:25 GMT
-  x-amzn-RequestId: ac9ba97e-05fd-4d01-849d-7b5dc2cbdfaa
+  Date: Mon, 26 Oct 2020 21:53:26 GMT
+  x-amzn-RequestId: cd6f7e31-9b28-407b-8510-e591fc50f3f0
   Content-Length: 0
   Connection: keep-alive
   
@@ -8383,15 +8531,15 @@ curl --insecure -i -X OPTIONS https://resource-groups.us-east-1.amazonaws.com/gr
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:25 GMT
+  date: Mon, 26 Oct 2020 21:53:27 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: bb2e0933-ab53-4d1c-a1e9-120a4b68d5c8
+  x-amzn-requestid: fe96628b-3103-4217-8cf6-fd92c767817a
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxP6OEO-oAMFb6w=
+  x-amz-apigw-id: VCfFoF5loAMFkRg=
   access-control-allow-methods: POST,GET
-  x-amzn-trace-id: Root=1-5f906041-75636ae77ced62a23ee14813
+  x-amzn-trace-id: Root=1-5f974557-65827ae87536a0660f9eb2fa
   
   
 </code>
@@ -8433,14 +8581,14 @@ curl --insecure -i -X OPTIONS https://tagging.us-east-1.amazonaws.com/ -H "User-
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 406e63b8-58f0-4d3a-86ac-442637610547
+  x-amzn-RequestId: 75b4eb30-8dd9-4cd0-9bfd-e26bfc1b36fd
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:25 GMT
+  Date: Mon, 26 Oct 2020 21:53:27 GMT
   
   
 </code>
@@ -8473,7 +8621,7 @@ curl --insecure -i -X OPTIONS https://tagging.us-east-1.amazonaws.com/ -H "User-
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://robomaker.us-east-1.amazonaws.com/batchDescribeSimulationJob -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: robomaker.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://robomaker.us-east-1.amazonaws.com/batchDeleteWorlds -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: robomaker.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -8482,13 +8630,13 @@ curl --insecure -i -X OPTIONS https://robomaker.us-east-1.amazonaws.com/batchDes
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:25 GMT
+  date: Mon, 26 Oct 2020 21:53:27 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: 851224ba-41dc-4888-926d-1ee99e00e89b
+  x-amzn-requestid: 44cb65cb-3e7d-40fa-b7b2-322de9d5bd9d
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP6UH8vIAMFkHQ=
-  x-amzn-trace-id: Root=1-5f906041-42e69fac5c60cbcb263c9ae0
+  x-amz-apigw-id: VCfFvG36oAMFiWw=
+  x-amzn-trace-id: Root=1-5f974557-4b7b203b0155325d57f5bf43
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -8500,7 +8648,7 @@ curl --insecure -i -X OPTIONS https://robomaker.us-east-1.amazonaws.com/batchDes
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    263      0 --:--:-- --:--:-- --:--:--   262
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    245      0 --:--:-- --:--:-- --:--:--   245
   
 </code>
 </pre>
@@ -8521,7 +8669,7 @@ curl --insecure -i -X OPTIONS https://robomaker.us-east-1.amazonaws.com/batchDes
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://route53.amazonaws.com/2013-04-01/hostedzone/stringValue/associatevpc -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: route53.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://route53.amazonaws.com/2013-04-01/hostedzone/stringvalue/associatevpc -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: route53.amazonaws.com" 
 </code>
 </pre>
 
@@ -8530,14 +8678,14 @@ curl --insecure -i -X OPTIONS https://route53.amazonaws.com/2013-04-01/hostedzon
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 469fed51-ad73-45ca-a69b-a70aaa3c5c9d
+  x-amzn-RequestId: cd42ce81-ae6c-4539-be3d-4bdd6d1a7568
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:26 GMT
+  Date: Mon, 26 Oct 2020 21:53:27 GMT
   
   
 </code>
@@ -8579,14 +8727,14 @@ curl --insecure -i -X OPTIONS https://route53domains.us-east-1.amazonaws.com/ -H
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: b0fec9a3-bb7c-4dc7-a7aa-25dbaf1bd1e4
+  x-amzn-RequestId: 8b04ab77-e26b-4946-a1b9-da38a5b521a8
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:26 GMT
+  Date: Mon, 26 Oct 2020 21:53:28 GMT
   
   
 </code>
@@ -8628,9 +8776,9 @@ curl --insecure -i -X OPTIONS https://route53resolver.us-east-1.amazonaws.com/ -
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:26 GMT
+  date: Mon, 26 Oct 2020 21:53:28 GMT
   content-length: 0
-  x-amzn-requestid: 2c4f0e9b-ffa1-46ae-9f7e-2755af5a3805
+  x-amzn-requestid: 6b6117b8-c4af-426f-a72a-403f6c25f7d8
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -8656,7 +8804,7 @@ curl --insecure -i -X OPTIONS https://route53resolver.us-east-1.amazonaws.com/ -
       </td>
     </tr>
     <tr>
-      <td><strong>s3.us-east-1.amazonaws.com</strong></td>
+      <td><strong>stringvalue.s3.us-east-1.amazonaws.com</strong></td>
       <td>403 Forbidden</td>
       <td>❌</td>
       <td>❌ </td>
@@ -8668,7 +8816,7 @@ curl --insecure -i -X OPTIONS https://route53resolver.us-east-1.amazonaws.com/ -
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://s3.us-east-1.amazonaws.com/stringValue/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: s3.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://stringvalue.s3.us-east-1.amazonaws.com/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: stringvalue.s3.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -8677,15 +8825,15 @@ curl --insecure -i -X OPTIONS https://s3.us-east-1.amazonaws.com/stringValue/str
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amz-request-id: FY3Y9Y1RDT3J6M6Y
-  x-amz-id-2: KguNnWSA/x5FhGtFXZTSgcTmECKR01253bqrYeqCDkZzj1B5B1uvcbxr6vSzyH5BGrRlWk6Pclc=
+  x-amz-request-id: 5METANEHCQ6JFM6G
+  x-amz-id-2: PV3OSptFeYnvEA2ZUNKAj+HO/nBIILnohd8P0Y6qs9lS3KlfxRFHlxaxIpRRDU9+lyCLv1TS3WM=
   Content-Type: application/xml
   Transfer-Encoding: chunked
-  Date: Wed, 21 Oct 2020 16:22:26 GMT
+  Date: Mon, 26 Oct 2020 21:53:28 GMT
   Server: AmazonS3
   
   <?xml version="1.0" encoding="UTF-8"?>
-  <Error><Code>AccessForbidden</Code><Message>CORSResponse: Bucket not found</Message><Method>DELETE</Method><ResourceType>BUCKET</ResourceType><RequestId>FY3Y9Y1RDT3J6M6Y</RequestId><HostId>KguNnWSA/x5FhGtFXZTSgcTmECKR01253bqrYeqCDkZzj1B5B1uvcbxr6vSzyH5BGrRlWk6Pclc=</HostId></Error>
+  <Error><Code>AccessForbidden</Code><Message>CORSResponse: Bucket not found</Message><Method>DELETE</Method><ResourceType>BUCKET</ResourceType><RequestId>5METANEHCQ6JFM6G</RequestId><HostId>PV3OSptFeYnvEA2ZUNKAj+HO/nBIILnohd8P0Y6qs9lS3KlfxRFHlxaxIpRRDU9+lyCLv1TS3WM=</HostId></Error>
 </code>
 </pre>
 
@@ -8695,7 +8843,7 @@ curl --insecure -i -X OPTIONS https://s3.us-east-1.amazonaws.com/stringValue/str
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   321    0   321    0     0   1059      0 --:--:-- --:--:-- --:--:--  1059
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   321    0   321    0     0   1150      0 --:--:-- --:--:-- --:--:--  1154
   
 </code>
 </pre>
@@ -8704,7 +8852,7 @@ curl --insecure -i -X OPTIONS https://s3.us-east-1.amazonaws.com/stringValue/str
       </td>
     </tr>
     <tr>
-      <td><strong>stringValue.s3-control.us-east-1.amazonaws.com</strong></td>
+      <td><strong>stringvalue.s3-control.us-east-1.amazonaws.com</strong></td>
       <td>403 Forbidden</td>
       <td>❌</td>
       <td>❌ </td>
@@ -8716,7 +8864,7 @@ curl --insecure -i -X OPTIONS https://s3.us-east-1.amazonaws.com/stringValue/str
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://stringValue.s3-control.us-east-1.amazonaws.com/v20180820/accesspoint/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,x-amz-account-id,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: stringValue.s3-control.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://stringvalue.s3-control.us-east-1.amazonaws.com/v20180820/accesspoint/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: PUT" -H "Access-Control-Request-Headers: Content-Type,x-amz-account-id,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: stringvalue.s3-control.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -8725,15 +8873,15 @@ curl --insecure -i -X OPTIONS https://stringValue.s3-control.us-east-1.amazonaws
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amz-request-id: 47CC9A3DA0DE7E42
-  x-amz-id-2: p5UZ/c3oRlJ4Z044tZ8gP4xnmBPupnGbKzA9MLaYSmaM0YDlmlX0b4TDkbrTzLo/zP9Fi3x5Iws=
+  x-amz-request-id: 30012BC82865EC77
+  x-amz-id-2: h02avd20NoLkNtxBhI6I5j4/5TBZMJ1BS617xzK/2uEq5JRPTNDjBRnzAb29moHedtHddvHUPbw=
   Content-Type: application/xml
   Transfer-Encoding: chunked
-  Date: Wed, 21 Oct 2020 16:22:27 GMT
+  Date: Mon, 26 Oct 2020 21:53:29 GMT
   Server: AmazonS3
   
   <?xml version="1.0" encoding="UTF-8"?>
-  <ErrorResponse><Error><Code>AccessDenied</Code><Message>Access Denied</Message><AccountId>stringvalue</AccountId></Error><RequestId>47CC9A3DA0DE7E42</RequestId><HostId>p5UZ/c3oRlJ4Z044tZ8gP4xnmBPupnGbKzA9MLaYSmaM0YDlmlX0b4TDkbrTzLo/zP9Fi3x5Iws=</HostId></ErrorResponse>
+  <ErrorResponse><Error><Code>AccessDenied</Code><Message>Access Denied</Message><AccountId>stringvalue</AccountId></Error><RequestId>30012BC82865EC77</RequestId><HostId>h02avd20NoLkNtxBhI6I5j4/5TBZMJ1BS617xzK/2uEq5JRPTNDjBRnzAb29moHedtHddvHUPbw=</HostId></ErrorResponse>
 </code>
 </pre>
 
@@ -8743,7 +8891,56 @@ curl --insecure -i -X OPTIONS https://stringValue.s3-control.us-east-1.amazonaws
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   308    0   308    0     0   1080      0 --:--:-- --:--:-- --:--:--  1084
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   308    0   308    0     0   1084      0 --:--:-- --:--:-- --:--:--  1084
+  
+</code>
+</pre>
+
+</details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>s3-outposts.us-east-1.amazonaws.com</strong></td>
+      <td>200 OK</td>
+      <td>✅ </td>
+      <td>✅ </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+<details><summary>Details</summary>
+
+<strong>cmd</strong>
+<pre>
+<code>
+curl --insecure -i -X OPTIONS https://s3-outposts.us-east-1.amazonaws.com/S3Outposts/CreateEndpoint -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: s3-outposts.us-east-1.amazonaws.com" 
+</code>
+</pre>
+
+
+<strong>stdout</strong>
+<pre>
+<code>
+  HTTP/1.1 200 OK
+  x-amzn-RequestId: ca014ceb-55ea-451a-b464-4f7a5912ad3a
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Date: Mon, 26 Oct 2020 21:53:30 GMT
+  Content-Length: 0
+  
+  
+</code>
+</pre>
+
+
+<strong>stderr</strong>
+<pre>
+<code>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -8773,14 +8970,14 @@ curl --insecure -i -X OPTIONS https://api.sagemaker.us-east-1.amazonaws.com/ -H 
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: e53e07cc-bab5-4bb5-9b8c-1d41bebdd53a
+  x-amzn-RequestId: c038f29f-d31b-490f-a4ad-28049180e21b
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:28 GMT
+  Date: Mon, 26 Oct 2020 21:53:29 GMT
   
   
 </code>
@@ -8792,7 +8989,7 @@ curl --insecure -i -X OPTIONS https://api.sagemaker.us-east-1.amazonaws.com/ -H 
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -8813,7 +9010,7 @@ curl --insecure -i -X OPTIONS https://api.sagemaker.us-east-1.amazonaws.com/ -H 
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://a2i-runtime.sagemaker.us-east-1.amazonaws.com/human-loops/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: a2i-runtime.sagemaker.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://a2i-runtime.sagemaker.us-east-1.amazonaws.com/human-loops/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: a2i-runtime.sagemaker.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -8822,15 +9019,15 @@ curl --insecure -i -X OPTIONS https://a2i-runtime.sagemaker.us-east-1.amazonaws.
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:28 GMT
+  date: Mon, 26 Oct 2020 21:53:30 GMT
   content-type: application/json
   content-length: 2
-  x-amzn-requestid: cebe1060-bce5-45bd-8fc2-1db35bebe959
+  x-amzn-requestid: 4c62dd7c-e2b1-43df-8da8-f1713ddd1358
   access-control-allow-origin: *
   access-control-allow-headers: Authorization,Content-Type,X-Amz-Content-Sha256,X-Amz-Date,X-Amz-Security-Token,X-Amz-User-Agent,amz-sdk-invocation-id,amz-sdk-request
-  x-amz-apigw-id: UxP6sFh-IAMFmJA=
+  x-amz-apigw-id: VCfGNEHQIAMFfNg=
   access-control-allow-methods: GET,PUT,POST,DELETE,OPTIONS
-  x-amzn-trace-id: Root=1-5f906044-767d34f64e4d5ffd19501cdf
+  x-amzn-trace-id: Root=1-5f97455a-65db82310f62de64639e3ff4
   
   {}
 </code>
@@ -8863,7 +9060,7 @@ curl --insecure -i -X OPTIONS https://a2i-runtime.sagemaker.us-east-1.amazonaws.
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://runtime.sagemaker.us-east-1.amazonaws.com/endpoints/stringValue/invocations -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: runtime.sagemaker.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://runtime.sagemaker.us-east-1.amazonaws.com/endpoints/stringvalue/invocations -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: runtime.sagemaker.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -8872,13 +9069,13 @@ curl --insecure -i -X OPTIONS https://runtime.sagemaker.us-east-1.amazonaws.com/
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 0d11427d-c64e-434a-b936-a51c5b1ff38a
+  x-amzn-RequestId: f9536bd9-715a-49e8-9f94-c507c2987de9
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-Amzn-Invoked-Production-Variant,x-amzn-RequestId,x-amzn-ErrorType,X-Amzn-SageMaker-Custom-Attributes,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:28 GMT
+  Date: Mon, 26 Oct 2020 21:53:31 GMT
   Content-Length: 0
   
   
@@ -8891,7 +9088,7 @@ curl --insecure -i -X OPTIONS https://runtime.sagemaker.us-east-1.amazonaws.com/
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -8921,13 +9118,13 @@ curl --insecure -i -X OPTIONS https://savingsplans.amazonaws.com/CreateSavingsPl
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:29 GMT
+  date: Mon, 26 Oct 2020 21:53:31 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: 36fddaf4-1b98-4734-ab66-ebc083148390
+  x-amzn-requestid: 80299570-0d8c-48b1-a67e-c99629bfeb7f
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP6zHKLIAMFUFw=
-  x-amzn-trace-id: Root=1-5f906045-4d3f68bb3d0f8c8306a6ccdd
+  x-amz-apigw-id: VCfGUHZLIAMF9sw=
+  x-amzn-trace-id: Root=1-5f97455b-62a7f3550621220e6dd35eeb
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -8939,7 +9136,7 @@ curl --insecure -i -X OPTIONS https://savingsplans.amazonaws.com/CreateSavingsPl
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    231      0 --:--:-- --:--:-- --:--:--   231
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    217      0 --:--:-- --:--:-- --:--:--   217
   
 </code>
 </pre>
@@ -8969,14 +9166,14 @@ curl --insecure -i -X OPTIONS https://schemas.us-east-1.amazonaws.com/v1/discove
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:29 GMT
+  date: Mon, 26 Oct 2020 21:53:31 GMT
   content-type: application/json
   content-length: 113
-  x-amzn-requestid: af821401-330a-4cd0-8230-f5281ab55b48
+  x-amzn-requestid: 0548c550-db15-42a6-b991-a4f1a8e89a56
   x-amzn-errortype: ForbiddenException
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP63G2eIAMFaWg=
-  x-amzn-trace-id: Root=1-5f906045-472c35e9786bcb9b6f4b0294
+  x-amz-apigw-id: VCfGYHB9oAMFhTA=
+  x-amzn-trace-id: Root=1-5f97455b-2ce1cdbc53a11ecd55c233d5
   
   {
   "Message":"Unable to determine service/operation name to be authorized",
@@ -8991,7 +9188,7 @@ curl --insecure -i -X OPTIONS https://schemas.us-east-1.amazonaws.com/v1/discove
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   113  100   113    0     0    321      0 --:--:-- --:--:-- --:--:--   321
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   113  100   113    0     0    323      0 --:--:-- --:--:-- --:--:--   323
   
 </code>
 </pre>
@@ -9021,9 +9218,9 @@ curl --insecure -i -X OPTIONS https://secretsmanager.us-east-1.amazonaws.com/ -H
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:29 GMT
+  date: Mon, 26 Oct 2020 21:53:32 GMT
   content-length: 0
-  x-amzn-requestid: 269b6ef7-ca56-45fb-b6f9-068c553b1ecf
+  x-amzn-requestid: 4d4c3581-48f4-4dd1-a0bb-a53901d081d3
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -9040,7 +9237,7 @@ curl --insecure -i -X OPTIONS https://secretsmanager.us-east-1.amazonaws.com/ -H
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -9070,12 +9267,12 @@ curl --insecure -i -X OPTIONS https://securityhub.us-east-1.amazonaws.com/master
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:30 GMT
+  date: Mon, 26 Oct 2020 21:53:32 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: f64037e4-7b29-4e78-9462-afa501a43df9
+  x-amzn-requestid: eade9eb9-080d-49a3-879b-e41c638756f7
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP7AHTUoAMFuUA=
+  x-amz-apigw-id: VCfGfEe_oAMFmKQ=
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -9087,7 +9284,7 @@ curl --insecure -i -X OPTIONS https://securityhub.us-east-1.amazonaws.com/master
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    149      0 --:--:-- --:--:-- --:--:--   149
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    265      0 --:--:-- --:--:-- --:--:--   265
   
 </code>
 </pre>
@@ -9117,13 +9314,13 @@ curl --insecure -i -X OPTIONS https://serverlessrepo.us-east-1.amazonaws.com/app
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:30 GMT
+  date: Mon, 26 Oct 2020 21:53:32 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: a6a2faa4-d5c0-42ed-8d1d-02c01182f11b
+  x-amzn-requestid: c6bee662-e3e1-4704-9b96-2b6506293fba
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP7DGveIAMFhMQ=
-  x-amzn-trace-id: Root=1-5f906046-3614647753b4f05f394e962c
+  x-amz-apigw-id: VCfGiEz_oAMFYWQ=
+  x-amzn-trace-id: Root=1-5f97455c-4571b34e044f71f50c67f9c9
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -9135,7 +9332,7 @@ curl --insecure -i -X OPTIONS https://serverlessrepo.us-east-1.amazonaws.com/app
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    232      0 --:--:-- --:--:-- --:--:--   232
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    250      0 --:--:-- --:--:-- --:--:--   249
   
 </code>
 </pre>
@@ -9165,14 +9362,14 @@ curl --insecure -i -X OPTIONS https://servicecatalog.us-east-1.amazonaws.com/ -H
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 7cb3844c-5d10-4385-addb-20d8ced46185
+  x-amzn-RequestId: 43c513fb-8aa5-4030-a3d4-96a18a42864f
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:31 GMT
+  Date: Mon, 26 Oct 2020 21:53:33 GMT
   
   
 </code>
@@ -9184,7 +9381,7 @@ curl --insecure -i -X OPTIONS https://servicecatalog.us-east-1.amazonaws.com/ -H
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -9214,9 +9411,9 @@ curl --insecure -i -X OPTIONS https://servicequotas.us-east-1.amazonaws.com/ -H 
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:31 GMT
+  date: Mon, 26 Oct 2020 21:53:33 GMT
   content-length: 0
-  x-amzn-requestid: 828807f8-b829-4993-b9ab-68075c97ab67
+  x-amzn-requestid: cb2e21f9-8127-425d-a2ec-2ed3be7dd883
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
@@ -9268,59 +9465,10 @@ curl --insecure -i -X OPTIONS https://servicediscovery.us-east-1.amazonaws.com/ 
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:31 GMT
-  x-amzn-RequestId: 21165d65-c39d-4a2b-94b8-a7d70e8f08ce
+  Date: Mon, 26 Oct 2020 21:53:33 GMT
+  x-amzn-RequestId: 0025331e-e27a-4009-8f06-edee39ec0aaf
   Content-Length: 0
   Connection: keep-alive
-  
-  
-</code>
-</pre>
-
-
-<strong>stderr</strong>
-<pre>
-<code>
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  
-</code>
-</pre>
-
-</details>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>email.us-east-1.amazonaws.com</strong></td>
-      <td>200 OK</td>
-      <td>✅ </td>
-      <td>✅ </td>
-    </tr>
-    <tr>
-      <td colspan="4">
-<details><summary>Details</summary>
-
-<strong>cmd</strong>
-<pre>
-<code>
-curl --insecure -i -X OPTIONS https://email.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: email.us-east-1.amazonaws.com" 
-</code>
-</pre>
-
-
-<strong>stdout</strong>
-<pre>
-<code>
-  HTTP/1.1 200 OK
-  x-amzn-RequestId: 31e2375a-a6ee-4128-82c3-20a5ec13289a
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Access-Control-Allow-Methods: POST
-  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
-  Access-Control-Max-Age: 172800
-  Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:31 GMT
   
   
 </code>
@@ -9353,6 +9501,55 @@ curl --insecure -i -X OPTIONS https://email.us-east-1.amazonaws.com/ -H "User-Ag
 <strong>cmd</strong>
 <pre>
 <code>
+curl --insecure -i -X OPTIONS https://email.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: email.us-east-1.amazonaws.com" 
+</code>
+</pre>
+
+
+<strong>stdout</strong>
+<pre>
+<code>
+  HTTP/1.1 200 OK
+  x-amzn-RequestId: 6a93e4ae-9ce2-42f0-8d00-ed0ab9daf764
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  Access-Control-Allow-Methods: POST
+  Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  Access-Control-Max-Age: 172800
+  Content-Length: 0
+  Date: Mon, 26 Oct 2020 21:53:34 GMT
+  
+  
+</code>
+</pre>
+
+
+<strong>stderr</strong>
+<pre>
+<code>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  
+</code>
+</pre>
+
+</details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>email.us-east-1.amazonaws.com</strong></td>
+      <td>200 OK</td>
+      <td>✅ </td>
+      <td>✅ </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+<details><summary>Details</summary>
+
+<strong>cmd</strong>
+<pre>
+<code>
 curl --insecure -i -X OPTIONS https://email.us-east-1.amazonaws.com/v2/email/configuration-sets -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: email.us-east-1.amazonaws.com" 
 </code>
 </pre>
@@ -9362,14 +9559,14 @@ curl --insecure -i -X OPTIONS https://email.us-east-1.amazonaws.com/v2/email/con
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 346864ac-e332-4ad3-be22-6acd0a6fc31b
+  x-amzn-RequestId: 1d2713aa-5015-4d44-93f7-066c5d4fe657
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:32 GMT
+  Date: Mon, 26 Oct 2020 21:53:34 GMT
   
   
 </code>
@@ -9411,7 +9608,7 @@ curl --insecure -i -X OPTIONS https://states.us-east-1.amazonaws.com/ -H "User-A
 <pre>
 <code>
   HTTP/1.1 404 Not Found
-  x-amzn-RequestId: 4ccfbc22-423c-4c3f-a0b1-de6c8301c613
+  x-amzn-RequestId: 8acbb20a-55c9-4fbc-a311-036067109e01
   Content-Type: null
   Content-Length: 29
   
@@ -9426,7 +9623,7 @@ curl --insecure -i -X OPTIONS https://states.us-east-1.amazonaws.com/ -H "User-A
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     85      0 --:--:-- --:--:-- --:--:--    85
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     96      0 --:--:-- --:--:-- --:--:--    96
   
 </code>
 </pre>
@@ -9456,9 +9653,9 @@ curl --insecure -i -X OPTIONS https://shield.us-east-1.amazonaws.com/ -H "User-A
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: de5f9b0e-7146-4557-a859-48421acb973c
+  x-amzn-RequestId: c5a68fdc-2793-4809-b2e1-477308a6dc3f
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:22:33 GMT
+  Date: Mon, 26 Oct 2020 21:53:35 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -9473,7 +9670,7 @@ curl --insecure -i -X OPTIONS https://shield.us-east-1.amazonaws.com/ -H "User-A
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    390      0 --:--:-- --:--:-- --:--:--   389
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    460      0 --:--:-- --:--:-- --:--:--   460
   
 </code>
 </pre>
@@ -9494,7 +9691,7 @@ curl --insecure -i -X OPTIONS https://shield.us-east-1.amazonaws.com/ -H "User-A
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://signer.us-east-1.amazonaws.com/signing-profiles/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: signer.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://signer.us-east-1.amazonaws.com/signing-profiles/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: signer.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -9503,15 +9700,15 @@ curl --insecure -i -X OPTIONS https://signer.us-east-1.amazonaws.com/signing-pro
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:33 GMT
+  date: Mon, 26 Oct 2020 21:53:35 GMT
   content-type: application/json
   content-length: 0
-  x-amzn-requestid: f0e9beb3-110e-4465-82eb-52b174ec6836
+  x-amzn-requestid: 5685fd0d-6fd6-447f-9c25-0a8314c41a16
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-Content-Sha256,X-Amz-User-Agent
-  x-amz-apigw-id: UxP7fHcDoAMFu3g=
+  x-amz-apigw-id: VCfG-Ex2IAMFdAQ=
   access-control-allow-methods: DELETE,GET,PUT
-  x-amzn-trace-id: Root=1-5f906049-20ab012d3169f8f249f7869f
+  x-amzn-trace-id: Root=1-5f97455f-474539ee33ec49532d3a713f
   
   
 </code>
@@ -9553,9 +9750,9 @@ curl --insecure -i -X OPTIONS https://sms.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 51ae4d16-4980-4327-a82a-50f482cf0502
+  x-amzn-RequestId: cb80ecd9-9058-4173-b0fa-6eac7b071eef
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:22:33 GMT
+  Date: Mon, 26 Oct 2020 21:53:35 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -9570,7 +9767,7 @@ curl --insecure -i -X OPTIONS https://sms.us-east-1.amazonaws.com/ -H "User-Agen
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   127    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    388      0 --:--:-- --:--:-- --:--:--   387
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    416      0 --:--:-- --:--:-- --:--:--   415
   
 </code>
 </pre>
@@ -9600,14 +9797,14 @@ curl --insecure -i -X OPTIONS https://snowball.us-east-1.amazonaws.com/ -H "User
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: ea3f166e-0c5a-41da-890d-6b1248a56699
+  x-amzn-RequestId: 6999bba9-4c1c-4075-b1bf-c4102be31065
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:33 GMT
+  Date: Mon, 26 Oct 2020 21:53:36 GMT
   
   
 </code>
@@ -9649,14 +9846,14 @@ curl --insecure -i -X OPTIONS https://sns.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 66afd687-9120-5024-848a-8e8df3aade89
+  x-amzn-RequestId: 4ecc1035-9058-5e23-a194-4824d7f8e1c8
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:33 GMT
+  Date: Mon, 26 Oct 2020 21:53:36 GMT
   
   
 </code>
@@ -9698,10 +9895,10 @@ curl --insecure -i -X OPTIONS https://sqs.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: f5399c1c-71ea-5616-adf0-c416136045f9
+  x-amzn-RequestId: 1cb68ee9-9a3e-5bc0-bb28-d6f8dd9f51ea
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
-  Date: Wed, 21 Oct 2020 16:22:34 GMT
+  Date: Mon, 26 Oct 2020 21:53:37 GMT
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
@@ -9718,7 +9915,7 @@ curl --insecure -i -X OPTIONS https://sqs.us-east-1.amazonaws.com/ -H "User-Agen
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -9749,10 +9946,10 @@ curl --insecure -i -X OPTIONS https://ssm.us-east-1.amazonaws.com/ -H "User-Agen
 <code>
   HTTP/1.1 200 OK
   Server: Server
-  Date: Wed, 21 Oct 2020 16:22:35 GMT
+  Date: Mon, 26 Oct 2020 21:53:37 GMT
   Content-Length: 0
   Connection: keep-alive
-  x-amzn-RequestId: d6f2143f-bc77-4450-8d61-ac7aed96b57c
+  x-amzn-RequestId: ce38a800-867c-413f-80ae-6db95f91ddd2
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
@@ -9799,7 +9996,7 @@ curl --insecure -i -X OPTIONS https://portal.sso.us-east-1.amazonaws.com/federat
 <pre>
 <code>
   HTTP/2 400
-  date: Wed, 21 Oct 2020 16:22:35 GMT
+  date: Mon, 26 Oct 2020 21:53:37 GMT
   content-type: application/json
   content-length: 121
   server: AWS SSO
@@ -9814,7 +10011,56 @@ curl --insecure -i -X OPTIONS https://portal.sso.us-east-1.amazonaws.com/federat
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   121  100   121    0     0    372      0 --:--:-- --:--:-- --:--:--   372
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   121  100   121    0     0    395      0 --:--:-- --:--:-- --:--:--   394
+  
+</code>
+</pre>
+
+</details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>sso.us-east-1.amazonaws.com</strong></td>
+      <td>200 </td>
+      <td>✅ </td>
+      <td>✅ </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+<details><summary>Details</summary>
+
+<strong>cmd</strong>
+<pre>
+<code>
+curl --insecure -i -X OPTIONS https://sso.us-east-1.amazonaws.com/ -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: POST" -H "Access-Control-Request-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: sso.us-east-1.amazonaws.com" 
+</code>
+</pre>
+
+
+<strong>stdout</strong>
+<pre>
+<code>
+  HTTP/2 200
+  date: Mon, 26 Oct 2020 21:53:38 GMT
+  content-length: 0
+  x-amzn-requestid: 18a1b5c0-9bff-499c-95cd-5782f8f7ffbe
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
+  access-control-allow-methods: POST
+  access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
+  access-control-max-age: 172800
+  
+  
+</code>
+</pre>
+
+
+<strong>stderr</strong>
+<pre>
+<code>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -9844,9 +10090,9 @@ curl --insecure -i -X OPTIONS https://oidc.us-east-1.amazonaws.com/token -H "Use
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:35 GMT
+  date: Mon, 26 Oct 2020 21:53:38 GMT
   content-length: 25
-  x-amzn-requestid: 5602f700-01a3-4bbc-b1d0-fe3121dda7b7
+  x-amzn-requestid: 6a4c98e4-cb83-4b30-9b67-4b9513023423
   
   <AccessDeniedException/>
   
@@ -9859,7 +10105,7 @@ curl --insecure -i -X OPTIONS https://oidc.us-east-1.amazonaws.com/token -H "Use
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25  100    25    0     0     81      0 --:--:-- --:--:-- --:--:--    81
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25  100    25    0     0     70      0 --:--:-- --:--:-- --:--:--    70
   
 </code>
 </pre>
@@ -9889,10 +10135,10 @@ curl --insecure -i -X OPTIONS https://storagegateway.us-east-1.amazonaws.com/ -H
 <pre>
 <code>
   HTTP/1.1 200 OK
-  Date: Wed, 21 Oct 2020 16:22:36 GMT
+  Date: Mon, 26 Oct 2020 21:53:39 GMT
   Content-Length: 0
   Connection: keep-alive
-  x-amzn-RequestId: 3932a566-ba72-4fbd-b3a8-1bb3f2b2ee9b
+  x-amzn-RequestId: 434b20a0-1e07-40e4-bda4-e73dddd0ab4a
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
@@ -9909,7 +10155,7 @@ curl --insecure -i -X OPTIONS https://storagegateway.us-east-1.amazonaws.com/ -H
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -9939,14 +10185,14 @@ curl --insecure -i -X OPTIONS https://sts.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 6d1d6572-0e8c-4716-97b1-9ac1a83ca0db
+  x-amzn-RequestId: 13f6921c-bdb4-40f4-ae98-a334fc506700
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:35 GMT
+  Date: Mon, 26 Oct 2020 21:53:39 GMT
   
   
 </code>
@@ -9988,9 +10234,9 @@ curl --insecure -i -X OPTIONS https://support.us-east-1.amazonaws.com/ -H "User-
 <pre>
 <code>
   HTTP/1.1 403
-  x-amzn-RequestId: 3af4c1f3-fb5c-4903-b474-415cf00e4f80
+  x-amzn-RequestId: 860154ea-880f-4bd2-b78a-422498378609
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:22:36 GMT
+  Date: Mon, 26 Oct 2020 21:53:39 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -10005,7 +10251,7 @@ curl --insecure -i -X OPTIONS https://support.us-east-1.amazonaws.com/ -H "User-
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    407      0 --:--:-- --:--:-- --:--:--   405
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    412      0 --:--:-- --:--:-- --:--:--   412
   
 </code>
 </pre>
@@ -10035,8 +10281,8 @@ curl --insecure -i -X OPTIONS https://swf.us-east-1.amazonaws.com/ -H "User-Agen
 <pre>
 <code>
   HTTP/1.1 404 Not Found
-  x-amzn-RequestId: 91dff1f8-b887-478e-a944-df0fa019d4d7
-  Date: Wed, 21 Oct 2020 16:22:37 GMT
+  x-amzn-RequestId: ae3606f3-eb25-484b-99bb-97cca9ae872e
+  Date: Mon, 26 Oct 2020 21:53:40 GMT
   Content-Length: 29
   
   <UnknownOperationException/>
@@ -10050,7 +10296,7 @@ curl --insecure -i -X OPTIONS https://swf.us-east-1.amazonaws.com/ -H "User-Agen
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     94      0 --:--:-- --:--:-- --:--:--    94
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     94      0 --:--:-- --:--:-- --:--:--    94
   
 </code>
 </pre>
@@ -10080,13 +10326,13 @@ curl --insecure -i -X OPTIONS https://synthetics.us-east-1.amazonaws.com/canary 
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:37 GMT
+  date: Mon, 26 Oct 2020 21:53:40 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: e79b9973-e9e7-4212-91c0-e07d8b7f3fa9
+  x-amzn-requestid: 7b9ae2ad-774e-46b9-a78f-fc6e197c1b97
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP8KFWEoAMF1XQ=
-  x-amzn-trace-id: Root=1-5f90604d-2124aeee3ec282df3fc55e61
+  x-amz-apigw-id: VCfHtEmmoAMFvuQ=
+  x-amzn-trace-id: Root=1-5f974564-2cff01ec3008ee8d333e3d14
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -10098,7 +10344,7 @@ curl --insecure -i -X OPTIONS https://synthetics.us-east-1.amazonaws.com/canary 
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    148      0 --:--:-- --:--:-- --:--:--   148
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    249      0 --:--:-- --:--:-- --:--:--   249
   
 </code>
 </pre>
@@ -10128,14 +10374,14 @@ curl --insecure -i -X OPTIONS https://textract.us-east-1.amazonaws.com/ -H "User
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: f5c56942-760d-408c-b0be-9e41fe6364da
+  x-amzn-RequestId: c5f5b391-256b-46c0-9721-a10603757930
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:37 GMT
+  Date: Mon, 26 Oct 2020 21:53:40 GMT
   
   
 </code>
@@ -10147,7 +10393,7 @@ curl --insecure -i -X OPTIONS https://textract.us-east-1.amazonaws.com/ -H "User
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -10182,8 +10428,8 @@ curl --insecure -i -X OPTIONS https://transcribe.us-east-1.amazonaws.com/ -H "Us
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
-  Date: Wed, 21 Oct 2020 16:22:38 GMT
-  x-amzn-RequestId: 9b5c83c6-e789-4fbe-a400-02b16cd94b62
+  Date: Mon, 26 Oct 2020 21:53:40 GMT
+  x-amzn-RequestId: 85c983f0-de39-45dd-9b02-dbaa0c2ef628
   Content-Length: 0
   Connection: keep-alive
   
@@ -10197,7 +10443,7 @@ curl --insecure -i -X OPTIONS https://transcribe.us-east-1.amazonaws.com/ -H "Us
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -10227,9 +10473,9 @@ curl --insecure -i -X OPTIONS https://transfer.us-east-1.amazonaws.com/ -H "User
 <pre>
 <code>
   HTTP/2 404
-  date: Wed, 21 Oct 2020 16:22:38 GMT
+  date: Mon, 26 Oct 2020 21:53:41 GMT
   content-length: 29
-  x-amzn-requestid: d5374a2a-fbe9-4af7-bdee-213581bd13cc
+  x-amzn-requestid: c7c2a2a7-10d3-4a88-89f7-e3975fa83224
   
   <UnknownOperationException/>
   
@@ -10242,7 +10488,7 @@ curl --insecure -i -X OPTIONS https://transfer.us-east-1.amazonaws.com/ -H "User
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0     98      0 --:--:-- --:--:-- --:--:--    98
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29  100    29    0     0    105      0 --:--:-- --:--:-- --:--:--   105
   
 </code>
 </pre>
@@ -10272,14 +10518,14 @@ curl --insecure -i -X OPTIONS https://translate.us-east-1.amazonaws.com/ -H "Use
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 23d3c070-0a89-42b1-a8e3-2b36b879ca76
+  x-amzn-RequestId: ba2e9f40-11f1-4872-9710-041b617c8dc9
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:38 GMT
+  Date: Mon, 26 Oct 2020 21:53:41 GMT
   
   
 </code>
@@ -10291,7 +10537,7 @@ curl --insecure -i -X OPTIONS https://translate.us-east-1.amazonaws.com/ -H "Use
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -10321,14 +10567,14 @@ curl --insecure -i -X OPTIONS https://waf.amazonaws.com/ -H "User-Agent: Mozilla
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 31cc6da7-aec3-4f3a-adc9-1166ae8fa806
+  x-amzn-RequestId: ef3608d6-6171-4b49-802c-d8d6e4db61da
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:39 GMT
+  Date: Mon, 26 Oct 2020 21:53:41 GMT
   
   
 </code>
@@ -10340,7 +10586,7 @@ curl --insecure -i -X OPTIONS https://waf.amazonaws.com/ -H "User-Agent: Mozilla
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -10370,14 +10616,14 @@ curl --insecure -i -X OPTIONS https://waf-regional.us-east-1.amazonaws.com/ -H "
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: a301d9fb-d4d3-466a-bbaf-f6ac59952afa
+  x-amzn-RequestId: abd9f8a7-989b-479c-bbaf-83cf4b6d3ef2
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:39 GMT
+  Date: Mon, 26 Oct 2020 21:53:42 GMT
   
   
 </code>
@@ -10389,7 +10635,7 @@ curl --insecure -i -X OPTIONS https://waf-regional.us-east-1.amazonaws.com/ -H "
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -10419,9 +10665,9 @@ curl --insecure -i -X OPTIONS https://wafv2.us-east-1.amazonaws.com/ -H "User-Ag
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  x-amzn-RequestId: 5081555b-a3de-4e2d-803d-6df7d4b66487
+  x-amzn-RequestId: b6007e23-912b-4ec7-b0a0-9d3114261263
   Content-Length: 127
-  Date: Wed, 21 Oct 2020 16:22:39 GMT
+  Date: Mon, 26 Oct 2020 21:53:43 GMT
   
   <MissingAuthenticationTokenException>
   <Message>Missing Authentication Token</Message>
@@ -10436,7 +10682,7 @@ curl --insecure -i -X OPTIONS https://wafv2.us-east-1.amazonaws.com/ -H "User-Ag
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    407      0 --:--:-- --:--:-- --:--:--   407
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    388      0 --:--:-- --:--:-- --:--:--   388
   
 </code>
 </pre>
@@ -10457,7 +10703,7 @@ curl --insecure -i -X OPTIONS https://wafv2.us-east-1.amazonaws.com/ -H "User-Ag
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://workdocs.us-east-1.amazonaws.com/api/v1/documents/stringValue/versions/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: workdocs.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://workdocs.us-east-1.amazonaws.com/api/v1/documents/stringvalue/versions/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: DELETE" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: workdocs.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -10466,7 +10712,7 @@ curl --insecure -i -X OPTIONS https://workdocs.us-east-1.amazonaws.com/api/v1/do
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 826da416-5666-454b-9c29-5bfe872c34d9
+  x-amzn-RequestId: 0889ef1c-1f87-4a8e-89a8-be628c638773
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Cache-Control: private, no-cache, no-store, max-age=0
@@ -10475,7 +10721,7 @@ curl --insecure -i -X OPTIONS https://workdocs.us-east-1.amazonaws.com/api/v1/do
   Server-ResponseTime-Millis: 0
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:39 GMT
+  Date: Mon, 26 Oct 2020 21:53:43 GMT
   
   
 </code>
@@ -10517,13 +10763,13 @@ curl --insecure -i -X OPTIONS https://worklink.us-east-1.amazonaws.com/associate
 <pre>
 <code>
   HTTP/2 403
-  date: Wed, 21 Oct 2020 16:22:40 GMT
+  date: Mon, 26 Oct 2020 21:53:43 GMT
   content-type: application/json
   content-length: 73
-  x-amzn-requestid: 99a73432-d8a7-47bc-93bb-a3728c46adb9
+  x-amzn-requestid: f3fa911d-200d-491e-861a-36c2b57cea07
   x-amzn-errortype: AccessDeniedException
-  x-amz-apigw-id: UxP8pHZMIAMFlyg=
-  x-amzn-trace-id: Root=1-5f906050-05fd53ba079e9af81795b10a
+  x-amz-apigw-id: VCfIOHKSoAMFSeg=
+  x-amzn-trace-id: Root=1-5f974567-7f6374dc67abe9a61cadd23d
   
   {"Message":"Unable to determine service/operation name to be authorized"}
 </code>
@@ -10535,7 +10781,7 @@ curl --insecure -i -X OPTIONS https://worklink.us-east-1.amazonaws.com/associate
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    210      0 --:--:-- --:--:-- --:--:--   209
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    73  100    73    0     0    234      0 --:--:-- --:--:-- --:--:--   234
   
 </code>
 </pre>
@@ -10565,14 +10811,14 @@ curl --insecure -i -X OPTIONS https://workmail.us-east-1.amazonaws.com/ -H "User
 <pre>
 <code>
   HTTP/1.1 200
-  x-amzn-RequestId: 0aaccf6b-43b7-4aee-90fe-fd8688ac24a6
+  x-amzn-RequestId: c4d0637e-76c2-4249-a8ba-4619983c6b70
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:40 GMT
+  Date: Mon, 26 Oct 2020 21:53:43 GMT
   
   
 </code>
@@ -10605,7 +10851,7 @@ curl --insecure -i -X OPTIONS https://workmail.us-east-1.amazonaws.com/ -H "User
 <strong>cmd</strong>
 <pre>
 <code>
-curl --insecure -i -X OPTIONS https://workmailmessageflow.us-east-1.amazonaws.com/messages/stringValue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: GET" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: workmailmessageflow.us-east-1.amazonaws.com" 
+curl --insecure -i -X OPTIONS https://workmailmessageflow.us-east-1.amazonaws.com/messages/stringvalue -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" -H "Origin: https://foo.example" -H "Access-Control-Request-Method: GET" -H "Access-Control-Request-Headers: Content-Type,user-agent,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token" -H "host: workmailmessageflow.us-east-1.amazonaws.com" 
 </code>
 </pre>
 
@@ -10614,8 +10860,8 @@ curl --insecure -i -X OPTIONS https://workmailmessageflow.us-east-1.amazonaws.co
 <pre>
 <code>
   HTTP/1.1 403 Forbidden
-  Date: Wed, 21 Oct 2020 16:22:40 GMT
-  x-amzn-RequestId: 5eb0fdb6-9342-47e9-b867-b0bf2f33ed43
+  Date: Mon, 26 Oct 2020 21:53:44 GMT
+  x-amzn-RequestId: 30c5efd0-6c63-4e07-be18-4a5ba16264bb
   Content-Length: 127
   Connection: keep-alive
   
@@ -10632,7 +10878,7 @@ curl --insecure -i -X OPTIONS https://workmailmessageflow.us-east-1.amazonaws.co
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    388      0 --:--:-- --:--:-- --:--:--   388
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127  100   127    0     0    413      0 --:--:-- --:--:-- --:--:--   413
   
 </code>
 </pre>
@@ -10662,14 +10908,14 @@ curl --insecure -i -X OPTIONS https://workspaces.us-east-1.amazonaws.com/ -H "Us
 <pre>
 <code>
   HTTP/1.1 200 OK
-  x-amzn-RequestId: 3d33688c-012d-436c-a599-e76be215ec8b
+  x-amzn-RequestId: e3d64856-a1a6-43fe-b180-a7ef7559c8cf
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: Content-Type,X-Amz-Target,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   Access-Control-Allow-Methods: POST
   Access-Control-Expose-Headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date
   Access-Control-Max-Age: 172800
   Content-Length: 0
-  Date: Wed, 21 Oct 2020 16:22:41 GMT
+  Date: Mon, 26 Oct 2020 21:53:44 GMT
   
   
 </code>
@@ -10681,7 +10927,7 @@ curl --insecure -i -X OPTIONS https://workspaces.us-east-1.amazonaws.com/ -H "Us
 <code>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
   Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
   
 </code>
 </pre>
@@ -10711,9 +10957,9 @@ curl --insecure -i -X OPTIONS https://xray.us-east-1.amazonaws.com/Traces -H "Us
 <pre>
 <code>
   HTTP/2 200
-  date: Wed, 21 Oct 2020 16:22:42 GMT
+  date: Mon, 26 Oct 2020 21:53:45 GMT
   content-length: 0
-  x-amzn-requestid: 5b5fcdb8-9e53-43d7-9fe0-61bdbf5fd385
+  x-amzn-requestid: cad30fe0-2cfa-4415-9269-13ebad6333d5
   access-control-allow-origin: *
   access-control-allow-headers: Content-Type,user-agent,content-length,host,Authorization,amz-sdk-invocation-id,amz-sdk-request,x-amz-security-token
   access-control-allow-methods: POST
