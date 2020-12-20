@@ -222,6 +222,7 @@ const run = async () => {
     ])({
       region: defaultRegion,
     });
+    client.middlewareStack?.remove("omitRetryHeadersMiddleware");
     const commandFileName = fs.readdirSync(
       path.join(servicePath, "commands")
     )[0];
