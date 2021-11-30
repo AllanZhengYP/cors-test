@@ -134,13 +134,14 @@ const makeOptionsRequest = async (httpRequest) => {
       return previous + `-H "${entry[0]}: ${entry[1]}" `;
     }, "")}`;
     const { stdout, stderr } = await exec(cmd);
-    const { status, statusMessage, headers: respHeaders } = parseCurlResponse(
-      stdout
-    );
+    const {
+      status,
+      statusMessage,
+      headers: respHeaders,
+    } = parseCurlResponse(stdout);
 
-    const allowHeaders = respHeaders["access-control-allow-headers"]?.split(
-      ","
-    );
+    const allowHeaders =
+      respHeaders["access-control-allow-headers"]?.split(",");
     console.log(`    <tr>
       <td><strong>${httpRequest.hostname}</strong></td>
       <td>${status} ${statusMessage}</td>
@@ -208,12 +209,7 @@ const run = async () => {
   for (const clientDir of dir) {
     if (!clientDir.isDirectory()) continue;
     if (clientDir.name === "client-transcribe-streaming") continue; // transcribe streaming is not supported in v2
-    const servicePath = path.join(
-      clientsDirPath,
-      clientDir.name,
-      "dist",
-      "cjs"
-    );
+    const servicePath = path.join(clientsDirPath, clientDir.name, "dist-cjs");
     const clientFileName = fs
       .readdirSync(servicePath)
       .filter((name) => /(.+)Client.js$/.test)[0];
